@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 
-const aboutme = () => {
+const AboutMe = () => {
 
     const [toggleOn,setToggleOn] = useState(false);
 
@@ -37,15 +37,15 @@ const aboutme = () => {
             <b className="text-orange-700">[</b>ME<b className="text-orange-700">]</b></h1>
             <p className="p-2">Im Thomas Mathew, 30, have a diploma in VFX.
 
-            Now I know I've said I love coding. Im self-taught. But that dosen't mean I would 
-            enjoy being glued to a 2D screen 24x7 - which I've been doing 
+            Now I know I&apos;ve said I love coding. Im self-taught. But that dosen&apos;t mean I would 
+            enjoy being glued to a 2D screen 24x7 - which I&apos;ve been doing 
             for this whole past year only to get to this point!<br/><br/>
 
                Let me ask you something. Would you be okay with having
             the most luscious, most mouth-watering dishes served to you
             on a daily basis BUT on a 2D screen? <br/>
 
-            Exactly. Everything's better in 3D whether people are aware/accepting of it or not.
+            Exactly. Everything&apos;s better in 3D whether people are aware/accepting of it or not.
 
             I spend almost no time at all on screens when im not coding. 
             I just take long walks which Im well aware is one of those things I 
@@ -59,10 +59,10 @@ const aboutme = () => {
 
                To explore the outside world, see new places, take long walks.<br/><br/>
 
-            I view money as "freedom" rather than a gadget, accessory etc. collecting responsibility 
+            I view money as &quot;freedom&quot; rather than a gadget, accessory etc. collecting responsibility 
             enhancer machine.
 
-            People tell me I'm oversmart, overconfident etc etc. I just tell them I'm just less insecure.
+            People tell me I&apos;m oversmart, overconfident etc etc. I just tell them I&apos;m just less insecure.
 
             So to sum it up. An eccentric by all means in the year 2022.</p>
             <div className="absolute z-[-10] opacity-70 shadow-inner shadow-black
@@ -89,4 +89,4 @@ const aboutme = () => {
 }
 
 
-export default aboutme;
+export default AboutMe;
