@@ -113,7 +113,7 @@ export default function Home() {
           border-t-[2rem] border-x-[1.9rem] p-4 border-red-400 pt-[2rem] z-50 leading-[4.5rem] font-semibold
           '>
             Ah yes <span className="shadow-lg shadow-black
-            bg-red-300">"Building Blocks!*quot</span>
+            bg-red-300">&quot;Building Blocks!&quot;</span>
                  
              <span className="text-violet-500 shadow-lg shadow-gray-700"><br/>-My Childhood</span>        
          </div>
