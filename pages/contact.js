@@ -8,7 +8,8 @@ const Contact = () => {
   return (
     <div>
      <h1>Contact Form</h1>
-    <form action={`${process.env.EMAIL}`} method="POST">
+    <form action={`${process.env.EMAIL}`} 
+    method="POST">
 
       <label htmlFor="first">First Name</label>
       <input type="text" placeholder="First Name"
