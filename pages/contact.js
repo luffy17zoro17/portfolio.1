@@ -101,7 +101,7 @@ function ContactForm() {
       <input className='flex outline-none border-2 w-[100%]
       border-purple-400 rounded-3xl p-1 pl-4 font-light italic'
        id="number" type="number" name="number"
-      placeholder='Enter Your Phone Number' 
+      placeholder='Enter Your Phone or WhatsApp Number' 
       pattern="[0-9]{1,15}"
       autoComplete='off'/>
       </div>

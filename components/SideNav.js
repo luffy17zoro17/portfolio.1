@@ -6,7 +6,7 @@ const SideNav = () => {
     return (
        <div>
           <div className="rounded-br-3xl bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg shadow-black
-          fixed z-10 h-[4rem] w-[30rem] left-0 flex justify-center flex-col items-center 
+          fixed z-30 h-[4rem] w-[30rem] left-0 flex justify-center flex-col items-center 
           font-semibold text-3xl pl-[8.5rem]">
              <h1 className="absolute font-serif text-gray-200">Thomas Mathew</h1>
           </div>
