@@ -1,38 +1,50 @@
 
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 
-
-
-const Contact = () => {
-
+function ContactForm() {
+  const [state, handleSubmit] = useForm('mrgdlwkj');
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
   return (
-    <div>
-     <h1>Contact Form</h1>
-    <form action={`${process.env.EMAIL}`} 
-    method="POST">
-
-      <label htmlFor="first">First Name</label>
-      <input type="text" placeholder="First Name"
-       id="first" name="first" required />
-
-      <label htmlFor="last">Last Name</label>
-      <input type="text" placeholder="Last Name" 
-      id="last" name="last" required />
-
-      <label htmlFor="email">Email</label>
-      <input type="email" placeholder="Email"
-       id="email" name="email" required />
-      
-      <label htmlFor="message">Message</label>
-      <textarea type="text" id="message" placeholder="Message"
-       name="message" required/>
-
-      <button type="submit">Submit</button>
+      <form onSubmit={handleSubmit}>
+      <label htmlFor="email">
+        Email Address:&nbsp;
+      </label>
+      <input
+        id="email"
+        type="email" 
+        name="email"
+      />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <label htmlFor="message">Message:&nbsp;</label>
+      <textarea
+        id="message"
+        name="message"
+      />
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
     </form>
-    </div>
-  )
+  );
 }
-
-export default Contact
-
-
+function Contact() {
+  return (
+    <ContactForm />
+  );
+}
+export default Contact;
