@@ -50,11 +50,11 @@ const AboutMe = () => {
             Exactly. Everything&apos;s better in 3D whether people are aware/accepting of it or not.
 
             I spend almost no time at all on screens when im not coding. 
-            I just take long walks which I'm well aware is one of those things I 
+            I just take long walks which I&apos;m well aware is one of those things I 
             genuinely enjoy. <br/><br/>
 
             For me its about messing around and having fun with the website building process while
-            at the same time staying in that constant state of awareness that I'm just staring at a 2D screen
+            at the same time staying in that constant state of awareness that I&apos;m just staring at a 2D screen
             and so I need to allocate enough time on a daily basis to step outside and see all those new sights
             and breathe all that fresh air. 
 
