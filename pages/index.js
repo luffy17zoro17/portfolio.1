@@ -21,19 +21,20 @@ export default function Home() {
       <main className="relative flex flex-col justify-center">
       <div className="">
            <div className="border-4 border-yellow-300 rounded-xl
-            absolute z-50 top-[0.5rem]
+            fixed z-50 top-[0.5rem]
             ml-[0.3rem] h-[3rem] w-[9rem]"/> 
             <SideNav/>   
         </div>
+
         <div className='z-10 absolute flex w-[100%] h-[40%]
          justify-center items-center text-center z-10
          '>
-        <h1 className='font-bold text-white text-[3rem] w-[50%] h-[157%]
+        <h1 className='font-bold text-white text-[3rem] w-[100%] h-[157%]
          border-x-[3rem] border-yellow-300 absolute z-60 shadow-xl shadow-black'>
           <span className='p-[0.3rem]'><span className="shadow-lg shadow-red-400 text-yellow-400 
-          text-[5rem] hover:opacity-80">
+          text-[4rem] hover:opacity-80">
             Thomas Mathew<br/></span> -from&nbsp;
-             <span className="shadow-xl shadow-cyan-400 text-green-200 hover:opacity-80">
+             <span className="text-4xl shadow-xl shadow-cyan-400 text-green-200 hover:opacity-80">
               Kerala, India</span>
              <span className='text-orange-400 italic px-4
             shadow-lg shadow-red-400 hover:opacity-80'><br/>
@@ -96,7 +97,7 @@ export default function Home() {
         </h1>
         </div>
         
-        <div className="relative h-screen">
+        <div className="relative h-[80rem]">
         <Image 
           src="https://images.unsplash.com/photo-1605012464390-45820d1f7bdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
           layout="fill"
@@ -139,7 +140,9 @@ export default function Home() {
              fellas: <br/>  
 
              <div className="absolute text-[1.6rem]">Prioritize potential over degrees?<br/>
-             Time to join forces! <b className="bg-gray-500 border shadow shadow-black">🤝</b>
+             Time to join forces! <b className="bg-gray-500 border shadow shadow-black
+              animate-pulse">
+               <Link href='/contact'>🤝</Link></b>
             </div>    
           </div>  
           <div className='z-0 absolute bg-orange-400 h-[100%]

@@ -11,29 +11,31 @@ const AboutMe = () => {
         <>
         <div className="">
            <div className="border-4 border-yellow-300 rounded-xl
-            absolute z-50 top-[4.5rem]
+            fixed z-50 top-[4.5rem]
             ml-[0.3rem] h-[3rem] w-[9rem]"/> 
             <SideNav/>
         
         </div>
 
 
-        <div className="relative h-screen w-[100%]">
+        <div className={!toggleOn ? "w-full h-[100%] absolute" : `w-full h-[91rem] absolute
+        flex flex-col justify-start sm:h-[76rem] md:h-[66rem] lg:h-[61rem] xl:h-[61.4rem]`}>
           <Image 
             src="https://wallpaperaccess.com/full/2665653.jpg"
             layout="fill"
             className="object-cover"
           />  
-        <div>
+        
         
         
         {toggleOn ? (
-        <div className="relative flex justify-center flex-col items-center h-screen">
-           <div className="absolute z-50 text-white text-center w-[40%] border-[2rem] 
+        <div className="flex justify-start flex-col items-center w-[100%]
+        relative absolute top-[18.4rem]">
+           <div className="absolute z-0 text-white text-center w-[100%] border-[2rem] 
             border-purple-600 rounded
-            p-4 text-xl shadow-lg shadow-black">
+            p-4 text-xl shadow-lg shadow-black xl:w-[70%]">
             <h1 className="absolute flex justify-center text-black w-[100%] 
-            top-[-7rem] font-bold text-5xl">ABOUT&nbsp;
+            top-[-8rem] font-bold text-5xl sm:top-[-11rem] xl:top-[-15rem]">ABOUT&nbsp;
             <b className="text-orange-700">[</b>ME<b className="text-orange-700">]</b></h1>
             <p className="p-2">Im Thomas Mathew, 30, have a diploma in VFX.
 
@@ -48,11 +50,11 @@ const AboutMe = () => {
             Exactly. Everything&apos;s better in 3D whether people are aware/accepting of it or not.
 
             I spend almost no time at all on screens when im not coding. 
-            I just take long walks which Im well aware is one of those things I 
+            I just take long walks which I'm well aware is one of those things I 
             genuinely enjoy. <br/><br/>
 
             For me its about messing around and having fun with the website building process while
-            at the same time staying in that constant state of awareness that im just staring at a 2D screen
+            at the same time staying in that constant state of awareness that I'm just staring at a 2D screen
             and so I need to allocate enough time on a daily basis to step outside and see all those new sights
             and breathe all that fresh air. 
 
@@ -70,20 +72,23 @@ const AboutMe = () => {
            </div>
 
         </div>
-        ) : (<div></div>)}
+        ) : (
+        <div></div>
+        )}
 
-        <div className="ml-[11rem]">
+         <div className="ml-[11rem]">
         <button onClick={()=>setToggleOn(!toggleOn)}
-         className={!toggleOn ? `border-4 absolute top-[20rem] rounded-full h-[20rem] w-[20rem] 
-         shadow-xl shadow-black bg-red-400 text-4xl font-bold` : 
-         `bg-green-300 border-4 absolute top-[20rem] rounded-full h-[15rem] w-[15rem] 
-         shadow-xl shadow-black font-bold text-3xl`}>
+         className={!toggleOn ? `border-4 absolute top-[7rem] rounded-full h-[18rem] w-[18rem] 
+         shadow-xl shadow-black bg-red-400 text-4xl font-bold xl:top-[23rem] xl:left-[15rem]` : 
+         `bg-green-300 border-4 fixed z-30 top-[5rem] right-[0rem] rounded-full h-[7rem] w-[7rem] 
+         shadow-xl shadow-black font-bold text-3xl xl:top-[15rem] xl:right-[11%]`}>
             <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[102%] hover:text-purple-700"}>
                 {!toggleOn ? "Press the big chunky tempting RED BUTTON" : "Press Again"}</h1>
         </button>
         </div>
         </div>
-        </div>
+       
+        
         </>
     );
 }

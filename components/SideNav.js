@@ -10,7 +10,8 @@ const SideNav = () => {
           font-semibold text-3xl pl-[8.5rem]">
              <h1 className="absolute font-serif text-gray-200">Thomas Mathew</h1>
           </div>
-        <div className="flex flex-col absolute z-40 text-yellow-300 font-semibold text-2xl space-y-[2rem]
+        <div className="flex fixed top-0 left-0
+         flex-col z-40 text-yellow-300 font-semibold text-2xl space-y-[2rem]
          pt-[1rem] bg-gray-600
          h-[12.3rem] px-[1.3rem] shadow-xl shadow-black drop-shadow-2xl">
 
