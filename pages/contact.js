@@ -4,6 +4,8 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import MessageIcon from '@mui/icons-material/Message';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
@@ -25,6 +27,7 @@ function ContactForm() {
           src="https://media.comicbook.com/2017/02/one-piece-3-231072.png"
           layout="fill"
           className="object-cover"
+          alt=""
          />   
         <div className='flex justify-center absolute font-bold text-4xl border
          rounded-xl bg-white opacity-90 text-center
@@ -41,7 +44,8 @@ function ContactForm() {
   }
   return (
     
-   <div className='h-[61.22rem] bg-black fixed w-[100%]'>
+   <div className='fixed overflow-y-auto
+   h-screen bg-black w-[100%]'>
         
     <form onSubmit={handleSubmit}>
 
@@ -49,13 +53,13 @@ function ContactForm() {
        text-gray-800 h-[60rem]
        absolute w-[100%] lg:text-lg'>
         <h1 className='font-bold text-5xl top-[7rem] z-10 
-        absolute shadow-md shadow-black 
+        fixed shadow-md shadow-black bg-black
         w-[100%] flex justify-center text-white 
         sm:top-[4rem] xl:top-[3rem]'>CONTACT</h1>
       <div className='flex flex-col justify-center items-center space-y-2
        bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg
         shadow-pink-400
-       h-[40rem] w-[90%] rounded-full relative'>
+       h-[40rem] w-[90%] rounded-full'>
 
       <div className='flex flex-col items-center justify-center 
       space-y-4 text-center font-semibold
@@ -142,11 +146,21 @@ function ContactForm() {
       </div>
       </div>
     </form>
-    <div className='flex flex-col items-center 
-    justify-center text-white absolute z-10 w-[100%] bottom-[3rem]'>
-      <h3>My GitHub:</h3>
-      <Link href=""><a><GitHubIcon fontSize="large"/></a></Link>
+    <div className='flex items-center h-[5rem] gap-10
+    justify-center text-white fixed bottom-3 z-10 w-[101%]
+     bg-black shadow-md shadow-black'>
+      <div className='flex flex-col items-center'>GitHub:
+      <Link href={`${process.env.PRIVATE_GITHU_KEY}`} className="flex flex-col">
+        <a><GitHubIcon fontSize="large"/></a></Link>
+      </div>
+      <div className='flex flex-col items-center'>Facebook:
+      <Link href={`${process.env.PRIVATE_FACEBOO_KEY}`}><a><FacebookIcon fontSize="large"/></a></Link>
+      </div>
+      <div className='flex flex-col items-center'>LinkedIn:
+      <Link href={`${process.env.PRIVATE_LINKEDI_KEY}`}><a><LinkedInIcon fontSize="large"/></a></Link>
+      </div>
     </div>
+
    </div> 
   );
 }

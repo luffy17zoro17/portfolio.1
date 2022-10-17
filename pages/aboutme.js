@@ -24,6 +24,7 @@ const AboutMe = () => {
             src="https://wallpaperaccess.com/full/2665653.jpg"
             layout="fill"
             className="object-cover"
+            alt=""
           />  
         
         
