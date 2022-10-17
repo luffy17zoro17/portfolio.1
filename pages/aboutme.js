@@ -18,20 +18,21 @@ const AboutMe = () => {
         </div>
 
 
-        <div className={!toggleOn ? "w-full h-full absolute" : `w-full h-full absolute
-        flex flex-col justify-start sm:h-[76rem] md:h-[66rem] lg:h-[61rem] xl:h-[61.4rem]`}>
+        <div className={!toggleOn ? "w-full h-screen fixed" : `w-full 
+        h-screen fixed overflow-y-auto border-4
+           `}>
           <Image 
             src="https://wallpaperaccess.com/full/2665653.jpg"
             layout="fill"
             className="object-cover"
             alt=""
           />  
+        </div>
         
-        
-        
+        <div>
         {toggleOn ? (
         <div className="flex justify-start flex-col items-center w-[100%]
-        relative absolute top-[18.4rem]">
+          absolute top-[18.4rem]">
            <div className="absolute z-0 text-white text-center w-[100%] border-[2rem] 
             border-purple-600 rounded
             p-4 text-xl shadow-lg shadow-black xl:w-[70%]">
@@ -88,6 +89,7 @@ const AboutMe = () => {
         </button>
         </div>
         </div>
+      
        
         
         </>
