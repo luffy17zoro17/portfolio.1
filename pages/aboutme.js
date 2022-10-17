@@ -18,7 +18,7 @@ const AboutMe = () => {
         </div>
 
 
-        <div className={!toggleOn ? "w-full h-[100%] absolute" : `w-full h-[91rem] absolute
+        <div className={!toggleOn ? "w-full h-full absolute" : `w-full h-full absolute
         flex flex-col justify-start sm:h-[76rem] md:h-[66rem] lg:h-[61rem] xl:h-[61.4rem]`}>
           <Image 
             src="https://wallpaperaccess.com/full/2665653.jpg"
