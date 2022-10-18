@@ -30,27 +30,26 @@ export default function Home() {
       </div>
 
         
-      <div className="h-[127%] absolute w-[100%]">
+      <div className="h-[120%] flex flex-col absolute z-[-20] w-[100%]">
         <Image 
           src="https://images.unsplash.com/photo-1605012464390-45820d1f7bdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
           layout="fill"
-          className="object-cover"  
+          className="object-cover relative"  
           alt=""
         />
-      </div>  
+      
 
-      <div className='w-full flex justify-center
-      relative z-0'>
-      <div className='flex flex-col items-center justify-center z-[-40]
+      <div className='w-full flex justify-center absolute z-10'>
+      <div className='flex flex-col items-center justify-center z-[-40] pb-[5%]
          text-center top-0 border-x-[3rem] border-yellow-300 absolute w-[100%]'>
 
         <div className='z-[-70] absolute flex flex-col items-center 
           top-0 w-full h-[100%] shadow-2xl shadow-black justify-center
           bg-black opacity-80'/>  
 
-        <div className='font-bold text-white text-[3rem] pt-[9rem]
+        <div className='font-bold text-white text-[3rem] pt-[5rem]
          shadow-xl shadow-black'>
-          <div className='px-[0.3rem]'>
+          <div className='px-[0.3rem] pt-[5rem]'>
             <span className="shadow-lg shadow-cyan-400 text-pink-600 
           text-[3rem] hover:opacity-80 md:text-[4rem]">
             Thomas Mathew</span><span className='text-xl'><br/>from</span>&nbsp;
@@ -78,7 +77,7 @@ export default function Home() {
           </div> 
           <div className='flex h-[2rem] gap-[1.4rem] absolute left-0
                    justify-center w-[100%] pl-[7.3rem]
-          top-[37.3rem] scale-[70%] md:top-[39.9rem]'>
+          top-[38.4rem] scale-[70%] md:top-[40.8rem]'>
            <style>{`
            .cyancircle{
     
@@ -182,7 +181,7 @@ export default function Home() {
         
 
        
-        <div className='flex flex-col absolute right-0 bottom-5
+        <div className='flex flex-col absolute right-0 top-[50rem]
          w-[30%] z-10 shadow-xl shadow-black border-4
          justify-end flex-col items-end hidden md:flex md:scale-[60%]'>
         <div className='flex flex-col shadow-2xl shadow-black w-[100%]
@@ -208,7 +207,7 @@ export default function Home() {
         
     
         <div className='text-2xl text-black z-30 w-[38rem]
-         border-[2rem] border-cyan-200 right-0 bottom-[-19rem]
+         border-[2rem] border-cyan-200 right-0
          shadow-xl shadow-black absolute h-[28%] hidden 
          lg:flex lg:scale-[69%]'>
           <div className='text-[1.1rem] font-mono absolute h-[100%] w-full
@@ -289,6 +288,7 @@ export default function Home() {
           <div className='absolute bg-white shadow-xl shadow-black
           h-[100%] w-[99%] top-0 z-[-10]'/>
         </div>
+      </div>  
       
     </>
   )
