@@ -11,7 +11,7 @@ const AboutMe = () => {
         <>
         <div className="">
            <div className="border-4 border-yellow-300 rounded-xl
-            fixed z-50 top-[4.1rem]
+            fixed z-50 top-[3.5rem]
             ml-[0.3rem] h-[2.4rem] w-[7.4rem]"/> 
             <SideNav/>
         

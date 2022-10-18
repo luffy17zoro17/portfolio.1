@@ -169,7 +169,7 @@ function Contact() {
     <>
     <div>
      <div className="border-4 border-yellow-300 rounded-xl
-            fixed z-50 top-[7.4rem]
+            fixed z-50 top-[6.2rem]
             ml-[0.3rem] h-[2.4rem] w-[7.4rem]"/>  
       <SideNav/>
     </div> 

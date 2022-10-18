@@ -38,8 +38,8 @@ export default function Home() {
         />
       </div>  
 
-      <div className='border-4 border-red-500 w-full h-[40rem] flex justify-center 
-      relative z-0 '>
+      <div className='border-4 border-red-500 w-full flex justify-center
+      relative z-0'>
       <div className='flex flex-col items-center justify-center z-[-40]
          text-center top-0 border-x-[3rem] border-yellow-300 fixed w-[100%]'>
 
@@ -172,7 +172,7 @@ export default function Home() {
             </div>    
           </div>  
           <div className='z-0 absolute bg-orange-400 h-[100%]
-             top-0 w-[100%]
+             top-0 w-[100%] shadow-lg shadow-black
           '/> 
          </div> 
          
@@ -181,7 +181,7 @@ export default function Home() {
         
 
        
-        <div className='flex flex-col absolute right-0
+        <div className='flex flex-col absolute right-0 bottom-5
          w-[30%] z-10 shadow-xl shadow-black border-4
          justify-end flex-col items-end hidden md:flex md:scale-[60%]'>
         <div className='flex flex-col shadow-2xl shadow-black w-[100%]
@@ -209,10 +209,9 @@ export default function Home() {
         <div className='text-2xl text-black z-30 w-[38rem]
          border-[2rem] border-cyan-200 right-0 bottom-[-19rem]
          shadow-xl shadow-black absolute h-[28%] hidden 
-         lg:flex lg:scale-[68%]'>
+         lg:flex lg:scale-[69%]'>
           <div className='text-[1.1rem] font-mono absolute h-[100%] w-full
-           flex justify-center
-          flex-col items-center'>
+           flex justify-center flex-col items-center'>
             <span className='pb-[0.5rem]'>Im reliving my&nbsp;
              <span className="text-white font-semibold shadow-md shadow-black bg-violet-500">childhood
             </span> with:</span>
@@ -293,6 +292,5 @@ export default function Home() {
     </>
   )
 }
-
 
 
