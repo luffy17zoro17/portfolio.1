@@ -29,26 +29,20 @@ export default function Home() {
             <SideNav/>   
       </div>
 
-        
-      <div className="h-[120%] flex flex-col absolute z-[-20] w-[100%]">
-        <Image 
+      <main className='relative h-screen w-[100%] border-4 border-red-500'>
+      <Image 
           src="https://images.unsplash.com/photo-1605012464390-45820d1f7bdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
           layout="fill"
-          className="object-cover relative"  
+          className="object-cover absolute"  
           alt=""
         />
-      
+     
+        
+        <div className='bg-black opacity-70 absolute flex w-[100%] h-[100%]'/>
+        <div className='font-bold text-white text-[3rem] pt-[5rem] text-center
+         shadow-xl shadow-black absolute w-[100%] flex justify-center
+         border-x-[4rem] border-yellow-400'>
 
-      <div className='w-full flex justify-center absolute z-10'>
-      <div className='flex flex-col items-center justify-center z-[-40] pb-[5%]
-         text-center top-0 border-x-[3rem] border-yellow-300 absolute w-[100%]'>
-
-        <div className='z-[-70] absolute flex flex-col items-center 
-          top-0 w-full h-[100%] shadow-2xl shadow-black justify-center
-          bg-black opacity-80'/>  
-
-        <div className='font-bold text-white text-[3rem] pt-[5rem]
-         shadow-xl shadow-black'>
           <div className='px-[0.3rem] pt-[5rem]'>
             <span className="shadow-lg shadow-cyan-400 text-pink-600 
           text-[3rem] hover:opacity-80 md:text-[4rem]">
@@ -113,32 +107,29 @@ export default function Home() {
 
            </div>
         </div>
-      </div>
-      </div>
-        
       
-        <div className='absolute z-40 animate-bounce h-[6%] top-[42rem] 
-         font-bold
-         flex justify-start flex-col items-center w-[30rem] text-white text-xl
-         md:top-[44rem] lg:left-[0rem] xl:left-[7rem]'>
+      
+        <div className='absolute z-40 animate-bounce h-[6%] 
+         font-bold top-[38rem]
+         flex justify-start flex-col items-center w-[30rem] 
+         text-white text-xl
+          lg:left-[0rem] xl:left-[7rem]'>
           <ArrowDownwardIcon className="text-pink-700 z-40 absolute scale-[180%]" 
-          fontSize="large"/>scroll down
+          fontSize="large"/>
         </div>
         
 
-
+        <div className='flex flex-col absolute w-[100%] 
+        border-4 bottom-0'>
         <div className={styles.green}>
-        <div className='text-xl absolute w-[100%]
-         flex flex-col justify-center h-[30rem] left-[0%] 
-         top-[40rem] items-center shadow-2xl shadow-black 
-         drop-shadow-2xl md:top-[42rem]
-          '>
-          
+        
          <div className='relative border-l-[4rem] border-r-[2rem]
          border-y-[2rem] border-green-500
          w-full shadow-xl shadow-black h-[20rem]
           '>
-          <div className='z-30 absolute border-4 h-[106%] p-4 shadow-xl shadow-black'>
+          <div className='z-30 absolute border-4 h-[16rem] 
+          p-4 shadow-xl shadow-black border-black
+              lg:w-[35rem]'>
             <span className="font-bold text-5xl"><span className="text-pink-600">B
           </span><span className="text-purple-700">A</span>
             <span className="text-cyan-400">M</span>M!</span> 
@@ -147,15 +138,17 @@ export default function Home() {
             <div className='font-bold italic text-center shadow-black 
              underline underline-offset-[0.4rem] px-1
              shadow-inner space-y-5 h-[8rem] flex flex-col justify-center
-             lg:text-start lg:px-5 xl:pl-[7rem] xl:pr-[7rem]'>
-            <div className='text-blue-600 decoration-slate-100
+             lg:text-start xl:pl-[7rem] xl:pr-[7rem]'>
+            <div className='text-blue-400 w-[19rem] h-[2.5rem]
+             rounded-full decoration-slate-100 bg-black
              hover:shadow hover:shadow-black 
             hover:text-cyan-500'>
              <Link href={`${process.env.PRIVATE_BLIPKAR_KEY}`}>
               #1 BLIPKART App&nbsp;(Flipkart inspired)
              </Link>
              </div>
-             <div className='text-violet-900 decoration-slate-100
+             <div className='w-[19rem] h-[2.5rem] rounded-full text-violet-400 bg-black
+              decoration-slate-100
              hover:shadow hover:shadow-black
              hover:text-cyan-500'>
              <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
@@ -171,19 +164,22 @@ export default function Home() {
                <Link href='/contact'>🤝</Link></b>
             </div>    
           </div>  
-          <div className='z-0 absolute bg-orange-400 h-[100%]
+          <div className='z-0 absolute
+          bg-gradient-to-b from-orange-300 to-red-500
+           h-[100%]
              top-0 w-[100%] shadow-lg shadow-black
           '/> 
-         </div> 
          
+         
+        </div>
         </div>
         </div>
         
 
        
-        <div className='flex flex-col absolute right-0 top-[50rem]
+        <div className='flex flex-col absolute right-0
          w-[30%] z-10 shadow-xl shadow-black border-4
-         justify-end flex-col items-end hidden md:flex md:scale-[60%]'>
+         justify-end flex-col items-end scale-[60%] hidden lg:flex'>
         <div className='flex flex-col shadow-2xl shadow-black w-[100%]
          items-end z-0'>
          <div className='text-3xl w-full h-full text-gray-500 
@@ -206,12 +202,12 @@ export default function Home() {
         
         
     
-        <div className='text-2xl text-black z-30 w-[38rem]
-         border-[2rem] border-cyan-200 right-0
-         shadow-xl shadow-black absolute h-[28%] hidden 
-         lg:flex lg:scale-[69%]'>
-          <div className='text-[1.1rem] font-mono absolute h-[100%] w-full
-           flex justify-center flex-col items-center'>
+        
+          <div className='text-[1.1rem] font-mono absolute h-[10rem]
+           w-[33rem] scale-[70%] flex right-0 top-[40rem]
+           flex justify-center flex-col items-center bg-white 
+           shadow-lg shadow-black hidden
+            lg:flex'>
             <span className='pb-[0.5rem]'>Im reliving my&nbsp;
              <span className="text-white font-semibold shadow-md shadow-black bg-violet-500">childhood
             </span> with:</span>
@@ -287,8 +283,9 @@ export default function Home() {
           </div>
           <div className='absolute bg-white shadow-xl shadow-black
           h-[100%] w-[99%] top-0 z-[-10]'/>
-        </div>
-      </div>  
+      
+      
+      </main>
       
     </>
   )
