@@ -22,7 +22,7 @@ export default function Home() {
       
 
   
-      <div className="z-40 fixed">
+      <div>
            <div className="border-4 border-yellow-300 rounded-xl
             fixed z-50 top-[0.7rem]
             ml-[0.3rem] h-[2.4rem] w-[7.4rem]"/> 
