@@ -44,13 +44,13 @@ function ContactForm() {
   }
   return (
     
-   <div className='fixed overflow-y-auto
-   h-screen bg-black w-[100%]'>
+   <div className='relative
+   h-screen bg-black'>
         
     <form onSubmit={handleSubmit}>
 
       <div className='flex flex-col justify-center items-center
-       text-gray-800 h-[60rem]
+       text-gray-800 h-[60rem] w-[100%]
        absolute w-[100%] lg:text-lg'>
         <h1 className='font-bold text-5xl top-[7rem] z-10 
         fixed shadow-md shadow-black bg-black
@@ -59,13 +59,14 @@ function ContactForm() {
       <div className='flex flex-col justify-center items-center space-y-2
        bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg
         shadow-pink-400
-       h-[40rem] w-[90%] rounded-full'>
+           h-[80%] w-[95%] lg:h-[50rem] lg:w-[80%] rounded-full
+           xl:w-[60%]'>
 
       <div className='flex flex-col items-center justify-center 
       space-y-4 text-center font-semibold
-      md:flex-row md:space-y-0 md:w-[70%] lg:w-[40rem]'>
+      md:flex-row md:space-y-0 md:w-[90%] lg:w-[40rem]'>
 
-      <div className='md:flex md:flex-col md:items-center md:w-[100%]'>
+      <div className='md:flex md:flex-col md:items-center md:w-[40%]'>
       <label className='py-2' htmlFor='first'>First Name:</label>
       <input className="flex p-1 pl-4 font-light italic
       outline-none border-2 border-purple-400 rounded-3xl md:w-[90%]" 
@@ -74,7 +75,7 @@ function ContactForm() {
       autoComplete="off" required/>
       </div>
     
-      <div className='md:flex md:flex-col md:items-center md:w-[100%]'>
+      <div className='md:flex md:flex-col md:items-center md:w-[40%]'>
       <label className='py-2' htmlFor='last'>Last Name:</label>
       <input className="flex p-1 pl-4 font-light italic
       outline-none border-2 border-purple-400 rounded-3xl md:w-[90%]"
@@ -116,7 +117,7 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
-      <div className='w-[73%] space-y-2 lg:w-[90%]'>
+      <div className='w-[73%] space-y-[2%] lg:w-[90%]'>
       <label className='m-4' htmlFor="message"><MessageIcon/>&nbsp;Message:</label>
       <textarea
         className='flex w-[100%] p-1 pl-4 font-light italic
@@ -167,14 +168,18 @@ function ContactForm() {
 function Contact() {
   return (
     <>
-    <div>
-     <div className="border-4 border-yellow-300 rounded-xl
-            fixed z-50 top-[6.2rem]
-            ml-[0.3rem] h-[2.4rem] w-[7.4rem]"/>  
-      <SideNav/>
-    </div> 
-
+    <div className='relative w-[100%] h-screen'>
+    <header className='fixed top-0 left-0 z-20'>
+         
+         <div className="border-4 border-yellow-300 rounded-xl
+          fixed z-50 top-[13.7vmin]
+          ml-[1.7vmin] h-[5vmin] w-[16.4vmin]"/> 
+          <SideNav/>   
+    </header>
+    <main className='text-[2.4vmin]'>
     <ContactForm />
+    </main>
+    </div>
     </>
   );
 }

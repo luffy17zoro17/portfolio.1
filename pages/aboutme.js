@@ -9,37 +9,56 @@ const AboutMe = () => {
 
     return (
         <>
-        <div className="">
-           <div className="border-4 border-yellow-300 rounded-xl
-            fixed z-50 top-[3.5rem]
-            ml-[0.3rem] h-[2.4rem] w-[7.4rem]"/> 
-            <SideNav/>
-        
-        </div>
+         <div>
+         <div className="relative">
+         <header className='fixed top-0 left-0 z-20'>
+         
+         <div className="border-4 border-yellow-300 rounded-xl
+          fixed z-50 top-[8.3vmin]
+          ml-[1.7vmin] h-[5vmin] w-[16.4vmin]"/> 
+          <SideNav/>   
+        </header>
+      <div className="w-full h-full fixed">
 
-
-        <div className={!toggleOn ? "w-full h-screen fixed" : `w-full 
-        h-screen fixed overflow-y-auto border-4
-           `}>
+       <div className=''>
           <Image 
             src="https://wallpaperaccess.com/full/2665653.jpg"
             layout="fill"
             className="object-cover"
             alt=""
           />  
+        
+        
+        
+
+         <div className="mt-[15rem] ml-[3rem] z-60 border-4 ">
+        <button onClick={()=>setToggleOn(!toggleOn)}
+         className={!toggleOn ? `border-4 absolute top-[5rem] rounded-full
+          w-[50vmin] h-[50vmin] z-40 p-[4vmin]
+         shadow-xl shadow-black bg-red-400 left-[9vmin] text-[5vmin] font-bold` : 
+         `bg-green-300 border-4 fixed z-30 top-[7rem] right-[6vmin] rounded-full h-[8rem] w-[8rem]
+         shadow-xl shadow-black font-bold text-3xl`}>
+            <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[100%] hover:text-purple-700"}>
+                {!toggleOn ? "Press the big chunky tempting RED BUTTON" : "Press Again"}</h1>
+        </button>
+        </div>
         </div>
         
-        <div>
+        
         {toggleOn ? (
-        <div className="flex justify-start flex-col items-center w-[100%]
-          absolute top-[18.4rem]">
-           <div className="absolute z-0 text-white text-center w-[100%] border-[2rem] 
+         
+        <div className="flex items-center flex-col top-0 h-[100%] w-full
+        justify-start z-0 overflow-y-auto
+          absolute">
+           <div className="absolute z-0 text-white text-center border-[2rem] 
             border-purple-600 rounded
-            p-4 text-xl shadow-lg shadow-black xl:w-[70%]">
-            <h1 className="absolute flex justify-center text-black w-[100%] 
-            top-[-8rem] font-bold text-5xl sm:top-[-11rem] xl:top-[-15rem]">ABOUT&nbsp;
-            <b className="text-orange-700">[</b>ME<b className="text-orange-700">]</b></h1>
-            <p className="p-2">Im Thomas Mathew, 30, have a diploma in VFX.
+            p-4 text-xl shadow-lg shadow-black md:mx-[11rem]">
+            <h1 className="font-bold fixed text-[6vmin] flex justify-center
+            left-0 w-[100%]
+            shadow-lg shadow-cyan-400">ABOUT <b className="text-yellow-400">
+               [</b>ME<b className="text-yellow-400">]</b></h1>   
+            
+            <p className="p-2 pt-[8rem]">Im Thomas Mathew, 30, have a diploma in VFX.
 
             Now I know I&apos;ve said I love coding. Im self-taught. But that dosen&apos;t mean I would 
             enjoy being glued to a 2D screen 24x7 - which I&apos;ve been doing 
@@ -77,21 +96,10 @@ const AboutMe = () => {
         ) : (
         <div></div>
         )}
-
-         <div className="ml-[11rem]">
-        <button onClick={()=>setToggleOn(!toggleOn)}
-         className={!toggleOn ? `border-4 absolute top-[7rem] rounded-full h-[18rem] w-[18rem] 
-         shadow-xl shadow-black bg-red-400 text-4xl font-bold xl:top-[23rem] xl:left-[15rem]` : 
-         `bg-green-300 border-4 fixed z-30 top-[5rem] right-[0rem] rounded-full h-[7rem] w-[7rem] 
-         shadow-xl shadow-black font-bold text-3xl xl:top-[15rem] xl:right-[11%]`}>
-            <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[102%] hover:text-purple-700"}>
-                {!toggleOn ? "Press the big chunky tempting RED BUTTON" : "Press Again"}</h1>
-        </button>
-        </div>
-        </div>
       
-       
-        
+        </div>
+        </div>
+      </div>  
         </>
     );
 }
