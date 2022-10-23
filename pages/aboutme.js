@@ -36,7 +36,7 @@ const AboutMe = () => {
          className={!toggleOn ? `border-4 absolute top-[5rem] rounded-full
           w-[50vmin] h-[50vmin] z-40 p-[4vmin]
          shadow-xl shadow-black bg-red-400 left-[9vmin] text-[5vmin] font-bold` : 
-         `bg-green-300 border-4 fixed z-30 top-[7rem] right-[6vmin] rounded-full h-[8rem] w-[8rem]
+         `bg-green-300 border-4 fixed z-30 top-[1rem] right-[4vmin] rounded-full h-[8rem] w-[8rem]
          shadow-xl shadow-black font-bold text-3xl`}>
             <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[100%] hover:text-purple-700"}>
                 {!toggleOn ? "Press the big chunky tempting RED BUTTON" : "Press Again"}</h1>
@@ -54,11 +54,11 @@ const AboutMe = () => {
             border-purple-600 rounded
             p-4 text-xl shadow-lg shadow-black md:mx-[11rem]">
             <h1 className="font-bold fixed text-[6vmin] flex justify-center
-            left-0 w-[100%]
-            shadow-lg shadow-cyan-400">ABOUT <b className="text-yellow-400">
+            left-0 w-[100%] top-[4.5rem]
+            shadow-lg shadow-cyan-400">ABOUT&nbsp;<b className="text-yellow-400">
                [</b>ME<b className="text-yellow-400">]</b></h1>   
             
-            <p className="p-2 pt-[8rem]">Im Thomas Mathew, 30, have a diploma in VFX.
+            <p className="p-2 pt-[7rem]">Im Thomas Mathew, 30, have a diploma in VFX.
 
             Now I know I&apos;ve said I love coding. Im self-taught. But that dosen&apos;t mean I would 
             enjoy being glued to a 2D screen 24x7 - which I&apos;ve been doing 

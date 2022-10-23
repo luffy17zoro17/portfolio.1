@@ -51,7 +51,7 @@ export default function Home() {
          border-x-[4rem] border-yellow-400'>
 
           <div className='px-[0.3rem] pt-[5rem]'>
-            <span className="shadow-lg shadow-cyan-400 text-pink-500 
+            <span className="shadow-lg shadow-cyan-400 text-pink-500 font-mono
           text-[9vmin] hover:opacity-80">
             Thomas Mathew</span><span className='text-[3vmin]'><br/>from</span>&nbsp;
              <span className="text-[4vmin] shadow-lg shadow-yellow-400 text-green-200
