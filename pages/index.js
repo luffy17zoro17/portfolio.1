@@ -160,9 +160,9 @@ export default function Home() {
          shadow-xl shadow-black h-[77vmin]` }>
 
          <div className={hide ? `hidden` : `text-[1.1rem] font-mono 
-            absolute z-50 bottom-5
+            absolute z-50 bottom-1
             scale-[60%] p-4 left-[-3rem]
-            lg:scale-[70%] lg:left-[0rem]
+            lg:left-[0rem]
            flex justify-center flex-col items-center bg-white 
            shadow-lg shadow-black hidden md:flex`}>
             <span className='pb-[0.5rem]'>Im reliving my&nbsp;
@@ -290,7 +290,7 @@ export default function Home() {
              shadow-lg shadow-black bg-white rounded-3xl absolute font-light
                z-30 right-[4vmin] bottom-5`}>
               <div className='shadow-inner shadow-black
-              text-[1.7vmin]'>
+              text-[1.7vmin] p-[0.1rem]'>
                Ah yes..
                Building Blocks(LEGO)&nbsp;&nbsp;
 
