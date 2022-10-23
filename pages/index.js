@@ -47,6 +47,7 @@ export default function Home() {
         
         <div className='font-bold text-white text-[3rem] pt-[5rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
+         
          border-x-[4rem] border-yellow-400'>
 
           <div className='px-[0.3rem] pt-[5rem]'>
@@ -138,7 +139,7 @@ export default function Home() {
 
 
 
-      <div className='flex flex-col absolute border-4 
+      <div className='flex flex-col absolute 
         w-[100%] z-30 h-[15rem] top-[66rem]'>
         <div className={styles.green}>
 
@@ -245,9 +246,9 @@ export default function Home() {
           
           
           
-          <div className='z-40 top-0 absolute border-4 
+          <div className='z-40 top-0 absolute
            bg-gradient-to-r from-purple-500 to-black
-          p-4 shadow-xl shadow-black border-green-300 
+          p-4 shadow-xl shadow-black
           h-full
            w-full'>
 
@@ -258,7 +259,7 @@ export default function Home() {
             <span className="text-cyan-400">M</span>M!</span> 
              &nbsp;<span className='text-white'>I build these fellas:</span> <br/>
              <div className="absolute flex flex-wrap justify-center items-center
-             text-[2.5vmin] text-white px-3 py-2">Prioritize potential over degrees?&nbsp;
+             text-[2.1vmin] text-white px-3 py-2">Prioritize potential over degrees?&nbsp;
              Time to join forces! &nbsp;&nbsp;<b className="bg-gray-500 border shadow shadow-black
               animate-pulse">
                <Link href='/contact'>🤝</Link></b>
