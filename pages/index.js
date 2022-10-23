@@ -160,7 +160,7 @@ export default function Home() {
          shadow-xl shadow-black h-[77vmin]` }>
 
          <div className={hide ? `hidden` : `text-[1.1rem] font-mono 
-            absolute z-50 bottom-1
+            absolute z-50 bottom-[-0.2rem]
             scale-[60%] p-4 left-[-3rem]
             lg:left-[0rem]
            flex justify-center flex-col items-center bg-white 
