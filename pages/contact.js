@@ -50,7 +50,7 @@ function ContactForm() {
     <form onSubmit={handleSubmit}>
 
       <div className='flex flex-col justify-center items-center
-       text-gray-800 h-[60rem] w-[100%]
+       text-gray-800 h-[60rem] w-[100%] bg-black
        absolute w-[100%] lg:text-lg'>
         <h1 className='font-bold text-5xl top-[7rem] z-10 
         fixed shadow-md shadow-black bg-black

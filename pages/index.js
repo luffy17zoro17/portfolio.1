@@ -47,11 +47,11 @@ export default function Home() {
         
         <div className='font-bold text-white text-[3rem] pt-[5rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
-         
+         border-b-[2rem]
          border-x-[4rem] border-yellow-400'>
 
           <div className='px-[0.3rem] pt-[5rem]'>
-            <span className="shadow-lg shadow-cyan-400 text-pink-600 
+            <span className="shadow-lg shadow-cyan-400 text-pink-500 
           text-[9vmin] hover:opacity-80">
             Thomas Mathew</span><span className='text-[3vmin]'><br/>from</span>&nbsp;
              <span className="text-[4vmin] shadow-lg shadow-yellow-400 text-green-200
@@ -139,12 +139,12 @@ export default function Home() {
 
 
 
-      <div className='flex flex-col absolute 
+      <div className='flex flex-col absolute shadow shadow-black
         w-[100%] z-30 h-[15rem] top-[66rem]'>
         <div className={styles.green}>
 
          <div className='right-[3rem] absolute z-50 
-         shadow-lg shadow-black
+         shadow-xl shadow-black
          top-[5.7vmin] border-4 cursor-pointer'>
          <button className="w-[100%] px-[3vmin]
           py-[0.4rem] bg-red-500 hover:animate-bounce
@@ -154,7 +154,7 @@ export default function Home() {
          </div>
 
          <div className={hide ? `border-l-[4rem] border-r-[2rem]
-         border-y-[2rem] border-green-500 relative
+         border-y-[2rem] border-green-500 drop-shadow-xl relative
          shadow-xl shadow-black h-[54vmin]` : `border-l-[4rem] border-r-[2rem]
          border-y-[2rem] border-green-500 relative
          shadow-xl shadow-black h-[77vmin]` }>
@@ -254,7 +254,7 @@ export default function Home() {
 
           
 
-            <span className="font-bold text-[5vmin]"><span className="text-pink-600">B
+            <span className="font-bold drop-shadow-xl text-[5vmin]"><span className="text-pink-600">B
           </span><span className="text-purple-700">A</span>
             <span className="text-cyan-400">M</span>M!</span> 
              &nbsp;<span className='text-white'>I build these fellas:</span> <br/>
@@ -287,7 +287,7 @@ export default function Home() {
              </Link>
              </div>
              <div className={hide ? `hidden` : `border-y-[5vmin] border-l-[2vmin] border-pink-600 
-             shadow-md shadow-cyan-400 bg-white rounded-3xl absolute font-light
+             shadow-lg shadow-black bg-white rounded-3xl absolute font-light
                z-30 right-[4vmin] bottom-5`}>
               <div className='shadow-inner shadow-black
               text-[1.7vmin]'>
