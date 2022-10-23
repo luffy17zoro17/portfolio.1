@@ -168,7 +168,7 @@ function Contact() {
   return (
     <>
     <div className='relative w-[100%] h-screen'>
-    <header className='fixed top-0 left-0 z-20'>
+    <header className='fixed top-0 left-0 z-40'>
          
          <div className="border-4 border-yellow-300 rounded-xl
           fixed z-50 top-[13.7vmin]
