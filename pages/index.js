@@ -52,7 +52,8 @@ export default function Home() {
 
           <div className='px-[0.3rem] pt-[5rem]'>
             <span className="shadow-lg shadow-cyan-400 text-pink-500 font-mono
-          text-[9vmin] hover:opacity-80">
+          text-[9vmin] tracking-wider
+           hover:opacity-80">
             Thomas Mathew</span><span className='text-[3vmin]'><br/>from</span>&nbsp;
              <span className="text-[4vmin] shadow-lg shadow-yellow-400 text-green-200
               hover:opacity-80">
@@ -160,7 +161,7 @@ export default function Home() {
          shadow-xl shadow-black h-[77vmin]` }>
 
          <div className={hide ? `hidden` : `text-[1.1rem] font-mono 
-            absolute z-50 bottom-[-0.2rem]
+            absolute z-50 bottom-[-0.7rem]
             scale-[60%] p-4 left-[-3rem]
             lg:left-[0rem]
            flex justify-center flex-col items-center bg-white 
