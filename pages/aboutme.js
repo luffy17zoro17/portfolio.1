@@ -54,12 +54,12 @@ const AboutMe = () => {
             border-purple-600 rounded
             p-4 text-xl shadow-lg shadow-black md:mx-[11rem]">
             <h1 className="font-bold fixed text-[6vmin] flex justify-center
-            left-0 w-[100%] top-[4.5rem]
+            left-0 w-[100%] top-[9rem]
             "><span className="shadow-xl shadow-cyan-500 border-4 rounded-3xl py-[1vmin]
              px-[3vmin]
               bg-black">ABOUT&nbsp;ME</span></h1>   
             
-            <p className="p-2 pt-[7rem]">Im Thomas Mathew, 30, have a diploma in VFX.
+            <p className="p-2 pt-[11rem]">Im Thomas Mathew, 30, have a diploma in VFX.
 
             Now I know I&apos;ve said I love coding. Im self-taught. But that dosen&apos;t mean I would 
             enjoy being glued to a 2D screen 24x7 - which I&apos;ve been doing 
