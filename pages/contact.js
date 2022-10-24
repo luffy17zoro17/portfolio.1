@@ -52,9 +52,9 @@ function ContactForm() {
       <div className='flex flex-col justify-center items-center
        text-gray-800 h-[60rem] w-[100%] bg-black
        absolute w-[100%]'>
-        <h1 className='font-bold text-5xl top-[3rem] z-30 
+        <h1 className='font-bold text-5xl top-[7.7rem] z-30 
         fixed shadow-md shadow-black bg-black
-        w-[100%] flex justify-center text-white'>CONTACT</h1>
+        w-[100%] flex justify-center text-white sm:top-[5rem] md:top-[3rem]'>CONTACT</h1>
       <div className='flex flex-col justify-center items-center space-y-2
        bg-gradient-to-r from-green-900 via-cyan-500 to-green-300 shadow-lg
         shadow-pink-400
