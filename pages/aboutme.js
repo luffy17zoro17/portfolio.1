@@ -33,11 +33,13 @@ const AboutMe = () => {
 
          <div className="mt-[15rem] ml-[3rem] z-60 border-4 ">
         <button onClick={()=>setToggleOn(!toggleOn)}
-         className={!toggleOn ? `border-4 absolute top-[5rem] rounded-full
+         className={!toggleOn ? `border-4 absolute top-[5rem] left-[10rem]
+          rounded-full
           w-[50vmin] h-[50vmin] z-40 p-[4vmin]
          shadow-xl shadow-black bg-red-400 left-[9vmin] text-[5vmin] font-bold` : 
-         `bg-green-300 border-4 fixed z-30 top-[1rem] right-[4vmin] rounded-full h-[8rem] w-[8rem]
-         shadow-xl shadow-black font-bold text-3xl`}>
+         `bg-green-300 border-4 fixed z-30 top-[5rem] right-[4vmin] rounded-full 
+         shadow-xl shadow-black font-bold h-[4rem] w-[4rem] sm:h-[5rem] sm:w-[5rem]
+          md:text-3xl md:h-[8rem] md:w-[8rem]`}>
             <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[100%] hover:text-purple-700"}>
                 {!toggleOn ? "Press the big chunky tempting RED BUTTON" : "Press Again"}</h1>
         </button>
@@ -54,12 +56,12 @@ const AboutMe = () => {
             border-purple-600 rounded
             p-4 text-xl shadow-lg shadow-black md:mx-[11rem]">
             <h1 className="font-bold fixed text-[6vmin] flex justify-center
-            left-0 w-[100%] top-[9rem]
+            left-0 w-[100%] top-[9rem] md:top-[4rem]
             "><span className="shadow-xl shadow-cyan-500 border-4 rounded-3xl py-[1vmin]
              px-[3vmin]
               bg-black">ABOUT&nbsp;ME</span></h1>   
             
-            <p className="p-2 pt-[11rem]">Im Thomas Mathew, 30, have a diploma in VFX.
+            <p className="p-2 pt-[11rem] md:pt-[5rem] lg:pt-[7rem]">Im Thomas Mathew, 30, have a diploma in VFX.
 
             Now I know I&apos;ve said I love coding. Im self-taught. But that dosen&apos;t mean I would 
             enjoy being glued to a 2D screen 24x7 - which I&apos;ve been doing 

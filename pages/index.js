@@ -17,8 +17,8 @@ export default function Home() {
 
   return (
      
-     <div className='absolute flex flex-col w-[100%]'>
-     <div className='relative'>
+    
+     <div className='relative w-[100%] h-[100rem]'>
       <header className='fixed top-0 left-0 z-20'>
          
          <div className="border border-purple-500 rounded-xl
@@ -76,18 +76,20 @@ export default function Home() {
           </div> 
 
           <div className="text-[2.5vmin] absolute left-0 top-[32rem]
-          flex justify-center flex-col items-center w-[100%]">  
+          flex justify-center flex-col items-center w-[100%] md:top-[28rem]">  
            <span className='mb-[2vmin] rounded-xl bg-white text-black shadow-lg
-           shadow-black'>I have<b className="text-yellow-400">&nbsp;:</b></span>
-           <div className='text-[1.8vmin] pb-[2vmin] leading-[4vmin]'>
-           <span className='bg-white rounded-xl shadow-inner shadow-black border-4 p-[0.3vw]'>
+           shadow-black px-1'>I have<b className="text-red-800">&nbsp;:</b></span>
+           <div className='text-[1.8vw] pb-[2vmin] leading-[4vmin] 
+           space-x-3 lg:text-[0.8rem]'>
+           <span className='bg-white rounded-xl shadow-inner shadow-black p-2'>
            <span className="text-red-500">-{'>'}&nbsp;<b className="text-cyan-400">0</b>
-           </span>&nbsp;<span className="rounded-xl text-black">degree certificates</span></span>&nbsp;<br/>
-           <span className='bg-white shadow-inner text-black shadow-black rounded-xl border-4 p-[0.3vw]'>
+           </span>&nbsp;<span className="rounded-xl text-black">degree certificates</span></span>
+           &nbsp;
+           <span className='bg-white shadow-inner text-black shadow-black rounded-xl p-2'>
             <span className='text-red-500'>-{'>'}&nbsp;<b className="text-cyan-400">0</b></span>&nbsp;
-           <span className="">work experience</span></span><br/>
-           <span className='rounded-xl bg-white text-black shadow-inner shadow-black border-4 p-[0.3vw]'>
-            <span className="text-red-500">-{'>'}&nbsp;<b className="text-green-200">1</b></span>&nbsp;
+           <span className="">work experience</span></span>
+           <span className='rounded-xl bg-white text-black shadow-inner shadow-black p-2'>
+            <span className="text-red-500">-{'>'}&nbsp;<b className="text-green-500">1</b></span>&nbsp;
             <span className="">Diploma - In VFX</span></span><br/>
            </div>
            <span className='border-4 bg-white text-black w-[11vmin] rounded-xl h-[5vmin] 
@@ -138,18 +140,18 @@ export default function Home() {
         </div>
   
       
-      </div>
+      
 
 
-      <div className='z-20 animate-bounce h-[6%] text-white text-black
-              font-bold fixed bottom-[3rem] w-[100%] left-0
+      <div className='z-20 animate-bounce h-[6%] text-white text-gray-300
+              font-bold fixed bottom-[3rem] w-[100%] left-0 
               flex justify-center items-center 
-              text-white text-xl'>
-              <span className="bg-violet-700 rounded-xl shadow-xl shadow-black">
+              text-white text-lg md:text-sm md:left-[16rem] lg:left-[0rem] lg:text-xl'>
+              <span className="bg-violet-700 rounded-xl shadow-inner border-4 shadow-black px-[0.5vw]">
                 Swipe up&nbsp;</span><b className='text-green-400'>/</b>&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;
-              <span className='rounded-xl bg-violet-700 shadow-xl shadow-black'>
+              <span className='rounded-xl bg-violet-700 shadow-inner border-4 shadow-black px-[0.5vw]'>
                 Scroll down</span>  
           <ArrowDownwardIcon className="text-pink-700 z-40 absolute 
           scale-[180%] shadow-xl shadow-black" 
@@ -176,16 +178,11 @@ export default function Home() {
          <div className={hide ? `relative w-[100%] rounded-3xl
           
          flex-col h-[54vmin] z-0` : `relative mx-[8%] bg-gradient-to-b rounded-3xl
-          shadow-inner
-          shadow-black
+         
          flex-col z-0`}>
 
 
-         <div className={hide ? `border-l-[4rem] border-r-[2rem]
-         border-y-[2rem] absolute border-transparent w-[100%]
-         ` : `
-         border-y-[2rem] absolute w-[100%] border-transparent
-         h-[81vmin]` }>
+     
         
 
          <div className={hide ? `hidden` : `text-[1.1rem] font-mono 
@@ -270,9 +267,9 @@ export default function Home() {
 
           <div className={hide ? `hidden` : `border-y-[1vw] border-l-[2vw] border-pink-600 
              shadow-lg shadow-black rounded-3xl absolute font-light bg-pink-600
-               right-[4vmin] top-[60vmin] z-50`}>
+               right-[4vw] top-[28rem] z-50`}>
               <div className='shadow-inner shadow-black rounded-3xl bg-white
-              text-[1.6vmin] p-[3vw] py-[0.5vw] lg:text-[1.7vmin]'>
+              text-[1rem] p-[3vw] py-[0.5vw] md:text-[01.2vw]'>
                Ah yes..
                Building Blocks(LEGO)&nbsp;&nbsp;
 
@@ -285,39 +282,46 @@ export default function Home() {
 
          
           <div className='z-40 top-0 absolute rounded-3xl relative
-           bg-gradient-to-r from-purple-500 to-black 
-          p-4 shadow-xl shadow-black w-full'>
+           bg-gradient-to-r from-purple-500 to-black
+          p-4 shadow-xl shadow-black mx-[10%]'>
 
-            <span className="font-bold text-[5vmin]"><span className="text-pink-600">B
+            <span className="font-bold text-[3rem]"><span className="text-pink-600">B
           </span><span className="text-purple-700">A</span>
             <span className="text-cyan-400">M</span>M!</span> 
-             &nbsp;<span className='text-white text-[2vmin]'>I build these fellas:</span> <br/>
+             &nbsp;<span className='text-white text-[1rem]'>I build these fellas:</span> <br/>
              <div className="absolute flex flex-wrap justify-center items-center
-             text-[2.1vmin] text-white px-3 py-2">Prioritize potential over degrees?&nbsp;
-             Time to join forces! &nbsp;&nbsp;<b className="bg-gray-500 border shadow shadow-black
+             
+             text-[1.3rem] text-white px-3 py-2.5">Prioritize potential over degrees?&nbsp;
+             Time to join forces! &nbsp;&nbsp;
+             <b className="bg-gray-500 border shadow shadow-black
               animate-pulse">
-               <Link href='/contact'>🤝</Link></b>
+               <Link href='/contact'><a>🤝</a></Link></b>
              </div>  
              
             <div className='font-bold italic text-center shadow-black text-[3vmin]
-             underline underline-offset-[0.4rem] space-y-[1vw] px-[1vw]
-             shadow-inner h-[20vw] flex flex-col justify-center items-center'>
-            <div className='text-blue-800 py-[0.2vw] px-[1vw]
+             underline underline-offset-[0.4rem] space-y-7 my-2 px-[1rem]
+             shadow-inner h-[24rem] flex flex-col justify-center items-center'>
+            <div className='text-blue-800 py-[0.2rem] px-[1vw]
              rounded-full decoration-slate-100 animate-pulse
              bg-gradient-to-b from-orange-300 to-blue-200
              shadow-md shadow-black mt-[1rem]
-            hover:text-cyan-500 hover:shadow-lg hover:shadow-black'>
+            hover:text-cyan-500 hover:shadow-lg hover:shadow-black
+             active:shadow-inner active:shadow-black'>
              <Link href={`${process.env.PRIVATE_BLIPKAR_KEY}`}>
-              <a className='text-[3vw]'><b className='text-cyan-500'>#1</b> BLIPKART App&nbsp;(Flipkart inspired)</a>
+              <a className='text-[4vw]'><b className='text-cyan-500'>#1</b>
+              BLIPKART App&nbsp;
+                <span className='text-sm md:text-xl xl:text-3xl'>(Flipkart inspired)</span></a>
              </Link>
              </div>
-             <div className='py-[0.2vw] rounded-full text-violet-800 
+             <div className='py-[0.2rem] rounded-full text-violet-800 
               bg-gradient-to-b from-orange-300 to-red-500 animate-pulse
               decoration-slate-100 px-[1vw]
-             shadow-md shadow-black
+             shadow-md shadow-black active:shadow-inner active:shadow-black
              hover:text-cyan-500 hover:shadow-lg hover:shadow-black'>
              <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
-              <a className='text-[3vw]'><b className='text-cyan-500'>#2</b> MESLA App&nbsp;(Tesla inspired)</a>
+              <a className='text-[4vw]'>
+                <b className='text-cyan-500'>#2</b> MESLA App&nbsp;
+                <span className='text-sm md:text-xl xl:text-3xl'>(Tesla inspired)</span></a>
              </Link>
              </div>
              
@@ -329,11 +333,12 @@ export default function Home() {
           
          
          
+    
         </div>
         </div>
         </div>
         </div>
-      </div>
+    
     
     
   );
