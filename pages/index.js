@@ -51,7 +51,7 @@ export default function Home() {
         <div className='font-bold text-white text-[3rem] pt-[11rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
          border-b-[2rem] rounded-b-3xl
-         border-x-[1rem] border-yellow-400'>
+         border-x-[1rem] border-yellow-400 md:pt-[9rem] lg:pt-[7rem]'>
            
 
           <div className='border-[1rem] shadow-xl shadow-black border-green-300 relative
@@ -77,21 +77,21 @@ export default function Home() {
 
           <div className="text-[2.5vmin] absolute left-0 top-[32rem]
           flex justify-center flex-col items-center w-[100%]">  
-           <span className='mb-[2vmin] rounded-xl bg-white text-black shadow-xl shadow-black
+           <span className='mb-[2vmin] rounded-xl bg-white text-black shadow-lg
            shadow-black'>I have<b className="text-yellow-400">&nbsp;:</b></span>
            <div className='text-[1.8vmin] pb-[2vmin] leading-[4vmin]'>
-           <span className='bg-white rounded-xl shadow-lg shadow-black'>
+           <span className='bg-white rounded-xl shadow-inner shadow-black border-4 p-[0.3vw]'>
            <span className="text-red-500">-{'>'}&nbsp;<b className="text-cyan-400">0</b>
            </span>&nbsp;<span className="rounded-xl text-black">degree certificates</span></span>&nbsp;<br/>
-           <span className='bg-white shadow-lg text-black shadow-black rounded-xl'>
+           <span className='bg-white shadow-inner text-black shadow-black rounded-xl border-4 p-[0.3vw]'>
             <span className='text-red-500'>-{'>'}&nbsp;<b className="text-cyan-400">0</b></span>&nbsp;
            <span className="">work experience</span></span><br/>
-           <span className='rounded-xl bg-white text-black shadow-lg shadow-black'>
+           <span className='rounded-xl bg-white text-black shadow-inner shadow-black border-4 p-[0.3vw]'>
             <span className="text-red-500">-{'>'}&nbsp;<b className="text-green-200">1</b></span>&nbsp;
             <span className="">Diploma - In VFX</span></span><br/>
            </div>
            <span className='border-4 bg-white text-black w-[11vmin] rounded-xl h-[5vmin] 
-           shadow-lg shadow-black'>but
+           shadow-inner shadow-black'>but
            <div className='flex gap-[1.4rem] absolute left-0
            justify-center w-[100%] ml-[3rem]
            scale-[70%]'>
