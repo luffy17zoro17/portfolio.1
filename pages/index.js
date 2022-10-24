@@ -22,7 +22,7 @@ export default function Home() {
       <header className='fixed top-0 left-0 z-20'>
          
          <div className="border-[0.3vmin] border-purple-500 rounded-xl
-          fixed z-50 top-[4.3vmin]
+          fixed z-50 top-[4.3vmin] shadow shadow-black
           ml-[2vmin] h-[5vmin] w-[20vmin]"/> 
           <SideNav/>   
       </header>
@@ -48,28 +48,29 @@ export default function Home() {
         <div className='shadow-inner shadow-black
          absolute flex w-[100%] h-[100%]'/>
         
-        <div className='font-bold text-white text-[3rem] pt-[5rem] text-center
+        <div className='font-bold text-white text-[3rem] pt-[11rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
-         border-b-[2rem]
+         border-b-[2rem] rounded-b-3xl
          border-x-[1rem] border-yellow-400'>
            
 
-          <div className='border-[1rem] shadow-xl shadow-black border-yellow-400 relative
+          <div className='border-[1rem] shadow-xl shadow-black border-green-300 relative
           p-3 rounded-tl-3xl rounded-br-3xl shadow-inner'>
             <div className='bg-pink-400 opacity-70'></div>
-            <span className="bg-white rounded-3xl
-            shadow-lg shadow-black text-red-700 font-mono
+            <span className="bg-gradient-to-r from-white to-gray-700 rounded-3xl
+            shadow-lg shadow-black text-black font-mono px-[4vw]
           text-[9vmin] tracking-wider
-           hover:shadow-green-300">
+           hover:shadow-purple-700">
             Thomas Mathew</span><span className='rounded-3xl bg-black text-[3vmin]'><br/>from</span>&nbsp;
-             <span className="text-[4vmin] shadow-lg shadow-black text-green-400 
-             rounded-3xl bg-white
-              hover:shadow-violet-700">
+             <span className="text-[4vmin] shadow-lg shadow-black text-black px-[2vw]
+             rounded-3xl bg-gradient-to-r from-white to-gray-700
+              hover:shadow-green-700">
               Kerala, India</span><br/>
-             <span className='text-violet-400 italic px-1 text-[4.5vmin] bg-white 
-             rounded-3xl
-            shadow-lg shadow-black leading-[1rem] hover:shadow-red-500'>
-            &quot;Enjoys designing website UIs<b className="text-red-500">.</b>&quot;
+             <span className='text-black italic px-1 text-[4.5vmin] px-[2vw]
+             rounded-3xl bg-gradient-to-r from-white to-gray-700
+            shadow-lg shadow-black leading-[1rem] hover:shadow-red-700'>
+            <b className='text-black'>&quot;</b>Enjoys designing website UIs<b className="text-red-500">.</b>
+            <b className='text-white'>&quot;</b>
 
             </span>
           </div> 
@@ -79,10 +80,10 @@ export default function Home() {
            <span className='mb-[2vmin] rounded-xl bg-white text-black shadow-xl shadow-black
            shadow-black'>I have<b className="text-yellow-400">&nbsp;:</b></span>
            <div className='text-[1.8vmin] pb-[2vmin] leading-[4vmin]'>
-           <span className='bg-white rounded-xl shadow-xl shadow-black'>
+           <span className='bg-white rounded-xl shadow-lg shadow-black'>
            <span className="text-red-500">-{'>'}&nbsp;<b className="text-cyan-400">0</b>
            </span>&nbsp;<span className="rounded-xl text-black">degree certificates</span></span>&nbsp;<br/>
-           <span className='bg-white shadow-xl text-black shadow-black rounded-xl'>
+           <span className='bg-white shadow-lg text-black shadow-black rounded-xl'>
             <span className='text-red-500'>-{'>'}&nbsp;<b className="text-cyan-400">0</b></span>&nbsp;
            <span className="">work experience</span></span><br/>
            <span className='rounded-xl bg-white text-black shadow-lg shadow-black'>
@@ -92,9 +93,9 @@ export default function Home() {
            <span className='border-4 bg-white text-black w-[11vmin] rounded-xl h-[5vmin] 
            shadow-lg shadow-black'>but
            <div className='flex gap-[1.4rem] absolute left-0
-           justify-center w-[100%] pl-[7rem]
-           scale-[60%]'>
-           <style>{`
+           justify-center w-[100%] ml-[3rem]
+           scale-[70%]'>
+           <style className='shadow-lg shadow-black'>{`
            .cyancircle{
     
                 animation-delay: 0.1s;
@@ -144,11 +145,11 @@ export default function Home() {
               font-bold fixed bottom-[3rem] w-[100%] left-0
               flex justify-center items-center 
               text-white text-xl'>
-              <span className="bg-white rounded-xl shadow-xl shadow-black">
+              <span className="bg-violet-700 rounded-xl shadow-xl shadow-black">
                 Swipe up&nbsp;</span><b className='text-green-400'>/</b>&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;
-              <span className='rounded-xl bg-white shadow-xl shadow-black'>
+              <span className='rounded-xl bg-violet-700 shadow-xl shadow-black'>
                 Scroll down</span>  
           <ArrowDownwardIcon className="text-pink-700 z-40 absolute 
           scale-[180%] shadow-xl shadow-black" 

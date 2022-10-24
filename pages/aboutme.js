@@ -14,7 +14,7 @@ const AboutMe = () => {
          <header className='fixed top-0 left-0 z-20'>
          
          <div className="border-[0.3vmin] border-purple-500 rounded-xl
-          fixed z-50 top-[10.3vmin]
+          fixed z-50 top-[10.3vmin] shadow shadow-black
           ml-[2vmin] h-[5vmin] w-[20vmin]"/> 
           <SideNav/>   
         </header>
