@@ -67,7 +67,7 @@ function ContactForm() {
 
       <div className='md:flex md:flex-col md:items-center md:w-[40%] lg:w-[45%]'>
       <label className='py-2 text-orange-200' htmlFor='first'>First Name:</label>
-      <input className="flex p-1 pl-4 font-light italic
+      <input className="shadow shadow-black flex p-1 pl-4 font-light italic
       outline-none border-2 border-purple-400 rounded-3xl md:w-[90%]" 
       id="first" name="first" type="text" 
       placeholder='First name'
@@ -76,7 +76,7 @@ function ContactForm() {
     
       <div className='md:flex md:flex-col md:items-center md:w-[40%] lg:w-[45%]'>
       <label className='py-2 text-orange-200' htmlFor='last'>Last Name:</label>
-      <input className="flex p-1 pl-4 font-light italic
+      <input className="shadow shadow-black flex p-1 pl-4 font-light italic
       outline-none border-2 border-purple-400 rounded-3xl md:w-[90%]"
        id="last" name="last" type="text" 
        placeholder='Last name'
@@ -91,7 +91,7 @@ function ContactForm() {
       <label className="p-2 mb-2 text-orange-200" htmlFor="email">
         <MailOutlineIcon className='mb-[0.2rem]'/>&nbsp;Email Address:
       </label>
-      <input className="flex outline-none 
+      <input className="flex outline-none shadow shadow-black
       border-2 p-1 pl-4 font-light italic
       border-purple-400 rounded-3xl w-[100%]"
       placeholder='Enter Your Email Address'
@@ -104,6 +104,7 @@ function ContactForm() {
       htmlFor='number'><WhatsAppIcon/>&nbsp;Phone Number or WhatsApp<span className='text-violet-300'>
         (Optional)</span>:</label>
       <input className='flex outline-none border-2 w-[100%]
+      shadow shadow-black
       border-purple-400 rounded-3xl p-1 pl-4 font-light italic'
        id="number" type="number" name="number"
       placeholder='Enter Your Phone or WhatsApp Number' 
@@ -120,7 +121,7 @@ function ContactForm() {
       <div className='w-[73%] space-y-[2%] lg:w-[90%]'>
       <label className='m-4 text-orange-200' htmlFor="message"><MessageIcon/>&nbsp;Message:</label>
       <textarea
-        className='flex w-[100%] p-1 pl-4 font-light italic
+        className='flex w-[100%] p-1 pl-4 font-light italic shadow shadow-black
         outline-none border-2 border-purple-400 rounded-3xl'
         rows={4}
         id="message"
@@ -138,7 +139,7 @@ function ContactForm() {
       <div className='rounded-3xl
         py-[2%] text-center bg-gradient-to-r from-white to-gray-500
          text-violet-700 
-       shadow shadow-black cursor-pointer z-10
+       shadow-md shadow-black cursor-pointer z-10
        hover:bg-gradient-to-r hover:from-orange-300 hover:to-yellow-900 hover:text-cyan-200'>
       <button className="z-10 px-[3rem] md:px-[5rem]" type="submit" disabled={state.submitting}>
         Submit
@@ -173,8 +174,8 @@ function Contact() {
     <header className='fixed top-0 left-0 z-40'>
          
          <div className="border-[0.3vmin] border-purple-500 rounded-xl
-          fixed z-50 top-[14.5vmin]
-          ml-[2vmin] h-[5vmin] w-[17.8vmin]"/> 
+          fixed z-50 top-[16.3vmin]
+          ml-[2vmin] h-[5vmin] w-[20vmin]"/> 
           <SideNav/>   
     </header>
     <main className='text-[2.4vmin]'>

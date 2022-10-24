@@ -22,8 +22,8 @@ export default function Home() {
       <header className='fixed top-0 left-0 z-20'>
          
          <div className="border-[0.3vmin] border-purple-500 rounded-xl
-          fixed z-50 top-[3.6vmin]
-          ml-[2vmin] h-[5vmin] w-[17.8vmin]"/> 
+          fixed z-50 top-[4.3vmin]
+          ml-[2vmin] h-[5vmin] w-[20vmin]"/> 
           <SideNav/>   
       </header>
       <Head>
@@ -76,13 +76,13 @@ export default function Home() {
 
           <div className="text-[2.5vmin] absolute left-0 top-[32rem]
           flex justify-center flex-col items-center w-[100%]">  
-           <span className='mb-[2vmin] rounded-xl bg-white text-black shadow-lg shadow-black
+           <span className='mb-[2vmin] rounded-xl bg-white text-black shadow-xl shadow-black
            shadow-black'>I have<b className="text-yellow-400">&nbsp;:</b></span>
            <div className='text-[1.8vmin] pb-[2vmin] leading-[4vmin]'>
-           <span className='bg-white rounded-xl shadow-lg shadow-black'>
+           <span className='bg-white rounded-xl shadow-xl shadow-black'>
            <span className="text-red-500">-{'>'}&nbsp;<b className="text-cyan-400">0</b>
            </span>&nbsp;<span className="rounded-xl text-black">degree certificates</span></span>&nbsp;<br/>
-           <span className='bg-white shadow-lg text-black shadow-black rounded-xl'>
+           <span className='bg-white shadow-xl text-black shadow-black rounded-xl'>
             <span className='text-red-500'>-{'>'}&nbsp;<b className="text-cyan-400">0</b></span>&nbsp;
            <span className="">work experience</span></span><br/>
            <span className='rounded-xl bg-white text-black shadow-lg shadow-black'>
@@ -284,7 +284,7 @@ export default function Home() {
 
          
           <div className='z-40 top-0 absolute rounded-3xl relative
-           bg-gradient-to-r from-purple-500 to-black
+           bg-gradient-to-r from-purple-500 to-black 
           p-4 shadow-xl shadow-black w-full'>
 
             <span className="font-bold text-[5vmin]"><span className="text-pink-600">B
@@ -307,7 +307,7 @@ export default function Home() {
              shadow-md shadow-black mt-[1rem]
             hover:text-cyan-500 hover:shadow-lg hover:shadow-black'>
              <Link href={`${process.env.PRIVATE_BLIPKAR_KEY}`}>
-              <a className='text-[1.9vw]'><b className='text-cyan-500'>#1</b> BLIPKART App&nbsp;(Flipkart inspired)</a>
+              <a className='text-[3vw]'><b className='text-cyan-500'>#1</b> BLIPKART App&nbsp;(Flipkart inspired)</a>
              </Link>
              </div>
              <div className='py-[0.2vw] rounded-full text-violet-800 
@@ -316,7 +316,7 @@ export default function Home() {
              shadow-md shadow-black
              hover:text-cyan-500 hover:shadow-lg hover:shadow-black'>
              <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
-              <a className='text-[1.9vw]'><b className='text-cyan-500'>#2</b> MESLA App&nbsp;(Tesla inspired)</a>
+              <a className='text-[3vw]'><b className='text-cyan-500'>#2</b> MESLA App&nbsp;(Tesla inspired)</a>
              </Link>
              </div>
              
