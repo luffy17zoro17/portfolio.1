@@ -13,9 +13,9 @@ const AboutMe = () => {
          <div className="relative">
          <header className='fixed top-0 left-0 z-20'>
          
-         <div className="border-4 border-yellow-300 rounded-xl
-          fixed z-50 top-[8.3vmin]
-          ml-[1.7vmin] h-[5vmin] w-[16.4vmin]"/> 
+         <div className="border-[0.3vmin] border-purple-500 rounded-xl
+          fixed z-50 top-[9vmin]
+          ml-[2vmin] h-[5vmin] w-[17.8vmin]"/> 
           <SideNav/>   
         </header>
       <div className="w-full h-full fixed">
@@ -55,8 +55,9 @@ const AboutMe = () => {
             p-4 text-xl shadow-lg shadow-black md:mx-[11rem]">
             <h1 className="font-bold fixed text-[6vmin] flex justify-center
             left-0 w-[100%] top-[4.5rem]
-            shadow-lg shadow-cyan-400">ABOUT&nbsp;<b className="text-yellow-400">
-               [</b>ME<b className="text-yellow-400">]</b></h1>   
+            "><span className="shadow-xl shadow-cyan-500 border-4 rounded-3xl py-[1vmin]
+             px-[3vmin]
+              bg-black">ABOUT&nbsp;ME</span></h1>   
             
             <p className="p-2 pt-[7rem]">Im Thomas Mathew, 30, have a diploma in VFX.
 

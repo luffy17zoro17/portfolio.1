@@ -9,9 +9,11 @@ import { useState } from 'react';
 
 
 
+
 export default function Home() {
 
   const [hide,setHide] = useState(true);
+
 
   return (
      
@@ -19,9 +21,9 @@ export default function Home() {
      <div className='relative'>
       <header className='fixed top-0 left-0 z-20'>
          
-         <div className="border-4 border-yellow-300 rounded-xl
-          fixed z-50 top-[2.8vmin]
-          ml-[1.7vmin] h-[5vmin] w-[16.4vmin]"/> 
+         <div className="border-[0.3vmin] border-purple-500 rounded-xl
+          fixed z-50 top-[3.6vmin]
+          ml-[2vmin] h-[5vmin] w-[17.8vmin]"/> 
           <SideNav/>   
       </header>
       <Head>
@@ -36,49 +38,62 @@ export default function Home() {
       <div className='fixed h-screen w-[100%]
         z-10'>
       <Image 
-          src="https://images.unsplash.com/photo-1605012464390-45820d1f7bdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          src="https://img.freepik.com/free-photo/fun-spelled-word-with-plastic-blocks-background_53876-14686.jpg?w=1380&t=st=1666560257~exp=1666560857~hmac=e50e8a2bdc079968ad4cb2041b32bbf530ed40168ff383cb736606f08e238ab8"
           layout="fill"
           className="object-cover absolute"  
           alt=""
         />
      
         
-        <div className='bg-black opacity-70 absolute flex w-[100%] h-[100%]'/>
+        <div className='shadow-inner shadow-black
+         absolute flex w-[100%] h-[100%]'/>
         
         <div className='font-bold text-white text-[3rem] pt-[5rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
          border-b-[2rem]
-         border-x-[4rem] border-yellow-400'>
+         border-x-[1rem] border-yellow-400'>
+           
 
-          <div className='px-[0.3rem] pt-[5rem]'>
-            <span className="shadow-lg shadow-cyan-400 text-pink-500 font-mono
+          <div className='border-[1rem] shadow-xl shadow-black border-yellow-400 relative
+          p-3 rounded-tl-3xl rounded-br-3xl shadow-inner'>
+            <div className='bg-pink-400 opacity-70'></div>
+            <span className="bg-white rounded-3xl
+            shadow-lg shadow-black text-red-700 font-mono
           text-[9vmin] tracking-wider
-           hover:opacity-80">
-            Thomas Mathew</span><span className='text-[3vmin]'><br/>from</span>&nbsp;
-             <span className="text-[4vmin] shadow-lg shadow-yellow-400 text-green-200
-              hover:opacity-80">
+           hover:shadow-green-300">
+            Thomas Mathew</span><span className='rounded-3xl bg-black text-[3vmin]'><br/>from</span>&nbsp;
+             <span className="text-[4vmin] shadow-lg shadow-black text-green-400 
+             rounded-3xl bg-white
+              hover:shadow-violet-700">
               Kerala, India</span><br/>
-             <span className='text-orange-400 italic px-1 text-[4.5vmin]
-            shadow-lg shadow-red-400 leading-[1rem] hover:opacity-80'>
-            &quot;Enjoys designing website UIs<b className="text-yellow-400">.</b>&quot;
+             <span className='text-violet-400 italic px-1 text-[4.5vmin] bg-white 
+             rounded-3xl
+            shadow-lg shadow-black leading-[1rem] hover:shadow-red-500'>
+            &quot;Enjoys designing website UIs<b className="text-red-500">.</b>&quot;
 
             </span>
+          </div> 
 
           <div className="text-[2.5vmin] absolute left-0 top-[32rem]
           flex justify-center flex-col items-center w-[100%]">  
-           <span className='pb-[2vmin]'>I have<b className="text-yellow-400">&nbsp;:</b></span>
+           <span className='mb-[2vmin] rounded-xl bg-white text-black shadow-lg shadow-black
+           shadow-black'>I have<b className="text-yellow-400">&nbsp;:</b></span>
            <div className='text-[1.8vmin] pb-[2vmin] leading-[4vmin]'>
+           <span className='bg-white rounded-xl shadow-lg shadow-black'>
            <span className="text-red-500">-{'>'}&nbsp;<b className="text-cyan-400">0</b>
-           </span>&nbsp;<span className="">degree certificates</span>&nbsp;<br/>
-           <span className='text-red-500'>-{'>'}&nbsp;<b className="text-cyan-400">0</b></span>&nbsp;
-           <span className="">work experience</span><br/>
-           <span className="text-red-500">-{'>'}&nbsp;<b className="text-green-200">1</b></span>&nbsp;
-            <span className="">Diploma - In VFX</span><br/>
+           </span>&nbsp;<span className="rounded-xl text-black">degree certificates</span></span>&nbsp;<br/>
+           <span className='bg-white shadow-lg text-black shadow-black rounded-xl'>
+            <span className='text-red-500'>-{'>'}&nbsp;<b className="text-cyan-400">0</b></span>&nbsp;
+           <span className="">work experience</span></span><br/>
+           <span className='rounded-xl bg-white text-black shadow-lg shadow-black'>
+            <span className="text-red-500">-{'>'}&nbsp;<b className="text-green-200">1</b></span>&nbsp;
+            <span className="">Diploma - In VFX</span></span><br/>
            </div>
-           but
-           <div className='flex h-[2rem] gap-[1.4rem] absolute left-0
-           justify-center w-[100%] pl-[7rem] mt-[7.8rem]
-           scale-[70%] sm:mt-[13.9rem]'>
+           <span className='border-4 bg-white text-black w-[11vmin] rounded-xl h-[5vmin] 
+           shadow-lg shadow-black'>but
+           <div className='flex gap-[1.4rem] absolute left-0
+           justify-center w-[100%] pl-[7rem]
+           scale-[60%]'>
            <style>{`
            .cyancircle{
     
@@ -113,7 +128,7 @@ export default function Home() {
            </div>
 
            </div>
-
+           </span>
 
 
           </div>     
@@ -125,14 +140,16 @@ export default function Home() {
       </div>
 
 
-      <div className='z-20 animate-bounce h-[6%] text-violet-500
+      <div className='z-20 animate-bounce h-[6%] text-white text-black
               font-bold fixed bottom-[3rem] w-[100%] left-0
-              flex justify-center items-center
+              flex justify-center items-center 
               text-white text-xl'>
-              Swipe up&nbsp;<b className='text-green-400'>/</b>&nbsp;
+              <span className="bg-white rounded-xl shadow-xl shadow-black">
+                Swipe up&nbsp;</span><b className='text-green-400'>/</b>&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;
-              Scroll down  
+              <span className='rounded-xl bg-white shadow-xl shadow-black'>
+                Scroll down</span>  
           <ArrowDownwardIcon className="text-pink-700 z-40 absolute 
           scale-[180%] shadow-xl shadow-black" 
             fontSize="large"/>
@@ -140,7 +157,7 @@ export default function Home() {
 
 
 
-      <div className='flex flex-col absolute shadow shadow-black
+      <div className='flex flex-col relative
         w-[100%] z-30 h-[15rem] top-[66rem]'>
         <div className={styles.green}>
 
@@ -154,14 +171,24 @@ export default function Home() {
           {hide ? `SHOW` : `HIDE`}</button>
          </div>
 
+
+         <div className={hide ? `relative w-[100%] rounded-3xl
+          
+         flex-col h-[54vmin] z-0` : `relative mx-[8%] bg-gradient-to-b rounded-3xl
+          shadow-inner
+          shadow-black
+         flex-col z-0`}>
+
+
          <div className={hide ? `border-l-[4rem] border-r-[2rem]
-         border-y-[2rem] border-green-500 drop-shadow-xl relative
-         shadow-xl shadow-black h-[54vmin]` : `border-l-[4rem] border-r-[2rem]
-         border-y-[2rem] border-green-500 relative
-         shadow-xl shadow-black h-[77vmin]` }>
+         border-y-[2rem] absolute border-transparent w-[100%]
+         ` : `
+         border-y-[2rem] absolute w-[100%] border-transparent
+         h-[81vmin]` }>
+        
 
          <div className={hide ? `hidden` : `text-[1.1rem] font-mono 
-            absolute z-50 bottom-[-0.7rem]
+            absolute z-50 bottom-[-2rem]
             scale-[60%] p-4 left-[-3rem]
             lg:left-[0rem]
            flex justify-center flex-col items-center bg-white 
@@ -240,25 +267,30 @@ export default function Home() {
               </div>
           </div>
 
+          <div className={hide ? `hidden` : `border-y-[1vw] border-l-[2vw] border-pink-600 
+             shadow-lg shadow-black rounded-3xl absolute font-light bg-pink-600
+               right-[4vmin] top-[60vmin] z-50`}>
+              <div className='shadow-inner shadow-black rounded-3xl bg-white
+              text-[1.6vmin] p-[3vw] py-[0.5vw] lg:text-[1.7vmin]'>
+               Ah yes..
+               Building Blocks(LEGO)&nbsp;&nbsp;
+
+               <b>-My Childhood</b>
+              </div>
+          </div>
+
           <div>
-          <div className='absolute shadow-xl shadow-black
-          h-[100%] top-0 z-[-10]'/>
 
-          
-          
-          
-          <div className='z-40 top-0 absolute
+
+         
+          <div className='z-40 top-0 absolute rounded-3xl relative
            bg-gradient-to-r from-purple-500 to-black
-          p-4 shadow-xl shadow-black
-          h-full
-           w-full'>
+          p-4 shadow-xl shadow-black w-full'>
 
-          
-
-            <span className="font-bold drop-shadow-xl text-[5vmin]"><span className="text-pink-600">B
+            <span className="font-bold text-[5vmin]"><span className="text-pink-600">B
           </span><span className="text-purple-700">A</span>
             <span className="text-cyan-400">M</span>M!</span> 
-             &nbsp;<span className='text-white'>I build these fellas:</span> <br/>
+             &nbsp;<span className='text-white text-[2vmin]'>I build these fellas:</span> <br/>
              <div className="absolute flex flex-wrap justify-center items-center
              text-[2.1vmin] text-white px-3 py-2">Prioritize potential over degrees?&nbsp;
              Time to join forces! &nbsp;&nbsp;<b className="bg-gray-500 border shadow shadow-black
@@ -267,37 +299,27 @@ export default function Home() {
              </div>  
              
             <div className='font-bold italic text-center shadow-black text-[3vmin]
-             underline underline-offset-[0.4rem] space-y-[1rem] px-[1rem]
-             shadow-inner h-[25vmin] flex flex-col justify-center items-center'>
-            <div className='text-blue-800 py-[0.2rem] px-[1rem]
-             rounded-full decoration-slate-100 
+             underline underline-offset-[0.4rem] space-y-[1vw] px-[1vw]
+             shadow-inner h-[20vw] flex flex-col justify-center items-center'>
+            <div className='text-blue-800 py-[0.2vw] px-[1vw]
+             rounded-full decoration-slate-100 animate-pulse
              bg-gradient-to-b from-orange-300 to-blue-200
              shadow-md shadow-black mt-[1rem]
             hover:text-cyan-500 hover:shadow-lg hover:shadow-black'>
              <Link href={`${process.env.PRIVATE_BLIPKAR_KEY}`}>
-              <a><b className='text-cyan-500'>#1</b> BLIPKART App&nbsp;(Flipkart inspired)</a>
+              <a className='text-[1.9vw]'><b className='text-cyan-500'>#1</b> BLIPKART App&nbsp;(Flipkart inspired)</a>
              </Link>
              </div>
-             <div className='py-[0.2rem] rounded-full text-violet-800 
-              bg-gradient-to-b from-orange-300 to-red-500
-              decoration-slate-100 px-[1rem]
+             <div className='py-[0.2vw] rounded-full text-violet-800 
+              bg-gradient-to-b from-orange-300 to-red-500 animate-pulse
+              decoration-slate-100 px-[1vw]
              shadow-md shadow-black
              hover:text-cyan-500 hover:shadow-lg hover:shadow-black'>
              <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
-              <a><b className='text-cyan-500'>#2</b> MESLA App&nbsp;(Tesla inspired)</a>
+              <a className='text-[1.9vw]'><b className='text-cyan-500'>#2</b> MESLA App&nbsp;(Tesla inspired)</a>
              </Link>
              </div>
-             <div className={hide ? `hidden` : `border-y-[5vmin] border-l-[2vmin] border-pink-600 
-             shadow-lg shadow-black bg-white rounded-3xl absolute font-light
-               z-30 right-[4vmin] bottom-5`}>
-              <div className='shadow-inner shadow-black
-              text-[1.7vmin] p-[0.1rem]'>
-               Ah yes..
-               Building Blocks(LEGO)&nbsp;&nbsp;
-
-               <b>-My Childhood</b>
-              </div>
-             </div>
+             
              </div>
 
             
@@ -309,8 +331,9 @@ export default function Home() {
         </div>
         </div>
         </div>
+        </div>
       </div>
-      </div>
+    
     
   );
 }
