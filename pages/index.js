@@ -51,7 +51,7 @@ export default function Home() {
         <div className='font-bold text-white text-[3rem] pt-[11rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
          border-b-[2rem] rounded-b-3xl
-         border-x-[1rem] border-yellow-400 md:pt-[7rem] lg:pt-[7rem]'>
+         border-x-[1rem] border-yellow-400 md:pt-[7rem]'>
            
 
           <div className='border-[1rem] shadow-xl shadow-black border-green-300 relative
