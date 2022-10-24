@@ -173,9 +173,9 @@ function Contact() {
     <div className='relative w-[100%] h-screen'>
     <header className='fixed top-0 left-0 z-40'>
          
-         <div className="border-[0.3vmin] border-purple-500 rounded-xl
-          fixed z-50 top-[16.3vmin] shadow shadow-black
-          ml-[2vmin] h-[5vmin] w-[20vmin]"/> 
+         <div className="border border-purple-500 rounded-xl
+          fixed z-50 top-[5.5rem] shadow shadow-black
+          ml-[1rem] h-[2rem] w-[8rem]"/> 
           <SideNav/>   
     </header>
     <main className='text-[2.4vmin]'>

@@ -21,9 +21,9 @@ export default function Home() {
      <div className='relative'>
       <header className='fixed top-0 left-0 z-20'>
          
-         <div className="border-[0.3vmin] border-purple-500 rounded-xl
-          fixed z-50 top-[4.3vmin] shadow shadow-black
-          ml-[2vmin] h-[5vmin] w-[20vmin]"/> 
+         <div className="border border-purple-500 rounded-xl
+          fixed z-50 top-[1.1rem] shadow shadow-black
+          ml-[1rem] h-[2rem] w-[8rem]"/> 
           <SideNav/>   
       </header>
       <Head>
@@ -51,7 +51,7 @@ export default function Home() {
         <div className='font-bold text-white text-[3rem] pt-[11rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
          border-b-[2rem] rounded-b-3xl
-         border-x-[1rem] border-yellow-400 md:pt-[9rem] lg:pt-[7rem]'>
+         border-x-[1rem] border-yellow-400 md:pt-[7rem] lg:pt-[7rem]'>
            
 
           <div className='border-[1rem] shadow-xl shadow-black border-green-300 relative
