@@ -33,11 +33,11 @@ const AboutMe = () => {
 
          <div className="mt-[15rem] ml-[3rem] z-60 border-4 ">
         <button onClick={()=>setToggleOn(!toggleOn)}
-         className={!toggleOn ? `border-4 absolute top-[5rem] left-[10rem]
+         className={!toggleOn ? `border-4 absolute top-[10rem] left-[10rem]
           rounded-full
           w-[50vmin] h-[50vmin] z-40 p-[4vmin]
          shadow-xl shadow-black bg-red-400 left-[9vmin] text-[5vmin] font-bold` : 
-         `bg-green-300 border-4 fixed z-30 top-[5rem] right-[4vmin] rounded-full 
+         `bg-green-300 border-4 fixed z-30 top-[5rem] right-[4vmin] rounded-full shadow-inner
          shadow-xl shadow-black font-bold h-[4rem] w-[4rem] sm:h-[5rem] sm:w-[5rem]
           md:text-3xl md:h-[8rem] md:w-[8rem]`}>
             <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[100%] hover:text-purple-700"}>

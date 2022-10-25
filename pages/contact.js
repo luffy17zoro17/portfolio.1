@@ -47,21 +47,23 @@ function ContactForm() {
 
   
    <div className='relative flex justify-center 
-   flex-col items-center h-[63rem]
-    w-[100%] bg-white text-[1rem] md:h-[60rem] lg:h-[55rem]'>
+   flex-col items-center h-[65rem] bg-black
+    w-[100%] text-[1rem] md:h-[60rem] lg:h-[55rem]'>
     <div className='static shadow-lg border-black p-6 py-[3rem]
-        shadow-pink-600 rounded-full border-4'>   
+        shadow-pink-600 rounded-full border-4 
+        bg-gradient-to-b from-orange-500 to-blue-700'>   
     <form onSubmit={handleSubmit}>
 
       <div className='flex flex-col justify-center items-center'>
-        <h1 className='font-bold text-4xl top-[5rem] z-30 
+        <h1 className='font-bold text-4xl top-[8rem] z-30 
         fixed shadow-md shadow-black bg-black
         flex justify-center text-white md:top-[3rem]'>CONTACT</h1>
       <div className='flex flex-col justify-center items-center space-y-2 
       text-green-600'>
       <div className='flex flex-col items-center justify-center'>
       <div className='flex flex-col items-center justify-center
-      space-y-[2rem] text-center font-semibold
+      space-y-[2rem] text-center font-semibold md:bg-gradient-to-b md:from-orange-500 
+      md:to-orange-700
       md:flex-row md:space-y-[0rem] md:space-x-[2rem] 
       md:border-4 md:rounded-full md:px-6 md:py-6 
       md:border-black md:bg-white md:z-0 md:border-b-0'>
@@ -70,7 +72,7 @@ function ContactForm() {
     
       <div className='md:flex md:flex-col md:items-center'>
        
-      <label className='z-20 py-2 text-green-700' htmlFor='first'>First Name:</label>
+      <label className='z-20 py-2 text-white' htmlFor='first'>First Name:</label>
       <input className="shadow-inner shadow-black
        flex p-1 pl-4 font-light italic z-20
        placeholder-green-500
@@ -81,7 +83,7 @@ function ContactForm() {
       </div>
     
       <div className='md:flex md:flex-col md:items-center'>
-      <label className='py-2 text-green-700' htmlFor='last'>Last Name:</label>
+      <label className='py-2 text-white' htmlFor='last'>Last Name:</label>
       <input className="shadow-inner placeholder-green-500
        shadow-black flex p-1 pl-4 font-light italic
       outline-none border-2 border-purple-400 rounded-3xl"
@@ -94,7 +96,7 @@ function ContactForm() {
 
       <div className='flex flex-col space-y-[2rem] pt-[2rem] font-semibold'>
       <div className='space-y-[0.3rem]'>
-      <label className="p-2 text-green-700" htmlFor="email">
+      <label className="p-2 text-white" htmlFor="email">
         <MailOutlineIcon className='mb-[0.2rem]'/>&nbsp;Email Address:
       </label>
       <input className="flex outline-none shadow-inner
@@ -107,7 +109,7 @@ function ContactForm() {
       </div>
 
       <div className='space-y-[0.3rem]'>
-      <label className="p-2 text-green-700" 
+      <label className="p-2 text-white" 
       htmlFor='number'><WhatsAppIcon/>&nbsp;
       Phone Number or WhatsApp<span className='text-green-400'>
         (Optional)</span>:</label>
@@ -127,7 +129,7 @@ function ContactForm() {
         errors={state.errors}
       />
       <div className='space-y-[0.3rem]'>
-      <label className='m-4 text-green-700' 
+      <label className='m-4 text-white' 
       htmlFor="message"><MessageIcon/>&nbsp;Message:</label>
       <textarea
         className='flex p-1 pl-4 font-light italic shadow-inner
