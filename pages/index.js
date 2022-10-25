@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link';
+
 import SideNav from '../components/SideNav';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { useState } from 'react';
+
+import VioletBlock from '../components/VioletBlock';
 
 
 
@@ -155,189 +156,29 @@ export default function Home() {
                 Scroll down</span>  
           <ArrowDownwardIcon className="text-pink-700 z-40 absolute 
           scale-[180%] shadow-xl shadow-black" 
-            fontSize="large"/>
+            fontSize="large"/> 
       </div>
 
+      <div>
+            <VioletBlock
+               hide={hide}
+               setHide={setHide}
+            />
+      <div>
+            
+      </div>
+      </div>  
 
-
-      <div className='flex flex-col relative
-        w-[100%] z-30 h-[15rem] top-[66rem]'>
-        <div className={styles.green}>
-
-         <div className='right-[3rem] absolute z-50 
-         shadow-xl shadow-black
-         top-[5.7vmin] border-4 cursor-pointer'>
-         <button className="w-[100%] px-[3vmin]
-          py-[0.4rem] bg-red-500 hover:animate-bounce
-         font-mono font-bold text-[2.3vmin]
-         " onClick={()=>setHide(!hide)}>
-          {hide ? `SHOW` : `HIDE`}</button>
-         </div>
-
-
-         <div className={hide ? `relative w-[100%] rounded-3xl
-          
-         flex-col h-[54vmin] z-0` : `relative mx-[8%] bg-gradient-to-b rounded-3xl
-         
-         flex-col z-0`}>
-
-
-     
+      
+                
+              
+      
         
 
-         <div className={hide ? `hidden` : `text-[1.1rem] font-mono 
-            absolute z-50 bottom-[-2rem]
-            scale-[60%] p-4 left-[-3rem]
-            lg:left-[0rem]
-           flex justify-center flex-col items-center bg-white 
-           shadow-lg shadow-black hidden md:flex`}>
-            <span className='pb-[0.5rem]'>Im reliving my&nbsp;
-             <span className="text-white font-semibold shadow-md shadow-black bg-violet-500">childhood
-            </span> with:</span>
-              <div className='text-black space-x-[2rem] flex'>
-                <div className='h-[4rem] w-[4rem] p-1 shadow-md shadow-black hover:scale-[102%]'>
-                <Link href="https://www.w3schools.com/html/">
-                  <a className="">
-                  <Image 
-                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"
-                   layout="responsive"
-                   height={900}
-                   width={900}
-                   className="object-cover hover:scale-[90%]"
-                   alt=""
-                   />
-                  </a>
-                </Link>
-                </div>
-                <div className='h-[4rem] w-[4rem] p-1 shadow-md shadow-black hover:scale-[102%]'>
-                <Link href="https://www.w3.org/Style/CSS/Overview.en.html">
-                  <a>
-                  <Image 
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                    layout="responsive"
-                    height={900}
-                    width={900}
-                    className="object-contain hover:scale-[90%]"
-                    alt=""
-                  />  
-                  </a>
-                </Link>
-                </div>
-                <div className='h-[4rem] w-[4rem] p-1 shadow-md shadow-black hover:scale-[102%]'>
-                <Link href="https://tailwindcss.com/"><a>
-                  <Image 
-                  src="https://res.cloudinary.com/practicaldev/image/fetch/s--JXlFx1ne--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/f30hrij5h3j7gt2klbcu.jpg"
-                  layout="responsive"
-                  height={900}
-                  width={900}
-                  className="object-cover hover:object-contain"
-                  alt=""
-                  />
-                </a>
-                </Link>
-                </div>
-                <div className='h-[4rem] w-[4rem] p-1 shadow-md shadow-black hover:scale-[102%]'>
-                <Link href="https://reactjs.org/"><a>
-                  <Image 
-                    src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png?fm=webp"
-                    layout="responsive"
-                    height={900}
-                    width={900}
-                    className="object-cover hover:scale-[90%]"
-                    alt=""
-                    
-                    />
-                </a>
-                </Link>
-                </div>
-                <div className='h-[4rem] w-[4rem] p-1 shadow-md shadow-black hover:scale-[102%]'>
-                <Link href="https://nextjs.org/"><a>
-                  <Image 
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png"
-                  layout="responsive"
-                  height={900}
-                  width={900}
-                  className="object-contain hover:scale-[90%]"
-                  alt=""
-                  />
-                </a></Link>
-                </div>
-              </div>
-          </div>
-
-          <div className={hide ? `hidden` : `border-y-[1vw] border-l-[2vw] border-pink-600 
-             shadow-lg shadow-black rounded-3xl absolute font-light bg-pink-600
-               right-[4vw] top-[28rem] z-50`}>
-              <div className='shadow-inner shadow-black rounded-3xl bg-white
-              text-[1rem] p-[3vw] py-[0.5vw] md:text-[01.2vw]'>
-               Ah yes..
-               Building Blocks(LEGO)&nbsp;&nbsp;
-
-               <b>-My Childhood</b>
-              </div>
-          </div>
-
-          <div>
-
-
-         
-          <div className='z-40 top-0 absolute rounded-3xl relative
-           bg-gradient-to-r from-purple-500 to-black
-          p-4 shadow-xl shadow-black mx-[10%]'>
-
-            <span className="font-bold text-[3rem]"><span className="text-pink-600">B
-          </span><span className="text-purple-700">A</span>
-            <span className="text-cyan-400">M</span>M!</span> 
-             &nbsp;<span className='text-white text-[1rem]'>I build these fellas:</span> <br/>
-             <div className="absolute flex flex-wrap justify-center items-center
-             
-             text-[1.3rem] text-white px-3 py-2.5">Prioritize potential over degrees?&nbsp;
-             Time to join forces! &nbsp;&nbsp;
-             <b className="bg-gray-500 border shadow shadow-black
-              animate-pulse">
-               <Link href='/contact'><a>🤝</a></Link></b>
-             </div>  
-             
-            <div className='font-bold italic text-center shadow-black text-[3vmin]
-             underline underline-offset-[0.4rem] space-y-7 my-2 px-[1rem]
-             shadow-inner h-[24rem] flex flex-col justify-center items-center'>
-            <div className='text-blue-800 py-[0.2rem] px-[1vw]
-             rounded-full decoration-slate-100 animate-pulse
-             bg-gradient-to-b from-orange-300 to-blue-200
-             shadow-md shadow-black mt-[1rem]
-            hover:text-cyan-500 hover:shadow-lg hover:shadow-black
-             active:shadow-inner active:shadow-black'>
-             <Link href={`${process.env.PRIVATE_BLIPKAR_KEY}`}>
-              <a className='text-[4vw]'><b className='text-cyan-500'>#1</b>
-              BLIPKART App&nbsp;
-                <span className='text-sm md:text-xl xl:text-3xl'>(Flipkart inspired)</span></a>
-             </Link>
-             </div>
-             <div className='py-[0.2rem] rounded-full text-violet-800 
-              bg-gradient-to-b from-orange-300 to-red-500 animate-pulse
-              decoration-slate-100 px-[1vw]
-             shadow-md shadow-black active:shadow-inner active:shadow-black
-             hover:text-cyan-500 hover:shadow-lg hover:shadow-black'>
-             <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
-              <a className='text-[4vw]'>
-                <b className='text-cyan-500'>#2</b> MESLA App&nbsp;
-                <span className='text-sm md:text-xl xl:text-3xl'>(Tesla inspired)</span></a>
-             </Link>
-             </div>
-             
-             </div>
-
-            
-          </div> 
-          </div> 
-          
-         
-         
+      </div>
+      
     
-        </div>
-        </div>
-        </div>
-        </div>
+      
     
     
     
