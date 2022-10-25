@@ -25,10 +25,13 @@ const VioletBlock = ({hide, setHide}) => {
          <div className='right-[3rem] absolute z-50 
          shadow-xl shadow-black
           border-4 cursor-pointer'>
-         <button className="w-[100%] py-[0.2rem] px-[1rem]
+         <button className={hide ? `w-[100%] py-[0.2rem] px-[1rem]
           bg-red-500 hover:animate-bounce
-         font-mono font-bold text-[1rem]
-         " onClick={()=>setHide(!hide)}>
+         font-mono font-bold text-[1rem]` : `
+         w-[100%] py-[0.2rem] px-[1rem]
+          bg-red-500 hover:animate-bounce
+         font-mono font-bold text-[1rem] focus:shadow-inner focus:shadow-black`} 
+         onClick={()=>setHide(!hide)}>
           {hide ? `SHOW` : `HIDE`}</button>
          </div> 
         
