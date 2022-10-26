@@ -42,7 +42,7 @@ const AboutMe = () => {
          `bg-red-500 border-4 fixed z-30 top-[5rem] right-[4vmin] rounded-full shadow-inner
          shadow-xl shadow-black font-bold h-[4rem] w-[4rem] sm:h-[5rem] sm:w-[5rem]
           md:text-3xl md:h-[8rem] md:w-[8rem] active:shadow-xl active:shadow-black`}>
-            <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[100%] hover:text-purple-700"}>
+            <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[110%] hover:text-purple-700"}>
                 {!toggleOn ? "Press the big chunky tempting RED BUTTON" : "Press Again"}</h1>
         </button>
         </div>
