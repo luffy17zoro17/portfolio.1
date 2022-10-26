@@ -5,7 +5,7 @@ const SideNav = () => {
 
     return (
        <div className="relative flex">
-          <div className="text-[1.2rem] ml-[9rem] 
+          <div className="text-md ml-[9rem] 
           rounded-br-3xl px-[2rem] py-[0.3rem]
            border-4 border-gray-300 shadow-inner shadow-black
            bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-300
@@ -14,7 +14,7 @@ const SideNav = () => {
           </div>
         <div className="fixed bg-gradient-to-r from-black via-cyan-800 to-purple-700
          w-[10rem] h-[9rem] space-y-[0.4rem] p-3 px-[1rem]
-        shadow-lg shadow-black border-[0.4rem] border-orange-500
+        shadow-lg shadow-black border-[0.2rem] border-orange-400
         rounded-br-3xl
         flex flex-col text-[1.2rem] font-bold text-yellow-200">
 
