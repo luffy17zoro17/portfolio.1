@@ -13,7 +13,7 @@ const YellowGreenBlock = () => {
          border-x-[1rem] border-yellow-400 md:pt-[7rem]'>
            
 
-          <div className='border-[1rem] shadow-xl shadow-black border-green-300 relative
+          <div className='border-[1rem] shadow-xl shadow-black border-green-100 relative
           p-3 rounded-tl-3xl rounded-br-3xl shadow-inner'>
             <div className='bg-pink-400 opacity-70'></div>
             <span className="bg-gradient-to-r from-white to-gray-700 rounded-3xl
