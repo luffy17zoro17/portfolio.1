@@ -25,8 +25,8 @@ export default function Home() {
       <header className='fixed top-0 left-0 z-20'>
          
          <div className="border border-purple-500 rounded-xl
-          fixed z-50 top-[1.1rem] shadow shadow-black
-          ml-[1rem] h-[2rem] w-[8rem] active:shadow-inner active:shadow-black"/> 
+          fixed z-50 top-[1rem] shadow shadow-black
+          ml-[0.6rem] h-[2rem] w-[8rem] active:shadow-inner active:shadow-black"/> 
           <SideNav/>   
       </header>
       <Head>

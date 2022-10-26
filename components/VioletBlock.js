@@ -12,10 +12,10 @@ const VioletBlock = ({hide, setHide}) => {
     return (
       
         <div className='border-4 relative
-       z-30 top-[70rem] rounded-tl-3xl
+       z-30 top-[62rem] rounded-tl-3xl
        rounded-br-3xl
            bg-gradient-to-r from-purple-500 to-black
-          p-4 shadow-xl shadow-black lg:top-[60rem]'>
+          p-4 shadow-xl shadow-black'>
         <div className='flex flex-col border-2 shadow-inner 
         shadow-black rounded-bl-3xl rounded-tr-3xl'>
       
