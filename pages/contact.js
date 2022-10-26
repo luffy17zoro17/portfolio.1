@@ -20,7 +20,7 @@ const Contact=()=>{
     <header className='fixed top-0 left-0 z-40'>
          
          <div className="border border-purple-500 rounded-xl
-          fixed z-50 top-[5.4rem] shadow shadow-black
+          fixed z-50 top-[5.3rem] shadow shadow-black
           ml-[0.6rem] h-[2rem] w-[8rem] active:shadow-inner active:shadow-black"/> 
           <SideNav/>   
     </header>
