@@ -6,7 +6,7 @@ import SideNav from '../components/SideNav';
 import { useState } from 'react';
 
 import VioletBlock from '../components/VioletBlock';
-import YellowGreenBlock from '../components/YellowGreenBlock';
+import GrayBlackBlock from '../components/GrayBlackBlock';
 import ScrollSwipeArrow from '../components/ScrollSwipeArrow';
 
 
@@ -51,7 +51,7 @@ export default function Home() {
         <div className='shadow-inner shadow-black
          absolute flex w-[100%] h-[100%]'/>
         
-        <YellowGreenBlock/>
+        <GrayBlackBlock/>
           
         </div>
   

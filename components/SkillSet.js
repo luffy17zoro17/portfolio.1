@@ -18,7 +18,7 @@ const SkillSet = () => {
                 to-transparent z-0
                  absolute w-[100%] h-full 
                  top-0"/>
-                <div className='h-[8rem] w-[8rem] p-1 shadow-md bg-white z-30
+                <div className='h-[8rem] w-[8rem] p-1 shadow-md bg-white z-20
                 shadow-black hover:scale-[102%] lg:h-[14rem] lg:w-[14rem]'>
                 <Link href="https://www.w3schools.com/html/">
                   <a className="">
@@ -33,7 +33,7 @@ const SkillSet = () => {
                   </a>
                 </Link>
                 </div>
-                <div className='h-[8rem] w-[8rem] p-1 shadow-md bg-white z-30
+                <div className='h-[8rem] w-[8rem] p-1 shadow-md bg-white z-20
                 shadow-black hover:scale-[102%] lg:h-[14rem] lg:w-[14rem]'>
                 <Link href="https://www.w3.org/Style/CSS/Overview.en.html">
                   <a>
@@ -48,7 +48,7 @@ const SkillSet = () => {
                   </a>
                 </Link>
                 </div>
-                <div className='h-[8rem] w-[8rem] p-1 bg-white z-30
+                <div className='h-[8rem] w-[8rem] p-1 bg-white z-20
                  shadow-md shadow-black hover:scale-[102%] lg:h-[14rem] lg:w-[14rem]'>
                 <Link href="https://tailwindcss.com/"><a>
                   <Image 
@@ -62,7 +62,7 @@ const SkillSet = () => {
                 </a>
                 </Link>
                 </div>
-                <div className='h-[8rem] w-[8rem] p-1 bg-white shadow-md z-30
+                <div className='h-[8rem] w-[8rem] p-1 bg-white shadow-md z-20
                  shadow-black hover:scale-[102%] lg:h-[14rem] lg:w-[14rem]'>
                 <Link href="https://reactjs.org/"><a>
                   <Image 
@@ -77,7 +77,7 @@ const SkillSet = () => {
                 </a>
                 </Link>
                 </div>
-                <div className='h-[8rem] w-[8rem] bg-white z-30
+                <div className='h-[8rem] w-[8rem] bg-white z-20
                 p-1 shadow-md shadow-black hover:scale-[102%] lg:h-[14rem] lg:w-[14rem]'>
                 <Link href="https://nextjs.org/"><a>
                   <Image 

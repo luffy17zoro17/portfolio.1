@@ -1,6 +1,6 @@
 
 
-const YellowGreenBlock = () => {
+const GrayBlackBlock = () => {
 
     return (
       <div>
@@ -102,4 +102,4 @@ const YellowGreenBlock = () => {
 }
 
 
-export default YellowGreenBlock;
+export default GrayBlackBlock;

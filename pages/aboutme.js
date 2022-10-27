@@ -12,7 +12,7 @@ const AboutMe = () => {
         <>
          <div>
          <div className="relative">
-         <header className='fixed top-0 left-0 z-20'>
+         <header className='fixed top-0 left-0 z-40'>
          
          <div className="border border-purple-500 rounded-xl
           fixed z-50 top-[2.6rem] shadow shadow-black
