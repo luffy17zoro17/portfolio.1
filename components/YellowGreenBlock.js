@@ -10,12 +10,12 @@ const YellowGreenBlock = () => {
         <div className='font-bold text-white text-[3rem] pt-[11rem] text-center
          shadow-xl shadow-black absolute w-[100%] flex justify-center
          border-b-[2rem] rounded-b-3xl
-         border-x-[1rem] border-yellow-400 md:pt-[7rem]'>
+         border-x-[1rem] border-gray-300 md:pt-[7rem]'>
            
 
-          <div className='border-[1rem] shadow-xl shadow-black border-green-100 relative
+          <div className='border-[1rem] shadow-xl shadow-black border-black relative
           p-3 rounded-tl-3xl rounded-br-3xl shadow-inner'>
-            <div className='bg-pink-400 opacity-70'></div>
+            
             <span className="bg-gradient-to-r from-white to-gray-700 rounded-3xl
             shadow-lg shadow-black text-black font-mono px-[4vw]
           text-[9vmin] tracking-wider

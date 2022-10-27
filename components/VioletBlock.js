@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import RedBlock from './RedBlock';
-import WhiteBlock from './WhiteBlock';
+
 
 
 
@@ -92,9 +92,6 @@ const VioletBlock = ({hide, setHide}) => {
          <RedBlock
            hide={hide}
          />  
-         <WhiteBlock
-           hide={hide}
-         />
          </div>
 
       </div>  
