@@ -39,7 +39,7 @@ const Skills = () => {
            flex justify-center flex-col items-center bg-white 
            shadow-lg shadow-black">
             <span className='pb-[0.5rem] mb-[1rem] absolute 
-            z-30 flex text-sm shadow-inner shadow-black
+            z-10 flex text-sm shadow-inner shadow-black
               bg-white border-4 border-black sm:mt-[12rem] xl:mb-[37rem]'>Im reliving my&nbsp;
              <span className="text-white font-semibold shadow-md 
              shadow-black bg-violet-500">childhood
