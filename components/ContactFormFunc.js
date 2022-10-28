@@ -47,7 +47,7 @@ const ContactFormFunc=({state,handleSubmit})=>{
       w-[100%] text-[1rem]'>
       <div className='shadow-lg border-black p-6
           shadow-pink-600 rounded-full border-4 mt-[4rem]
-          bg-gradient-to-b from-orange-500 to-blue-700 py-[3rem]'>   
+          bg-gradient-to-b from-orange-500 to-blue-700 py-[3rem] md:mt-[2rem]'>   
       <form onSubmit={handleSubmit}>
   
         <div className='flex flex-col justify-center items-center'>

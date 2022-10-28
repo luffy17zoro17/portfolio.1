@@ -13,8 +13,8 @@ const GrayBlackBlock = () => {
          border-x-[1rem] border-gray-300 md:pt-[7rem]'>
            
 
-          <div className='border-[1rem] shadow-xl shadow-black border-black relative
-          p-3 rounded-tl-3xl rounded-br-3xl shadow-inner bg-white'>
+          <div className='border-[1rem] shadow-black border-black relative
+          p-3 rounded-tl-3xl rounded-br-3xl shadow-xl bg-white'>
             
             <span className="bg-gradient-to-r from-white to-gray-700 rounded-3xl
             shadow-lg shadow-black text-black font-mono px-[4vw]
@@ -25,7 +25,7 @@ const GrayBlackBlock = () => {
              rounded-3xl bg-gradient-to-r from-white to-gray-700
               hover:shadow-green-700">
               Kerala, India</span><br/>
-             <span className='text-black italic px-1 text-[4.5vmin] px-[2vw]
+             <span className='text-black italic px-1 text-[4.5vmin] px-[2.1vw]
              rounded-3xl bg-gradient-to-r from-white to-gray-700
             shadow-lg shadow-black leading-[1rem] hover:shadow-red-700'>
             <b className='text-black'>&quot;</b>Enjoys designing website UIs<b className="text-red-500">.</b>
