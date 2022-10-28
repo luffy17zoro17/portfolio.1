@@ -85,7 +85,7 @@ const VioletBlock = ({hide, setHide}) => {
              <span>Prioritize potential over degrees?
              &nbsp;Time to join forces&nbsp;
              <span className="bg-gray-500 border shadow shadow-black
-              animate-pulse">
+              animate-pulse hover:animate-none hover:shadow-lg hover:shadow-red-500">
                <Link href='/contact'><a>🤝</a></Link>
              </span></span>
           </span> 
