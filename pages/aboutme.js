@@ -38,7 +38,7 @@ const AboutMe = () => {
           rounded-full
           w-[50vmin] h-[50vmin] z-40 p-[4vmin]
          shadow-xl shadow-black bg-red-400 left-[9vmin] text-[5vmin] font-bold 
-         active:shadow-inner active:shadow-black md:left-[15rem] top-[6rem]` : 
+         active:shadow-inner active:shadow-black md:left-[15rem] md:top-[3rem]` : 
          `bg-red-500 border-4 fixed z-30 top-[5rem] right-[4vmin] rounded-full shadow-inner
          shadow-black font-bold h-[4rem] w-[4rem] sm:h-[5rem] sm:w-[5rem]
           md:text-3xl md:h-[8rem] md:w-[8rem] active:shadow-xl active:shadow-black`}>
