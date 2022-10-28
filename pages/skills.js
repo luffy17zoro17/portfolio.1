@@ -31,7 +31,8 @@ const Skills = () => {
           </div> 
           <h1 className="font-mono fixed z-30 w-[100%] flex justify-center
             text-3xl font-bold mt-[2.6rem] text-white shadow-lg shadow-black
-            bg-gradient-to-r from-transparent via-black to-transparent">
+            bg-gradient-to-r from-transparent via-black to-transparent
+            tracking-tight">
             MY SKILLS:
           </h1>  
         <div className="text-[1.1rem] font-mono 

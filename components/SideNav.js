@@ -16,7 +16,7 @@ const SideNav = () => {
          w-[7.8rem] h-[10rem] space-y-[0.4rem] p-3 px-[1rem]
         shadow-lg shadow-black border-r-[0.2rem] border-gray-300
         rounded-br-3xl font-serif
-        flex flex-col text-[1.1rem] font-bold text-yellow-200">
+        flex flex-col text-[1.1rem] font-bold text-yellow-100">
 
           <Link href="/"><a className="hover:text-orange-400">Home</a></Link>  
           <Link href="/aboutme">
