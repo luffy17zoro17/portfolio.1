@@ -14,8 +14,8 @@ const Skills = () => {
         <header className='fixed top-0 left-0 z-40'>
          
          <div className="border border-purple-500 rounded-xl
-          fixed z-50 top-[4.7rem] shadow shadow-black
-          ml-[0.5rem] h-[2rem] w-[6.6rem] active:shadow-inner active:shadow-black"/> 
+          fixed z-50 top-[4.7rem] shadow-inner shadow-black
+          ml-[0.5rem] h-[2rem] w-[6.6rem] active:shadow active:shadow-black"/> 
           <SideNav/>   
         </header>
         <main className="flex h-full flex justify-center">
@@ -30,7 +30,7 @@ const Skills = () => {
         
           </div> 
           <h1 className="font-mono fixed z-30 w-[100%] flex justify-center
-            text-3xl font-bold mt-[2.6rem] text-white shadow-lg shadow-black
+            text-[1.7rem] font-bold mt-[2.6rem] text-white shadow-lg shadow-black
             bg-gradient-to-r from-transparent via-black to-transparent
             tracking-tight">
             MY SKILLS:

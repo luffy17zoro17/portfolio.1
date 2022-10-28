@@ -45,15 +45,16 @@ const ContactFormFunc=({state,handleSubmit})=>{
      <div className='relative flex justify-center 
      flex-col items-center bg-black h-[55rem]
       w-[100%] text-[1rem]'>
-      <div className='shadow-lg border-black p-6 py-[4rem]
+      <div className='shadow-lg border-black p-6
           shadow-pink-600 rounded-full border-4 mt-[4rem]
-          bg-gradient-to-b from-orange-500 to-blue-700 md:py-[3rem]'>   
+          bg-gradient-to-b from-orange-500 to-blue-700 py-[3rem]'>   
       <form onSubmit={handleSubmit}>
   
         <div className='flex flex-col justify-center items-center'>
           <h1 className='font-bold text-4xl top-[3rem] z-30 
           fixed shadow-md shadow-black bg-black
-          flex justify-center text-white tracking-tight'>CONTACT</h1>
+          flex justify-center text-white tracking-tight
+           underline underline-offset-4'>CONTACT</h1>
         <div className='flex flex-col justify-center items-center space-y-2 
         text-green-600'>
         <div className='flex flex-col items-center justify-center'>

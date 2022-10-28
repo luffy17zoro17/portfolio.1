@@ -14,7 +14,7 @@ const GrayBlackBlock = () => {
            
 
           <div className='border-[1rem] shadow-xl shadow-black border-black relative
-          p-3 rounded-tl-3xl rounded-br-3xl shadow-inner'>
+          p-3 rounded-tl-3xl rounded-br-3xl shadow-inner bg-white'>
             
             <span className="bg-gradient-to-r from-white to-gray-700 rounded-3xl
             shadow-lg shadow-black text-black font-mono px-[4vw]
