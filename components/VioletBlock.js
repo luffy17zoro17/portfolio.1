@@ -61,7 +61,7 @@ const VioletBlock = ({hide, setHide}) => {
              <Link href={`${process.env.PRIVATE_BLIPKAR_KEY}`}>
               <a className='text-[1.4rem] md:text-3xl lg:text-5xl'><b className='text-cyan-500'>#1</b>
               BLIPKART App&nbsp;
-                <span className='text-[2vw] md:text-lg lg:text-2xl'>(Flipkart inspired)</span></a>
+                <span className='text-sm md:text-lg lg:text-2xl'>(Flipkart inspired)</span></a>
              </Link>
              </div>
              <div className='py-[0.2rem] rounded-full text-violet-800 
@@ -72,7 +72,7 @@ const VioletBlock = ({hide, setHide}) => {
              <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
               <a className='text-[1.4rem] md:text-3xl lg:text-5xl'>
                 <b className='text-cyan-500'>#2</b> MESLA App&nbsp;
-                <span className='text-[2vw] md:text-lg lg:text-2xl'>
+                <span className='text-sm md:text-lg lg:text-2xl'>
                   (Tesla inspired)</span></a>
              </Link>
              </div>

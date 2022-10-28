@@ -15,7 +15,7 @@ const Skills = () => {
          
          <div className="border border-purple-500 rounded-xl
           fixed z-50 top-[4.7rem] shadow shadow-black
-          ml-[0.6rem] h-[2rem] w-[6.6rem] active:shadow-inner active:shadow-black"/> 
+          ml-[0.5rem] h-[2rem] w-[6.6rem] active:shadow-inner active:shadow-black"/> 
           <SideNav/>   
         </header>
         <main className="flex h-full flex justify-center">
