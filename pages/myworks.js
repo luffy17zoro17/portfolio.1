@@ -8,14 +8,14 @@ const Works = [
     {
         id:1,
         name:"1. Blipkart -> (flipkart inspired)",
-        imgPath:"/../public/blipkart.png",
+        imgPath:"\~/public/blipkart.png",
         link:`${process.env.PRIVATE_BLIPKAR_KEY}`
         
     },
     {
         id:2,
         name:"2. Mesla -> (tesla inspired)",
-        imgPath:"/../public/mesla.png",
+        imgPath:"\~/public/mesla.png",
         link:`${process.env.PRIVATE_MESL_KEY}`
     }
 ]
