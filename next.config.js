@@ -6,7 +6,9 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com','wallpaperaccess.com','www.google.com','upload.wikimedia.org',
     "res.cloudinary.com","www.datocms-assets.com","cdn.pixabay.com","img.freepik.com",
-    "media.comicbook.com","images.pexels.com","w0.peakpx.com"],
+    "media.comicbook.com","images.pexels.com","w0.peakpx.com","miro.medium.com",
+    "w0.peakpx.com","www.pngitem.com","images.squarespace-cdn.com","1000logos.net",
+     "imageio.forbes.com","knowledgecom.my","vercel.com"],
   },
 
   env: {

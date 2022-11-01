@@ -1,0 +1,75 @@
+import Image from "next/image";
+import Link from "next/link";
+import SideNav from "../components/SideNav";
+
+
+
+const Works = [
+    {
+        id:1,
+        name:"1. Blipkart -> (flipkart inspired)",
+        imgPath:"/../public/blipkart.png",
+        link:`${process.env.PRIVATE_BLIPKAR_KEY}`
+        
+    },
+    {
+        id:2,
+        name:"2. Mesla -> (tesla inspired)",
+        imgPath:"/../public/mesla.png",
+        link:`${process.env.PRIVATE_MESL_KEY}`
+    }
+]
+
+
+
+
+
+const MyWorks=()=>{
+    return (
+      <div className="relative bg-black lg:h-screen">
+         <header className='fixed top-0 left-0 z-40'>
+         
+          <div className="border border-purple-500 rounded-xl
+          fixed z-50 top-[4.7rem] shadow-inner shadow-black
+          ml-[0.5rem] h-[2rem] w-[6.6rem] active:shadow active:shadow-black"/> 
+          <SideNav/>   
+         </header>
+         <h2 className="fixed border-[1rem] w-[100%] z-30 top-[2.1rem]
+          bg-gray-400 shadow-xl shadow-black
+          text-center text-white font-bold text-[2.3rem]">
+            <span className="text-pink-300 font-serif
+            shadow-xl shadow-black px-2 py-1">
+                My Works:</span></h2>
+         <div className="flex flex-col
+         items-center pt-[12rem] pb-[5rem] justify-evenly
+         lg:flex-row">
+           {Works.map((work)=>(
+
+            <div key={work.id} className="text-white">
+            <div>    
+            <h1 className="text-center text-3xl py-[3rem]">{work.name}</h1>      
+            <div className="w-[28rem] h-[30rem] shadow-xl shadow-orange-400
+             hover:shadow-green-300"> 
+            <Link href={work.link}>
+            <Image
+             src={work.imgPath}
+             alt=""
+             className="object-contain cursor-pointer hover:scale-[103%]
+             hover:animate-pulse"
+             layout="responsive"
+             height={1000}
+             width={1000}
+            />
+            </Link>
+            </div>
+            </div>
+           
+            </div>
+            ))}
+         </div>
+
+      </div>  
+    );
+}
+
+export default MyWorks;

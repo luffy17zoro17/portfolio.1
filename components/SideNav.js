@@ -13,7 +13,7 @@ const SideNav = () => {
              Thomas Mathew
           </div>
         <div className="fixed bg-gradient-to-r from-black via-cyan-800 to-purple-700
-         w-[7.8rem] h-[10rem] space-y-[0.4rem] p-3 px-[1rem]
+         w-[7.8rem] h-[11.6rem] space-y-[0.4rem] p-3 px-[1rem]
         shadow-lg shadow-black border-r-[0.2rem] border-gray-300
         rounded-br-3xl font-serif
         flex flex-col text-[1.1rem] font-bold text-yellow-100">
@@ -21,6 +21,8 @@ const SideNav = () => {
           <Link href="/"><a className="hover:text-orange-400">Home</a></Link>  
           <Link href="/aboutme">
             <a className="hover:animate-pulse hover:text-orange-400">About Me</a></Link>
+          <Link href="/myworks">
+            <a className="hover:animate-pulse hover:text-orange-400">My Works</a></Link>  
           <Link href="/skills">
             <a className="hover:animate-pulse hover:text-orange-400">Skills</a></Link>   
 
