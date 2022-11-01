@@ -36,7 +36,7 @@ const MyWorks=()=>{
          </header>
          <h2 className="fixed border-[1rem] w-[100%] z-30 top-[2.1rem]
           bg-gray-400 shadow-xl shadow-black
-          text-center text-white font-bold text-[2.3rem]">
+          text-center text-white font-bold text-[1.5rem] sm:text-[2rem] md:text-[3rem]">
             <span className="text-pink-300 font-serif
             shadow-xl shadow-black px-2 py-1">
                 My Works:</span></h2>
@@ -47,7 +47,7 @@ const MyWorks=()=>{
 
             <div key={work.id} className="text-white">
             <div>    
-            <h1 className="text-center text-3xl py-[3rem]">{work.name}</h1>      
+            <h1 className="text-center text-lg md:text-3xl py-[3rem]">{work.name}</h1>      
             <div className="w-[28rem] h-[30rem] shadow-xl shadow-orange-400
              hover:shadow-green-300"> 
             <Link href={work.link}>

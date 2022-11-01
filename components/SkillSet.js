@@ -100,9 +100,9 @@ const SkillSet = () => {
                 <div key={skill.id} className="z-30">
                  
                 <Link href={skill.url}><a>
-                <div className="border-4 z-30 border-orange-400 rounded-xl shadow-lg shadow-black
+                <div className="border-4 z-20 border-orange-400 rounded-xl shadow-lg shadow-black
                 flex flex-col items-center bg-white">  
-                <div className="z-30 h-[4rem] w-[4rem] rounded-lg 
+                <div className="z-20 h-[4rem] w-[4rem] rounded-lg 
                 shadow shadow-black
                 border-black sm:h-[6rem] sm:w-[6rem] lg:h-[9rem] lg:w-[9rem]">  
                 <Image
@@ -114,7 +114,7 @@ const SkillSet = () => {
                  width={900}
                 />
                 </div>
-                <h2 className="z-30 text-black font-bold px-1 pt-1 hover:text-green-400">{skill.name}</h2>
+                <h2 className="z-20 text-black font-bold px-1 pt-1 hover:text-green-400">{skill.name}</h2>
                 </div>
                 </a>
                 </Link>
