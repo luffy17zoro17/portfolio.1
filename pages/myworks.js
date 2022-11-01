@@ -8,14 +8,14 @@ const Works = [
     {
         id:1,
         name:"1. Blipkart -> (flipkart inspired)",
-        imgPath:"\~/public/blipkart.png",
-        link:`${process.env.PRIVATE_BLIPKAR_KEY}`
+        imgPath:"/blipkart.png",                                  
+        link:`${process.env.PRIVATE_BLIPKAR_KEY}`,
         
     },
     {
         id:2,
         name:"2. Mesla -> (tesla inspired)",
-        imgPath:"\~/public/mesla.png",
+        imgPath:"/mesla.png",
         link:`${process.env.PRIVATE_MESL_KEY}`
     }
 ]
@@ -54,6 +54,7 @@ const MyWorks=()=>{
             <Image
              src={work.imgPath}
              alt=""
+             priority="true"
              className="object-contain cursor-pointer hover:scale-[103%]
              hover:animate-pulse"
              layout="responsive"
