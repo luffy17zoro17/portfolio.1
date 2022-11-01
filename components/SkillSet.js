@@ -85,10 +85,10 @@ const SkillSet = () => {
 
     return (
      
-        <div className="relative w-screen pt-[11rem] h-[48rem]
+        <div className="relative w-screen pt-[11rem] h-screen
                flex justify-center items-center">
            <div className='text-black absolute p-[6%] flex justify-evenly
-               gap-[3rem]
+               gap-[1.3rem] sm:gap-[2.7rem] lg:gap-[4rem]
               justify-center left-0 flex flex-wrap
                w-[100%]'>
            <div className="bg-gradient-to-b from-transparent via-purple-200 
@@ -100,20 +100,21 @@ const SkillSet = () => {
                 <div key={skill.id} className="z-30">
                  
                 <Link href={skill.url}><a>
-                <div className="border-4 z-30 border-orange-400 shadow-lg shadow-black
+                <div className="border-4 z-30 border-orange-400 rounded-xl shadow-lg shadow-black
                 flex flex-col items-center bg-white">  
-                <div className="z-30 h-[4rem] w-[4rem] border-4 
-                border-black lg:h-[9rem] lg:w-[9rem]">  
+                <div className="z-30 h-[4rem] w-[4rem] rounded-lg 
+                shadow shadow-black
+                border-black sm:h-[6rem] sm:w-[6rem] lg:h-[9rem] lg:w-[9rem]">  
                 <Image
                  alt=""
                  src={skill.imgSrc}
-                 className="object-cover hover:object-contain"
+                 className="object-cover rounded-lg hover:object-contain"
                  layout="responsive"
                  height={900}
                  width={900}
                 />
                 </div>
-                <h2 className="z-30 text-black font-bold hover:text-green-400">{skill.name}</h2>
+                <h2 className="z-30 text-black font-bold px-1 pt-1 hover:text-green-400">{skill.name}</h2>
                 </div>
                 </a>
                 </Link>

@@ -30,18 +30,18 @@ const Skills = () => {
         
           </div> 
           <h1 className="font-mono fixed z-30 w-[100%] flex justify-center
-            text-[1.7rem] font-bold mt-[2.6rem] text-white shadow-lg shadow-black
+            text-[1.2rem] font-bold mt-[2.6rem] text-white shadow-lg shadow-black
             bg-gradient-to-r from-transparent via-black to-transparent
-            tracking-tight">
+            tracking-tight md:text-[1.9rem]">
             MY SKILLS:
           </h1>  
         <div className="text-[1.1rem] font-mono 
             p-4
            flex justify-center flex-col items-center bg-white 
            shadow-lg shadow-black">
-            <span className='absolute top-[10rem]
+            <span className='absolute top-[12rem]
             z-10 flex text-sm shadow-inner shadow-black
-              bg-white border-4 border-black sm:top-[12rem] lg:top-[7rem] xl:top-[14rem]'>Im reliving my&nbsp;
+              bg-white border-4 border-black sm:top-[7rem] lg:top-[7rem]'>Im reliving my&nbsp;
              <span className="text-white font-semibold shadow-md 
              shadow-black bg-violet-500">childhood
             </span> with:</span>       
