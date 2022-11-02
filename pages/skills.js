@@ -22,7 +22,7 @@ const Skills = () => {
         <h1 className="font-mono fixed z-30 w-[100%] flex justify-center
             text-[1.2rem] font-bold mt-[2.6rem] text-white shadow-lg shadow-black
             bg-gradient-to-r from-transparent via-black to-transparent
-            tracking-tight md:text-[1.9rem]">
+            tracking-tight md:text-[1.9rem] md:mt-[0rem]">
             MY SKILLS:
           </h1> 
         <main className="flex justify-center">
@@ -46,7 +46,7 @@ const Skills = () => {
 
             <span className='absolute top-[7rem]
             z-10 flex-none text-sm shadow-inner shadow-black
-              bg-white border-4 border-black'>Im reliving my&nbsp;
+              bg-white border-4 border-black md:top-0 md:right-0'>Im reliving my&nbsp;
              <span className="text-white font-semibold shadow-md 
              shadow-black bg-violet-500">childhood
             </span> with:</span>       
