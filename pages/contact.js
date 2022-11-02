@@ -16,7 +16,7 @@ const Contact=()=>{
 
   return (
     
-    <div className='relative w-[100%] h-screen bg-black top-0 border-4'>
+    <div className='relative w-[100%] h-screen bg-black top-0'>
    
     <header className='fixed top-0 left-0 z-40'>
          
@@ -32,7 +32,7 @@ const Contact=()=>{
      underline underline-offset-4 md:top-[1rem] lg:top-[3rem] lg:text-4xl'>CONTACT</h1> 
 
     <main className='
-    w-[100%] text-[2.4vmin] border-4'>
+    w-[100%] text-[2.4vmin]'>
 
     
     <ContactFormFunc

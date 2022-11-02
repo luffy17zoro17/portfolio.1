@@ -71,7 +71,13 @@ const Skills = [
     title:"Ubuntu"
    },
    {
-    id:12,
+      id:12,
+      imgSrc:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png",
+      url:"https://www.npmjs.com/",
+      title:"Node Package Manager"
+   },
+   {
+    id:13,
     imgSrc:"https://knowledgecom.my/wp-content/uploads/2020/11/Photoshop-2020.png",
     url:"https://www.adobe.com/in/products/photoshop/landpa.html?gclid=EAIaIQobChMIuYDz086M-wIV55lmAh28Gwl7EAAYASAAEgLYcfD_BwE&sdid=SGDJMMG3&mv=search&ef_id=EAIaIQobChMIuYDz086M-wIV55lmAh28Gwl7EAAYASAAEgLYcfD_BwE:G:s&s_kwcid=AL!3085!3!585712413968!e!!g!!adobe%20photoshop!16470706475!133281435039&mv=search",
     title:"Adobe Photoshop"
@@ -90,14 +96,14 @@ const SkillSet = () => {
              left-0 flex flex-col items-center justify-center
             absolute h-[20rem]">
            <div className='text-black h-[18rem]
-              flex justify-center z-0
-               gap-[1rem]
-                flex flex-wrap md:gap-[3rem]'>
+              flex justify-center z-0 gap-1
+                flex flex-wrap md:mx-[8rem] lg:gap-11'>
           
               
                {Skills.map(({id,title,url,imgSrc})=>(
                 <div key={id} className="">
-                <div className="z-0 rounded-3xl scale-[80%] md:scale-[100%]
+                <div className="z-0 rounded-3xl 
+                scale-[80%] lg:scale-[100%]
                 shadow-lg shadow-black bg-white 
                 ">  
                       
