@@ -7,11 +7,11 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const ContactForm = ({state,handleSubmit}) => {
  return (
- <div className='shadow-lg border-black mt-[11rem]
+ <div className='bg-black w-[100%] flex justify-center'> 
+ <div className='shadow-lg mt-[13rem]
  shadow-pink-600 rounded-b-full flex
  flex-col justify-center items-center
- bg-gradient-to-b from-orange-500 to-blue-700 md:mt-[17rem]
- lg:mt-[3rem]'>
+ bg-gradient-to-b from-orange-500 to-blue-700 md:mt-[14rem] lg:mt-0'>
   <form onSubmit={handleSubmit}>
   <div className='px-3 pb-[8rem] py-11 space-y-4'>
   <div className='font-semibold space-y-3 flex flex-col justify-center 
@@ -111,6 +111,7 @@ const ContactForm = ({state,handleSubmit}) => {
   </div>
   </div>
 </form> 
+</div>
 </div> 
     );
 }
