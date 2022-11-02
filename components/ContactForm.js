@@ -10,7 +10,8 @@ const ContactForm = ({state,handleSubmit}) => {
  <div className='shadow-lg border-black mt-[11rem]
  shadow-pink-600 rounded-b-full flex
  flex-col justify-center items-center
- bg-gradient-to-b from-orange-500 to-blue-700 md:mt-[10rem]'>
+ bg-gradient-to-b from-orange-500 to-blue-700 md:mt-[17rem]
+ lg:mt-[3rem]'>
   <form onSubmit={handleSubmit}>
   <div className='px-3 pb-[8rem] py-11 space-y-4'>
   <div className='font-semibold space-y-3 flex flex-col justify-center 
