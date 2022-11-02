@@ -29,7 +29,7 @@ const Contact=()=>{
     <h1 className='font-bold text-2xl top-[3rem] z-30 
     fixed shadow-md shadow-black bg-black w-[100%]
     flex justify-center text-white tracking-tight
-     underline underline-offset-4 lg:text-4xl'>CONTACT</h1> 
+     underline underline-offset-4 md:top-[1rem] lg:top-[3rem] lg:text-4xl'>CONTACT</h1> 
     <ContactFormFunc
        state={state}
        handleSubmit={handleSubmit}

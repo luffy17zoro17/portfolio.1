@@ -10,7 +10,7 @@ const ContactForm = ({state,handleSubmit}) => {
  <div className='shadow-lg border-black mt-[11rem]
  shadow-pink-600 rounded-b-full flex
  flex-col justify-center items-center
- bg-gradient-to-b from-orange-500 to-blue-700 md:mt-[0rem]'>
+ bg-gradient-to-b from-orange-500 to-blue-700 md:mt-[10rem]'>
   <form onSubmit={handleSubmit}>
   <div className='px-3 pb-[8rem] py-11 space-y-4'>
   <div className='font-semibold space-y-3 flex flex-col justify-center 
@@ -18,7 +18,7 @@ const ContactForm = ({state,handleSubmit}) => {
   md:space-x-4 lg:space-x-10'>
     
     
-  <div className='md:flex md:flex-col md:items-center'>
+  <div className='md:flex md:flex-col md:items-center md:justify-center'>
    
   <label className='z-20 text-white' htmlFor='first'>First Name:</label>
   <input className="shadow-inner shadow-black
