@@ -41,12 +41,12 @@ const MyWorks=()=>{
             shadow-xl shadow-black px-2 py-1">
                 My Works:</span></h2>
          <div className="flex flex-col
-         items-center pt-[11rem] pb-[5rem] justify-evenly md:pt-[8rem]
+         items-center pt-[6rem] pb-[5rem] justify-evenly md:pt-[8rem]
          lg:flex-row">
            {Works.map((work)=>(
 
             <div key={work.id} className="text-white">
-            <div className="flex flex-col items-center justify-center mt-[-5rem]">    
+            <div className="flex flex-col items-center justify-center">    
             <h1 className="text-center text-lg lg:text-2xl pt-[8rem]">{work.name}</h1>      
             <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400
              hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]"> 
