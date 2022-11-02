@@ -16,7 +16,7 @@ const Contact=()=>{
 
   return (
     <>
-    <div className='relative w-[100%] h-screen'>
+    <div className='relative h-screen'>
     <header className='fixed top-0 left-0 z-40'>
          
          <div className="border border-purple-500 rounded-xl
@@ -25,6 +25,11 @@ const Contact=()=>{
           <SideNav/>   
     </header>
     <main className='text-[2.4vmin]'>
+
+    <h1 className='font-bold text-2xl top-[3rem] z-30 
+    fixed shadow-md shadow-black bg-black w-[100%]
+    flex justify-center text-white tracking-tight
+     underline underline-offset-4 lg:text-4xl'>CONTACT</h1> 
     <ContactFormFunc
        state={state}
        handleSubmit={handleSubmit}

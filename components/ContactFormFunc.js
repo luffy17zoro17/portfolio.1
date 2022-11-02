@@ -38,23 +38,22 @@ const ContactFormFunc=({state,handleSubmit})=>{
     }
     return (
   
-    
-     <div className='relative flex justify-center 
-     flex-col items-center bg-black h-[55rem]
+    <div className='h-screen flex bg-black'>
+     <div className='flex justify-center
+     flex-col items-center
       w-[100%] text-[1rem]'>
-      <div className='shadow-lg border-black p-6
-          shadow-pink-600 rounded-full border-4 mt-[4rem]
-          bg-gradient-to-b from-orange-500 to-blue-700 py-[3rem] md:mt-[2rem]'>  
+        
          <ContactForm
             state={state} 
             handleSubmit={handleSubmit}
          />  
-      
       </div>
-      <ContactFooter/>
-  
-     </div> 
     
+      <ContactFooter/>
+     </div> 
+  
+     
+     
     );
   }
 

@@ -7,32 +7,20 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const ContactForm = ({state,handleSubmit}) => {
  return (
- <div>
+ <div className='shadow-lg border-black mt-[11rem]
+ shadow-pink-600 rounded-b-full flex
+ flex-col justify-center items-center
+ bg-gradient-to-b from-orange-500 to-blue-700 md:mt-[0rem]'>
   <form onSubmit={handleSubmit}>
-  
-  <div className='flex flex-col justify-center 
-  relative items-center'>
-    <h1 className='font-bold text-4xl top-[3rem] z-30 
-    fixed shadow-md shadow-black bg-black
-    flex justify-center text-white tracking-tight
-     underline underline-offset-4'>CONTACT</h1>
-     
-  <div className='flex flex-col justify-center items-center space-y-2 
-  mt-[4rem] md:mt-[0rem]
-  text-green-600'>
-  <div className='flex flex-col items-center justify-center'>
-  <div className='flex flex-col items-center justify-center
-  space-y-[2rem] text-center font-semibold md:bg-gradient-to-b md:from-orange-500 
-  md:to-orange-700
-  md:flex-row md:space-y-[0rem] md:space-x-[2rem] 
-  md:border-4 md:rounded-full md:px-6 md:py-6 
-  md:border-black md:bg-white md:z-0 md:border-b-0'>
-
-
-
+  <div className='px-3 pb-[8rem] py-11 space-y-4'>
+  <div className='font-semibold space-y-3 flex flex-col justify-center 
+  items-center md:space-y-0 md:flex-row 
+  md:space-x-4 lg:space-x-10'>
+    
+    
   <div className='md:flex md:flex-col md:items-center'>
    
-  <label className='z-20 py-2 text-white' htmlFor='first'>First Name:</label>
+  <label className='z-20 text-white' htmlFor='first'>First Name:</label>
   <input className="shadow-inner shadow-black
    flex p-1 pl-4 font-light italic z-20
    placeholder-green-500
@@ -43,7 +31,7 @@ const ContactForm = ({state,handleSubmit}) => {
   </div>
 
   <div className='md:flex md:flex-col md:items-center'>
-  <label className='py-2 text-white' htmlFor='last'>Last Name:</label>
+  <label className='text-white' htmlFor='last'>Last Name:</label>
   <input className="shadow-inner placeholder-green-500
    shadow-black flex p-1 pl-4 font-light italic
   outline-none border-2 border-purple-400 rounded-3xl"
@@ -54,8 +42,8 @@ const ContactForm = ({state,handleSubmit}) => {
   
   </div> 
 
-  <div className='flex flex-col space-y-[2rem] pt-[2rem] font-semibold'>
-  <div className='space-y-[0.3rem]'>
+  <div className='flex space-y-3 flex-col font-semibold'>
+  <div className=''>
   <label className="p-2 text-white" htmlFor="email">
     <MailOutlineIcon className='mb-[0.2rem]'/>&nbsp;Email Address:
   </label>
@@ -68,7 +56,7 @@ const ContactForm = ({state,handleSubmit}) => {
   autoComplete="off" required/>
   </div>
 
-  <div className='space-y-[0.3rem]'>
+  <div className=''>
   <label className="p-2 text-white" 
   htmlFor='number'><WhatsAppIcon/>&nbsp;
   Phone Number or WhatsApp<span className='text-green-200'>
@@ -88,7 +76,7 @@ const ContactForm = ({state,handleSubmit}) => {
     field="email"
     errors={state.errors}
   />
-  <div className='space-y-[0.3rem]'>
+  <div className=''>
   <label className='m-4 text-white' 
   htmlFor="message"><MessageIcon/>&nbsp;Message:</label>
   <textarea
@@ -121,11 +109,8 @@ const ContactForm = ({state,handleSubmit}) => {
   </div>
   </div>
   </div>
-  </div>
-
-  </div>
 </form> 
-</div>  
+</div> 
     );
 }
 
