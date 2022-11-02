@@ -36,26 +36,27 @@ const MyWorks=()=>{
          </header>
          <h2 className="fixed border-[1rem] w-[100%] z-30 top-[2.1rem]
           bg-gray-400 shadow-xl shadow-black
-          text-center text-white font-bold text-[1.5rem] sm:text-[2rem]">
+          text-center text-white font-bold text-[1.5rem] xl:text-[2rem]">
             <span className="text-pink-300 font-serif
             shadow-xl shadow-black px-2 py-1">
                 My Works:</span></h2>
          <div className="flex flex-col
-         items-center pt-[12rem] pb-[5rem] justify-evenly
+         items-center pt-[11rem] pb-[5rem] justify-evenly md:pt-[8rem]
          lg:flex-row">
            {Works.map((work)=>(
 
             <div key={work.id} className="text-white">
-            <div className="flex flex-col items-center justify-center">    
-            <h1 className="text-center text-lg lg:text-2xl py-[3rem]">{work.name}</h1>      
-            <div className="w-[85vw] h-[30rem] shadow-xl shadow-orange-400
+            <div className="flex flex-col items-center justify-center mt-[-5rem]">    
+            <h1 className="text-center text-lg lg:text-2xl pt-[8rem]">{work.name}</h1>      
+            <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400
              hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]"> 
             <Link href={work.link}>
             <Image
              src={work.imgPath}
              alt=""
              priority="true"
-             className="object-contain cursor-pointer hover:scale-[103%]
+             className="object-contain cursor-pointer
+              hover:scale-[103%]
              hover:animate-pulse"
              layout="responsive"
              height={1000}
