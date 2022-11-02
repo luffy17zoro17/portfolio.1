@@ -48,7 +48,7 @@ const MyWorks=()=>{
             <div key={work.id} className="text-white">
             <div className="flex flex-col items-center justify-center">    
             <h1 className="text-center text-lg lg:text-2xl py-[3rem]">{work.name}</h1>      
-            <div className="w-[80vw] h-[30rem] shadow-xl shadow-orange-400
+            <div className="w-[85vw] h-[30rem] shadow-xl shadow-orange-400
              hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]"> 
             <Link href={work.link}>
             <Image
