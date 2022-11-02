@@ -29,7 +29,7 @@ const Skills = () => {
           alt=""/> 
         
           </div> 
-          <h1 className="font-mono fixed z-30 w-[100%] flex justify-center
+          <h1 className="font-mono fixed z-40 w-[100%] flex justify-center
             text-[1.2rem] font-bold mt-[2.6rem] text-white shadow-lg shadow-black
             bg-gradient-to-r from-transparent via-black to-transparent
             tracking-tight md:text-[1.9rem]">

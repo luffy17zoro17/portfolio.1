@@ -4,12 +4,13 @@ import Link from "next/link";
 const SideNav = () => {
 
     return (
-       <div className="relative flex">
+       <div className="relative flex z-60">
           <div className="text-sm ml-[7rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-gray-300 shadow-inner shadow-black
            bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-300
           font-serif lg:text-[1rem]">
+         
              Thomas Mathew
           </div>
         <div className="fixed bg-gradient-to-r from-black via-cyan-800 to-purple-700

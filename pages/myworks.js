@@ -46,10 +46,10 @@ const MyWorks=()=>{
            {Works.map((work)=>(
 
             <div key={work.id} className="text-white">
-            <div>    
+            <div className="flex flex-col items-center justify-center">    
             <h1 className="text-center text-lg md:text-3xl py-[3rem]">{work.name}</h1>      
-            <div className="w-[28rem] h-[30rem] shadow-xl shadow-orange-400
-             hover:shadow-green-300"> 
+            <div className="w-[80vw] h-[30rem] shadow-xl shadow-orange-400
+             hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]"> 
             <Link href={work.link}>
             <Image
              src={work.imgPath}
