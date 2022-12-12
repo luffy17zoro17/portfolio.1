@@ -18,6 +18,10 @@ export default function Home() {
   const [hide,setHide] = useState(true);
 
 
+  // I most likely might focus on creating more projects than 
+  //  cleaning up the codes of files like these
+
+
   return (
      
     

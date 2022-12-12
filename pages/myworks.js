@@ -17,6 +17,13 @@ const Works = [
         name:"2. Mesla -> (tesla inspired)",
         imgPath:"/mesla.png",
         link:`${process.env.PRIVATE_MESL_KEY}`
+    },
+    {
+        id:3,
+        name:"3. SinkedIn -> (LinkedIn inspired) [Latest]",
+        imgPath:"/SinkedIn.png",
+        link:`${process.env.PRIVATE_SINKED_KEY}`
+    
     }
 ]
 

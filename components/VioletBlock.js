@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
+
 import RedBlock from './RedBlock';
 
 
@@ -15,7 +16,9 @@ const VioletBlock = ({hide, setHide}) => {
        z-30 top-[62rem] rounded-tl-3xl
        rounded-br-3xl
            bg-gradient-to-r from-purple-500 to-black
-          p-4 shadow-xl shadow-black md:top-[75rem] lg:top-[60rem]'>
+          p-4 shadow-xl shadow-black md:bottom-[85rem] lg:bottom-[60rem]
+            sm:mx-[5rem] md:mx-[7rem] lg:mx-[11rem]
+             xl:mx-[18rem]'>
         <div className='flex flex-col border-2 shadow-inner 
         shadow-black rounded-bl-3xl rounded-tr-3xl'>
       
@@ -50,6 +53,10 @@ const VioletBlock = ({hide, setHide}) => {
              
          <div className='font-bold italic text-center shadow-black
              bg-gradient-to-r from-white to-black
+
+             shadow-md shadow-black active:shadow-inner active:shadow-black
+             hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none
+
              underline underline-offset-[0.4rem] px-[1rem] space-y-7 rounded-3xl
              shadow-inner flex flex-col justify-center items-center py-[1.3rem]
              '>
@@ -68,8 +75,10 @@ const VioletBlock = ({hide, setHide}) => {
              <div className='py-[0.2rem] rounded-full text-violet-800 
               bg-gradient-to-b from-orange-300 to-red-500 animate-pulse
               decoration-slate-100 px-[1rem]
-             shadow-md shadow-black active:shadow-inner active:shadow-black
-             hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none'>
+
+              shadow-md shadow-black active:shadow-inner active:shadow-black
+             hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none
+             '>
              <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
               <a className='text-[1.4rem] md:text-3xl lg:text-5xl'>
                 <b className='text-cyan-500'>#2</b> MESLA App&nbsp;
@@ -77,6 +86,20 @@ const VioletBlock = ({hide, setHide}) => {
                   (Tesla inspired)</span></a>
              </Link>
              </div>
+             <div className='rounded-full pb-1 pt-2 px-[5vw]
+                
+                bg-gradient-to-r from-yellow-200 to-green-200
+                animate-pulse
+                shadow-md shadow-black active:shadow-inner active:shadow-black
+             hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none'>
+              <Link href={`${process.env.PRIVATE_SINKED_KEY}`}>
+              <a className='text-[1.4rem] md:text-3xl lg:text-5xl'>
+                <b className='text-cyan-500'>#3</b> SINKEDIN App (LATEST!)&nbsp;
+                <span className='text-sm md:text-lg lg:text-2xl'>
+                  (LinkedIn inspired)</span></a>
+               </Link>
+               </div>
+
              
          </div>
 
