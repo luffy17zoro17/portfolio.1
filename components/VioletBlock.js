@@ -47,7 +47,7 @@ const VioletBlock = ({hide, setHide}) => {
              bg-gradient-to-r from-white to-black
 
              shadow-md shadow-black active:shadow-inner active:shadow-black
-             hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none
+             hover:text-cyan-500 hover:shadow-md hover:shadow-cyan-400 hover:animate-none
 
              underline underline-offset-[0.4rem] px-[1rem] space-y-7 rounded-tl-[7rem]
              rounded-br-[7rem]
@@ -67,7 +67,7 @@ const VioletBlock = ({hide, setHide}) => {
              rounded-full decoration-slate-100 animate-pulse
              bg-gradient-to-b from-orange-300 to-blue-200
              shadow-md shadow-black
-            hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none
+            hover:text-cyan-500 hover:shadow-md hover:shadow-cyan-400 hover:animate-none
              active:shadow-inner active:shadow-black'>
              <Link href={`${process.env.PRIVATE_BLIPKAR_KEY}`}>
               <a className='text-[1.4rem] md:text-3xl lg:text-5xl'><b className='text-cyan-500'>#1</b>
@@ -80,7 +80,7 @@ const VioletBlock = ({hide, setHide}) => {
               decoration-slate-100 px-[1rem]
 
               shadow-md shadow-black active:shadow-inner active:shadow-black
-             hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none
+             hover:text-cyan-500 hover:shadow-md hover:shadow-cyan-400 hover:animate-none
              '>
              <Link href={`${process.env.PRIVATE_MESL_KEY}`}>
               <a className='text-[1.4rem] md:text-3xl lg:text-5xl'>
@@ -93,7 +93,7 @@ const VioletBlock = ({hide, setHide}) => {
                 bg-gradient-to-r from-yellow-200 to-green-200
                 animate-pulse
                 shadow-md shadow-black active:shadow-inner active:shadow-black
-             hover:text-cyan-500 hover:shadow-lg hover:shadow-cyan-400 hover:animate-none'>
+             hover:text-cyan-500 hover:shadow-md hover:shadow-cyan-400 hover:animate-none'>
               <Link href={`${process.env.PRIVATE_SINKED_KEY}`}>
               <a className='text-[1.4rem] md:text-3xl lg:text-5xl'>
                 <b className='text-cyan-500'>#3</b> SINKEDIN App (LATEST!)&nbsp;

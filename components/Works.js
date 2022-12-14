@@ -39,7 +39,7 @@ const Works = () => {
           bg-gray-400 shadow-xl shadow-black
           text-center text-white font-bold text-[1.5rem] md:border-[0.7rem] 
           xl:text-[2rem]">
-            <span className="text-pink-300 font-serif
+            <span className="text-orange-400 font-serif
             shadow-xl shadow-black px-2 py-1">
                 My Works:</span></h2>
          <div className="flex flex-col

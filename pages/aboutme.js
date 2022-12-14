@@ -28,9 +28,8 @@ const AboutMe = () => {
 
          <div className="mt-[15rem] ml-[3rem] z-60 border-4 ">
         <button onClick={()=>setToggleOn(!toggleOn)}
-         className={!toggleOn ? `border-4 absolute top-[10rem] left-[10rem]
-          rounded-full
-          w-[50vmin] h-[50vmin] z-40 p-[4vmin]
+         className={!toggleOn ? `border-4 absolute top-[12rem] left-[10rem]
+          rounded-full w-[50vmin] h-[50vmin] z-40 p-[4vmin]
          shadow-xl shadow-black bg-red-400 left-[9vmin] text-[5vmin] font-bold 
          active:shadow-inner active:shadow-black md:left-[15rem] md:top-[3rem]` : 
          `bg-red-500 border-4 fixed z-30 top-[5rem] right-[4vmin] rounded-full shadow-inner

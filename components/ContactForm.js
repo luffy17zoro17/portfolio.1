@@ -9,7 +9,8 @@ const ContactForm = ({state,handleSubmit}) => {
  return (
  <div className='bg-black w-[100%] flex justify-center'> 
  <div className='shadow-lg mt-[13rem]
- shadow-pink-600 rounded-b-full flex
+ shadow-pink-600 rounded-b-full flex border-t-[0.3rem]
+  border-x-[1rem]
  flex-col justify-center items-center
  bg-gradient-to-b from-orange-500 to-blue-700 px-3
   md:px-[5rem] md:mt-[14rem] lg:mt-0'>
