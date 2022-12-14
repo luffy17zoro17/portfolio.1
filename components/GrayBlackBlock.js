@@ -25,7 +25,7 @@ const GrayBlackBlock = () => {
              <div className="text-[4.8vw] shadow-inner shadow-black 
                bg-gradient-to-r from-white to-gray-500 rounded-b-full
               px-[3vw] hover:bg-yellow-400 border-4 hover:animate-bounce">
-               Enjoys designing Web UI's
+               Enjoys designing Web UI&apos;s
              </div>
             </div> 
            </div> 
