@@ -4,20 +4,21 @@ import Link from "next/link";
 const SideNav = () => {
 
     return (
-       <div className="relative flex z-60">
-          <div className="text-sm ml-[7rem] 
+       <div className="fixed z-40 top-0 flex">
+          <div className="text-sm ml-[6.7rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-gray-300 shadow-inner shadow-black
            bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-300
-          font-serif lg:text-[1rem]">
+          font-serif sm:ml-[7.7rem] md:ml-[8.1rem] lg:ml-[8.9rem] lg:text-[1rem]">
          
              Thomas Mathew
           </div>
         <div className="fixed bg-gradient-to-r from-black via-cyan-800 to-purple-700
-         w-[7.8rem] h-[11.6rem] space-y-[0.4rem] p-3 px-[1rem]
+         space-y-[0.4rem] p-3 px-[1rem]
         shadow-lg shadow-black border-r-[0.2rem] border-gray-300 z-60
         rounded-br-3xl font-serif
-        flex flex-col text-[1.1rem] font-bold text-yellow-100">
+        flex flex-col text-[1rem] font-bold text-yellow-100 
+          sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem]">
 
           <Link href="/"><a className="hover:text-orange-400">Home</a></Link>  
           <Link href="/aboutme">

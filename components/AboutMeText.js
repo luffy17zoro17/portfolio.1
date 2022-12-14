@@ -29,10 +29,7 @@ const AboutMeText = () => {
 
             Exactly. Everything&apos;s better in 3D whether people are aware/accepting of it or not.
 
-            I spend almost no time at all on screens when im not coding. 
-            I just take long walks which I&apos;m well aware is one of those things I 
-            genuinely enjoy. <br/><br/>
-
+   
             For me its about messing around and having fun with the website building process while
             at the same time staying in that constant state of awareness that I&apos;m just staring at a 2D screen
             and so I need to allocate enough time on a daily basis to step outside and see all those new sights
@@ -42,7 +39,7 @@ const AboutMeText = () => {
                To explore the outside world, see new places, take long walks.<br/><br/>
 
             I view money as &quot;freedom&quot; rather than a gadget, accessory etc. collecting responsibility 
-            enhancer machine.
+            enhancing machine.
 
             People tell me I&apos;m oversmart, overconfident etc etc. I just tell them I&apos;m just less insecure.
 

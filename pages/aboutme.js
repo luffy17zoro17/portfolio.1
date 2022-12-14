@@ -12,13 +12,7 @@ const AboutMe = () => {
         <>
         
          <div className="relative">
-         <header className='fixed top-0 left-0 z-40'>
-         
-         <div className="border border-purple-500 rounded-xl
-          fixed z-50 top-[2.6rem] shadow-inner shadow-black
-          ml-[0.5rem] h-[2rem] w-[6.6rem] active:shadow active:shadow-black"/> 
-          <SideNav/>   
-        </header>
+      
       <div className="w-full h-full fixed">
 
        <div className=''>

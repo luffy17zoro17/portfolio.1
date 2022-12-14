@@ -12,13 +12,7 @@ const Skills = () => {
       <div className='relative w-[100%]
       h-screen bg-black'>
 
-        <header className='fixed top-0 left-0 z-40'>
-         
-         <div className="border border-purple-500 rounded-xl
-          fixed z-50 top-[6.68rem] shadow-inner shadow-black
-          ml-[0.5rem] h-[2rem] w-[6.6rem] active:shadow active:shadow-black"/> 
-          <SideNav/>   
-        </header>
+       
         <h1 className="font-mono fixed z-30 w-[100%] flex justify-center
             text-[1.2rem] font-bold mt-[2.6rem] text-white shadow-lg shadow-black
             bg-gradient-to-r from-transparent via-black to-transparent

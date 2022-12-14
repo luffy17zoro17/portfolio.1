@@ -9,7 +9,7 @@ const ContactForm = ({state,handleSubmit}) => {
  return (
  <div className='bg-black w-[100%] flex justify-center'> 
  <div className='shadow-lg mt-[13rem]
- shadow-pink-600 rounded-bl-full flex
+ shadow-pink-600 rounded-b-full flex
  flex-col justify-center items-center
  bg-gradient-to-b from-orange-500 to-blue-700 px-3
   md:px-[5rem] md:mt-[14rem] lg:mt-0'>
@@ -109,13 +109,13 @@ const ContactForm = ({state,handleSubmit}) => {
     field="message"
     errors={state.errors}
   />
-  <div className='rounded-3xl
+  <div className='rounded-3xl mx-[3rem]
     py-[2%] text-center bg-gradient-to-r from-white to-gray-500
      text-orange-900 font-mono text-xl
    shadow-md shadow-pink-500 cursor-pointer z-10 
    hover:bg-gradient-to-r hover:from-orange-300 hover:to-yellow-900 hover:text-white 
    hover:shadow-cyan-400 
-   active:shadow-inner active:shadow-black lg:text-2xl'>
+   active:shadow-inner active:shadow-black lg:text-2xl lg:mx-[11rem]'>
   <button className="z-10 px-[3rem] md:px-[3rem]" type="submit" disabled={state.submitting}>
     Submit
   </button>

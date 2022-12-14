@@ -18,13 +18,6 @@ const Contact=()=>{
     
     <div className='relative w-[100%] h-screen bg-black top-0'>
    
-    <header className='fixed top-0 left-0 z-40'>
-         
-         <div className="border border-purple-500 rounded-xl
-          fixed z-50 top-[8.8rem] shadow-inner shadow-black
-          ml-[0.5rem] h-[2rem] w-[6.6rem] active:shadow active:shadow-black"/> 
-          <SideNav/>   
-    </header>
     <h1 className='font-bold text-2xl top-[3rem] z-30 
     fixed shadow-md shadow-black bg-black opacity-70 
     w-[100%]
