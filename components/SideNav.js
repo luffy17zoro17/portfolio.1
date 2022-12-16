@@ -22,30 +22,32 @@ const SideNav = () => {
 
           <Link href="/"><a className="hover:text-orange-400 hover:font-mono
           focus:ring focus:ring-violet-300 focus:rounded-full
-          focus:shadow-inner focus:shadow-black focus:pl-2">Home</a></Link>  
+          focus:shadow-inner focus:shadow-black 
+          
+          focus:pl-2">Home</a></Link>  
           <Link href="/aboutme">
             <a className="hover:text-orange-400 
             hover:font-mono 
             focus:ring focus:ring-violet-300 focus:rounded-full
             focus:shadow-inner focus:shadow-black
-             focus:px-2">About Me</a></Link>
+             focus:italic focus:px-2">About Me</a></Link>
           <Link href="/myworks">
             <a className="
             hover:text-orange-400 hover:font-mono
             focus:ring focus:ring-violet-300 focus:rounded-full
             focus:shadow-inner focus:shadow-black
-             focus:px-2">My Works</a></Link>  
+             focus:px-2 focus:italic">My Works</a></Link>  
           <Link href="/skills">
             <a className="hover:text-orange-400 
             hover:font-mono focus:shadow-inner focus:shadow-black
             focus:ring focus:ring-violet-300 focus:rounded-full
-             focus:px-2">Skills</a></Link>   
+             focus:italic focus:px-2">Skills</a></Link>   
 
           <Link href="/contact">
             <a className="hover:text-orange-400
             focus:ring focus:ring-violet-300 focus:rounded-full
              focus:px-2 focus:shadow-inner focus:shadow-black
-             hover:font-mono">Contact</a></Link>
+             focus:italic hover:font-mono">Contact</a></Link>
            
         </div>
        </div> 
