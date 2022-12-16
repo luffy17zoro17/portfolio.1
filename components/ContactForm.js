@@ -8,7 +8,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 const ContactForm = ({state,handleSubmit}) => {
  return (
  <div className='bg-black w-[100%] flex justify-center'> 
- <div className='shadow-lg mt-[13rem]
+ <div className='shadow-lg mt-[12rem]
  shadow-pink-600 rounded-b-full flex border-t-[0.3rem]
   border-x-[1rem]
  flex-col justify-center items-center

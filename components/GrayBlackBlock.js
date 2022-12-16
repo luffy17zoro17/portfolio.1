@@ -9,11 +9,11 @@ const GrayBlackBlock = () => {
           <div className="bg-white w-[100%] bg-transparent font-serif
           h-screen absolute flex flex-col items-center justify-center">
            <div className="bg-gradient-to-t from-indigo-500 via-purple-500 to-pink-500
-           border-x-[4rem] border-t-[1rem]
+           border-x-[1rem] border-t-[1rem]
         
           
            rounded-b-full text-center p-[3rem] shadow-lg
-            shadow-black
+            shadow-black md:border-x-[2rem] lg:border-x-[4rem]
             "> 
             <div className="font-bold w-[70vw]">
              <div>
