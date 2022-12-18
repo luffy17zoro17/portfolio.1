@@ -3,6 +3,8 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 import RedBlock from './RedBlock';
+import ShowHideButton from './ShowHideButton';
+import VioletBottomText from './VioletBottomText';
 
 
 
@@ -24,21 +26,11 @@ const VioletBlock = ({hide, setHide}) => {
       
         <div className={styles.green}>
 
-         <div className='right-[3rem] absolute z-50 
-         shadow-xl shadow-black
-          border-4 cursor-pointer lg:text-2xl'>
-         <button className={hide ? `w-[100%] px-[1rem]
-          bg-red-500 hover:animate-bounce
-         font-mono font-bold` : `
-         w-[100%] px-[1rem]
-          bg-red-500 hover:animate-bounce
-         font-mono font-bold text-[1rem] focus:shadow-inner focus:shadow-black`} 
-         onClick={()=>setHide(!hide)}>
-          {hide ? `SHOW` : `HIDE`}</button>
-         </div> 
-        
-
-
+         <ShowHideButton
+             hide={hide}
+             setHide={setHide}
+          /> 
+      
          <div className=''>
               
          </div>  
@@ -110,15 +102,7 @@ const VioletBlock = ({hide, setHide}) => {
              
          </div>
 
-         <span className="flex flex-wrap
-             text-[1rem] text-white px-3 py-2.5 lg:text-[1.5rem]">
-             <span>Prioritize potential over degrees?<br/>
-             &nbsp;Time to join forces&nbsp;
-             <span className="bg-gray-500 border shadow shadow-black
-              animate-pulse hover:animate-none hover:shadow-lg hover:shadow-red-500">
-               <Link href='/contact'><a>🤝</a></Link>
-             </span></span>
-          </span> 
+          <VioletBottomText/>
          <div className='flex'>
          <RedBlock
            hide={hide}
