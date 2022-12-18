@@ -50,7 +50,7 @@ const Works = () => {
             <div key={work.id} className="text-white">
             <div className="flex flex-col items-center justify-center">    
             <h1 className="text-center text-lg md:text-xl xl:text-2xl pt-[8rem]">{work.name}</h1>      
-            <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400
+            <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400 rounded-full
              hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]"> 
             <Link href={work.link}>
             <Image

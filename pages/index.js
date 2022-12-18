@@ -39,7 +39,7 @@ export default function Home() {
       <div className='fixed h-screen w-[100%]
         z-10'>
       <Image 
-          src="https://img.freepik.com/free-photo/fun-spelled-word-with-plastic-blocks-background_53876-14686.jpg?w=1380&t=st=1666560257~exp=1666560857~hmac=e50e8a2bdc079968ad4cb2041b32bbf530ed40168ff383cb736606f08e238ab8"
+          src="https://cdn.pixabay.com/photo/2018/08/13/03/00/lego-3602218_960_720.jpg"
           layout="fill"
           className="object-cover absolute"  
           alt=""
