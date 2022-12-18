@@ -17,11 +17,13 @@ const GrayBlackBlock = () => {
             "> 
             <div className="font-bold w-[70vw]">
              <div>
-               <h1 className="text-[5.3vw] shadow-inner shadow-black hover:bg-orange-300 
+               <h1 className="text-[2rem] sm:text-[5vw]
+                shadow-inner shadow-black hover:bg-orange-300 
                  rounded-b-full border">Thomas Mathew</h1>
-               <i className="text-[3vw] font-medium shadow-inner shadow-black 
-               rounded-bl-full px-[2vw] hover:bg-red-400">From</i>
-               <span className="text-[3.5vw] shadow-inner shadow-black rounded-br-full px-[3vw]
+               <i className="text-[1.1rem] sm:text-[2.3vw] font-medium shadow-inner shadow-black 
+               rounded-bl-full py-1 px-[2vw] hover:bg-red-400">From</i>
+               <span className="text-[1.2rem] sm:text-[3.1vw] shadow-inner shadow-black rounded-br-full 
+                px-[3vw] py-1
                   hover:bg-green-300"> Kerala, India.</span>
              </div>
              <div className="text-[4.8vw] shadow-inner shadow-black 
