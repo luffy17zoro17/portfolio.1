@@ -4,7 +4,6 @@
 
 import React from 'react';
 
-import SideNav from '../components/SideNav';
 
 import ContactFormFunc from '../components/ContactFormFunc';
 import { useForm } from '@formspree/react';
@@ -18,7 +17,7 @@ const Contact=()=>{
     
     <div className='relative w-[100%] h-screen bg-black top-0'>
    
-    <h1 className='font-bold text-2xl top-[2.6rem] z-30
+    <h1 className='font-bold text-2xl top-[3.5rem] z-30
      opacity-80 
     fixed shadow-md shadow-black bg-black w-[100%]
     flex justify-center text-yellow-300 tracking-tight

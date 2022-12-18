@@ -1,4 +1,4 @@
-import { useForm, ValidationError } from '@formspree/react';
+import { ValidationError } from '@formspree/react';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import MessageIcon from '@mui/icons-material/Message';
 
@@ -8,7 +8,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 const ContactForm = ({state,handleSubmit}) => {
  return (
  <div className='bg-black w-[100%] flex justify-center'> 
- <div className='shadow-lg mt-[12rem]
+ <div className='shadow-lg mt-[10rem]
  shadow-pink-600 rounded-b-full flex border-t-[0.3rem]
   border-x-[1rem]
  flex-col justify-center items-center
