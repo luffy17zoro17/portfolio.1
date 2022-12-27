@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-import SideNav from '../components/SideNav';
+
 
 import { useState } from 'react';
 
-import VioletBlock from '../components/VioletBlock';
+
 import GrayBlackBlock from '../components/GrayBlackBlock';
 import ScrollSwipeArrow from '../components/ScrollSwipeArrow';
+import ScrollBox from '../components/ScrollBox';
 
 
 
@@ -53,7 +54,7 @@ export default function Home() {
         <ScrollSwipeArrow/>
 
      <div>
-            <VioletBlock
+            <ScrollBox
                hide={hide}
                setHide={setHide}
             />

@@ -1,4 +1,4 @@
-import SideNav from "../components/SideNav";
+
 import Image from "next/image";
 import { useState } from "react";
 import AboutMeText from "../components/AboutMeText";
