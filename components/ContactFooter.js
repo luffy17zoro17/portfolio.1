@@ -7,9 +7,10 @@ import Link from 'next/link';
 const ContactFooter=()=>{
     return (
        <div>
-         <div className='flex items-center h-[5rem] gap-10
-        justify-center text-white fixed bottom-3 z-10 left-0
-        w-[101%] bg-black shadow-md shadow-black opacity-90'>
+         <div className='flex items-center h-[4rem] gap-10
+        justify-center text-white fixed bottom-1 z-10 left-0
+        w-[101%] bg-black shadow-md shadow-black opacity-90 text-xs
+         lg:text-sm lg:h-[5rem] lg:bottom-3'>
         <div className='flex flex-col items-center'>GitHub:
         <Link href={`${process.env.PRIVATE_GITHU_KEY}`} className="flex flex-col">
           <a><GitHubIcon fontSize="large"/></a></Link>
