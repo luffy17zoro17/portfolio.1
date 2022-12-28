@@ -13,15 +13,16 @@ const ScrollSwipeArrow = () => {
                text-lg lg:text-xl'>
               <span className="bg-gray-200 rounded-xl shadow-inner border-4 border-black 
               shadow-black px-[0.5vw]">
-                Swipe&nbsp;</span><b className='text-green-400 text-[1.8rem]'>&nbsp;/&nbsp;</b>&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;
+                Swipe</span>
+                <ArrowDownwardIcon className="text-pink-700 z-40 absolute 
+               scale-[180%] shadow-xl shadow-black rounded-full" 
+               fontSize="large"/>   
+
+
               <span className='rounded-xl bg-gray-200 shadow-inner border-4 
-              border-black shadow-black px-[0.5vw]'>
+              border-black shadow-black px-[0.5vw] ml-[5rem]'>
                 Scroll</span>  
-          <ArrowDownwardIcon className="text-pink-700 z-40 absolute 
-          scale-[180%] shadow-xl shadow-black rounded-full" 
-            fontSize="large"/> 
+          
         </div>
 
       </div>  
