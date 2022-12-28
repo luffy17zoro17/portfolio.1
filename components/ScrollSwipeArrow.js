@@ -20,7 +20,7 @@ const ScrollSwipeArrow = () => {
               border-black shadow-black px-[0.5vw]'>
                 Scroll</span>  
           <ArrowDownwardIcon className="text-pink-700 z-40 absolute 
-          scale-[180%] shadow-xl shadow-black" 
+          scale-[180%] shadow-xl shadow-black rounded-full" 
             fontSize="large"/> 
         </div>
 
