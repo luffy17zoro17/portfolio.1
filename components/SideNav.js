@@ -7,7 +7,7 @@ const SideNav = () => {
        <div className="fixed z-40 top-0 flex">
           <div className="text-sm ml-[6.9rem] 
           rounded-br-3xl px-[1.3rem]
-           border-4 border-gray-300 shadow-inner shadow-black italic
+           border-4 border-black shadow-inner shadow-black italic
            bg-gradient-to-r from-red-700 to-yellow-500 text-gray-900
           font-serif sm:text-[1rem] sm:ml-[7.7rem] md:ml-[8.1rem] md:text-md lg:ml-[8.9rem] lg:text-lg">
          
@@ -15,7 +15,7 @@ const SideNav = () => {
           </div>
         <div className="fixed bg-gradient-to-r from-black via-red-500 to-transparent
          space-y-[0.4rem] p-3 px-[1rem]
-        shadow-lg shadow-black border-r-[0.5rem] border-gray-300 z-60
+        shadow-lg shadow-black border-r-[0.5rem] border-black z-60
         rounded-br-3xl font-serif
         flex flex-col text-[1rem] font-bold text-pink-300 
           sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem]">
