@@ -15,9 +15,9 @@ const GrayBlackBlock = () => {
             "> 
             <div className="font-bold w-[70vw] text-pink-200">
              <div>
-               <h1 className="px-5 text-[2rem] sm:text-[5vw]
+               <h1 className="text-[2rem] sm:text-[5vw]
                 shadow-inner shadow-black hover:bg-black 
-                 rounded-b-full border">Thomas Mathew</h1>
+                 rounded-b-full border-t-0 border">Thomas Mathew</h1>
                <i className="text-[1.1rem] sm:text-[2.3vw] font-medium shadow-inner shadow-black 
                rounded-bl-full pl-5 py-1 px-[2vw] hover:bg-blue-700">From</i>
                <span className="text-[1.2rem] sm:text-[3.1vw] shadow-inner shadow-black rounded-br-full 
