@@ -5,7 +5,7 @@ const SideNav = () => {
 
     return (
        <div className="fixed z-40 top-0 flex">
-          <div className="text-sm ml-[6.7rem] 
+          <div className="text-sm ml-[6.9rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-gray-300 shadow-inner shadow-black italic
            bg-gradient-to-r from-red-700 to-yellow-500 text-gray-900
