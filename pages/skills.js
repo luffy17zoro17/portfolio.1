@@ -9,10 +9,10 @@ const Skills = () => {
     return (
       
       <div className='relative w-[100%]
-      h-screen bg-black'>
+      h-screen bg-black flex justify-center'>
 
        
-        <h1 className="font-mono fixed z-30 w-[100%] flex justify-center
+        <h1 className="font-mono fixed z-30 w-[50%] flex justify-center
             text-[1.2rem] font-bold mt-[2.6rem] text-white shadow-lg shadow-black
             bg-gradient-to-r from-transparent via-black to-transparent
             tracking-tight py-1 md:text-[1.9rem] md:mt-[0rem]">

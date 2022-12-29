@@ -8,12 +8,12 @@ const GrayBlackBlock = () => {
             
           <div className="bg-white w-[100%] bg-transparent font-serif
           h-screen absolute flex flex-col items-center justify-center">
-           <div className="bg-gradient-to-t from-black via-red-400 to-red-700
+           <div className="bg-gradient-to-t from-black via-red-600 to-transparent
            border-x-[1rem] border-t-[1rem]
            rounded-b-full text-center p-[3rem] shadow-lg
             shadow-black md:border-x-[2rem] lg:border-x-[4rem]
             "> 
-            <div className="font-bold w-[70vw] text-yellow-300">
+            <div className="font-bold w-[70vw] text-pink-200">
              <div>
                <h1 className="text-[2rem] sm:text-[5vw]
                 shadow-inner shadow-black hover:bg-black 
