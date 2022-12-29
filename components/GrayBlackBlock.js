@@ -8,7 +8,7 @@ const GrayBlackBlock = () => {
             
           <div className="bg-white w-[100%] bg-transparent font-serif
           h-screen absolute flex flex-col items-center justify-center">
-           <div className="bg-gradient-to-t from-black to-red-600
+           <div className="bg-gradient-to-t from-black via-red-500 to-red-700
            border-x-[1rem] border-t-[1rem]
            rounded-b-full text-center p-[3rem] shadow-lg
             shadow-black md:border-x-[2rem] lg:border-x-[4rem]
