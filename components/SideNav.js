@@ -13,11 +13,11 @@ const SideNav = () => {
          
              Thomas Mathew
           </div>
-        <div className="fixed bg-gradient-to-r from-black to-yellow-700
+        <div className="fixed bg-gradient-to-r from-black to-red-500
          space-y-[0.4rem] p-3 px-[1rem]
         shadow-lg shadow-black border-r-[0.5rem] border-gray-300 z-60
-        rounded-br-3xl font-sans
-        flex flex-col text-[1rem] font-bold text-gray-100 
+        rounded-br-3xl font-serif
+        flex flex-col text-[1rem] font-bold text-yellow-200 
           sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem]">
 
           <Link href="/"><a className="hover:text-orange-400 hover:font-mono
