@@ -9,7 +9,7 @@ const SideNav = () => {
           rounded-br-3xl px-[1.3rem]
            border-4 border-black shadow-inner shadow-black italic
            bg-gradient-to-r from-red-700 to-yellow-500 text-gray-900
-          font-serif sm:text-[1rem] sm:ml-[7.7rem] md:ml-[8.3rem] md:text-md lg:ml-[8.9rem] lg:text-lg">
+          font-serif sm:text-[1rem] sm:ml-[7.7rem] md:ml-[8.7rem] md:text-md lg:ml-[8.9rem] lg:text-lg">
          
              Thomas Mathew
           </div>
