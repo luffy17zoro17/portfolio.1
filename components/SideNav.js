@@ -1,15 +1,49 @@
 import Link from "next/link";
 
+const NavOptions = [
+   {
+      id:1,
+      title:"Home",
+      url:"/",
+   },
+   {  
+      id:2,
+      title:"About Me",
+      url:"/aboutme"
+   },
+   {
+      id:3,
+      title:"My Works",
+      url:"/myworks"
+   },
+   {
+      id:4,
+      title:"Test Projects",
+      url:"/testprojects",
+   },
+   {
+      id:5,
+      title:"Skills",
+      url:"/skills",
+   },
+   {
+      id:6,
+      title:"Contact",
+      url:"/contact",
+   }
+]
+
 
 const SideNav = () => {
 
     return (
        <div className="fixed z-40 top-0 flex">
-          <div className="text-sm ml-[6.9rem] 
+          <div className="text-sm ml-[8rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-black shadow-inner shadow-black italic
            bg-gradient-to-r from-red-700 to-yellow-500 text-gray-900
-          font-serif sm:text-[1rem] sm:ml-[7.7rem] md:ml-[8.7rem] md:text-md lg:ml-[8.9rem] lg:text-lg">
+          font-serif sm:text-[1rem] sm:ml-[8.7rem] 
+          md:ml-[9.3rem] md:text-md lg:ml-[10.4rem] lg:text-lg">
          
              Thomas Mathew
           </div>
@@ -20,37 +54,16 @@ const SideNav = () => {
         flex flex-col text-[1rem] font-bold text-pink-300 
           sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem]">
 
-          <Link href="/"><a className="bg-black rounded-r-full     
-          hover:text-orange-400 hover:font-mono
-          focus:ring focus:ring-violet-300 focus:rounded-full
-          focus:shadow-inner focus:shadow-black 
-          
-          focus:pl-2">Home</a></Link>  
-          <Link href="/aboutme">
-            <a className="bg-black rounded-r-full
-            hover:text-orange-400 hover:font-mono 
-            focus:ring focus:ring-violet-300 focus:rounded-full
-            focus:shadow-inner focus:shadow-black
-             focus:italic focus:px-2">About Me</a></Link>
-          <Link href="/myworks">
-            <a className="pr-2 bg-black rounded-r-full
-            hover:text-orange-400 hover:font-mono
-            focus:ring focus:ring-violet-300 focus:rounded-full
-            focus:shadow-inner focus:shadow-black
-             focus:px-2 focus:italic">My Works</a></Link>  
-          <Link href="/skills">
-            <a className="bg-black rounded-r-full 
-            hover:text-orange-400 
-            hover:font-mono focus:shadow-inner focus:shadow-black
-            focus:ring focus:ring-violet-300 focus:rounded-full
-             focus:italic focus:px-2">Skills</a></Link>   
-
-          <Link href="/contact">
-            <a className="bg-black rounded-r-full 
-            hover:text-orange-400
-            focus:ring focus:ring-violet-300 focus:rounded-full
-             focus:px-2 focus:shadow-inner focus:shadow-black
-             focus:italic hover:font-mono">Contact</a></Link>
+       
+            {NavOptions.map((item)=>(
+               <div key={item.id} className="bg-black pr-2 rounded-r-full     
+               hover:text-orange-400 hover:font-sans
+               focus:ring focus:ring-violet-300 focus:rounded-full
+               focus:shadow-inner focus:shadow-black     
+               focus:pl-2">
+                <Link href={item.url}>{item.title}</Link>
+               </div>
+            ))}
            
         </div>
        </div> 
