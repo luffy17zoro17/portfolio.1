@@ -48,7 +48,7 @@ const SideNav = () => {
              Thomas Mathew
           </div>
         <div className="fixed bg-gradient-to-r from-black via-red-500 to-transparent
-         space-y-[0.4rem] p-3 pr-[0.5rem]
+         space-y-[0.4rem] py-2 pr-[0.5rem]
         shadow-lg shadow-black border-black z-60
         rounded-br-3xl font-serif
         flex flex-col text-[1rem] font-bold text-pink-300 
