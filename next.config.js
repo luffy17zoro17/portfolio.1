@@ -8,7 +8,7 @@ const nextConfig = {
     "res.cloudinary.com","www.datocms-assets.com","cdn.pixabay.com","img.freepik.com",
     "media.comicbook.com","images.pexels.com","w0.peakpx.com","miro.medium.com",
     "w0.peakpx.com","www.pngitem.com","images.squarespace-cdn.com","1000logos.net",
-     "imageio.forbes.com","knowledgecom.my","vercel.com"],
+     "imageio.forbes.com","knowledgecom.my","vercel.com","redux.js.org"],
   },
 
   env: {
@@ -19,6 +19,7 @@ const nextConfig = {
     PRIVATE_LINKEDI_KEY:process.env.PRIVATE_LINKEDIN_KEY,
     PRIVATE_FACEBOO_KEY:process.env.PRIVATE_FACEBOOK_KEY,
     PRIVATE_TEST_LENDSQ_KEY:process.env.PRIVATE_TEST_LENDSQR_KEY,
+    PRIVATE_DOTUB_KEY:process.env.PRIVATE_DOTUBE_KEY,
 
   }
 

@@ -75,6 +75,12 @@ const Skills = [
     imgSrc:"https://knowledgecom.my/wp-content/uploads/2020/11/Photoshop-2020.png",
     url:"https://www.adobe.com/in/products/photoshop/landpa.html?gclid=EAIaIQobChMIuYDz086M-wIV55lmAh28Gwl7EAAYASAAEgLYcfD_BwE&sdid=SGDJMMG3&mv=search&ef_id=EAIaIQobChMIuYDz086M-wIV55lmAh28Gwl7EAAYASAAEgLYcfD_BwE:G:s&s_kwcid=AL!3085!3!585712413968!e!!g!!adobe%20photoshop!16470706475!133281435039&mv=search",
     title:"Adobe Photoshop"
+   },
+   {
+      id:13,
+      imgSrc:"https://redux.js.org/img/redux-logo-landscape.png",
+      url:"https://redux.js.org/",
+      title:"Redux"
    }
 ]
 

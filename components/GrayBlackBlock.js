@@ -10,7 +10,7 @@ const GrayBlackBlock = () => {
           h-screen absolute flex flex-col items-center justify-center">
            <div className="bg-gradient-to-t from-black via-red-500 to-transparent
            border-x-[1rem] border-t-[0rem] border-black
-           rounded-b-full text-center p-[3rem] shadow-lg
+           rounded-full text-center p-[3rem] shadow-lg
             shadow-black md:border-x-[2rem] lg:border-x-[4rem]
             "> 
             <div className="font-bold w-[70vw] text-pink-200">

@@ -21,11 +21,17 @@ const WorkList = [
     },
     {
         id:3,
-        name:"3. SinkedIn -> (LinkedIn inspired) [Latest]",
+        name:"3. SinkedIn -> (LinkedIn inspired)",
         imgPath:"/SinkedIn.png",
         link:`${process.env.PRIVATE_SINKED_KEY}`
     
-    }
+    },
+    {
+        id:4,
+        name:"4. DoTube -> (Youtube inspired) [Latest]",
+        imgPath:"/dotube.png",
+        link:`${process.env.PRIVATE_DOTUBE_KEY}`
+    },
 ]
 
 
@@ -33,7 +39,7 @@ const WorkList = [
 const Works = () => {
     
     return (
-      <div className="relative flex justify-center bg-black xl:h-screen">
+      <div className="relative flex justify-center bg-black">
         
          <h2 className="fixed border-x-[1rem]  w-[40%] z-30 top-[2.1rem]
           bg-gray-400 shadow-xl shadow-black
