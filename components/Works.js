@@ -30,7 +30,7 @@ const WorkList = [
         id:4,
         name:"4. DoTube -> (Youtube inspired) [Latest]",
         imgPath:"/dotube.png",
-        link:`${process.env.PRIVATE_DOTUBE_KEY}`
+        link:`${process.env.PRIVATE_DOTUB_KEY}`
     },
 ]
 

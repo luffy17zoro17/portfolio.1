@@ -26,7 +26,7 @@ const MyWorksList = [
   {
      id:4,
      title:"#4. DOTUBE App [LATEST] (Youtube inspired)",
-     url:`${process.env.PRIVATE_DOTUBE_KEY}`
+     url:`${process.env.PRIVATE_DOTUB_KEY}`
   }
 ]
 
