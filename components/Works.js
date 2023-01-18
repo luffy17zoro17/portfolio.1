@@ -28,9 +28,15 @@ const WorkList = [
     },
     {
         id:4,
-        name:"4. DoTube -> (Youtube inspired) [Latest]",
+        name:"4. DoTube -> (Youtube inspired)",
         imgPath:"/dotube.png",
         link:`${process.env.PRIVATE_DOTUB_KEY}`
+    },
+    {
+        id:5,
+        name:"5. ChatsApp -> (WhatsApp inspired) [Latest]",
+        imgPath:"/chatsapp.png",
+        link:`${process.env.PRIVATE_CHATSAP_KEY}`
     },
 ]
 
