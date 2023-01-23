@@ -60,7 +60,7 @@ const ScrollBox = ({hide, setHide}) => {
         shadow-lg shadow-black
          rounded-[2rem] xl:rounded-[6.9rem]
          h-[36rem]
-          ${hide===false ? `border-4 h-[50.01rem]`: ""}
+          ${hide===false ? `border-4 h-[680px] lg:h-[710px]`: ""}
           lg:h-[43rem] xl:h-[55rem]`}>
 
          <ShowHideButton
