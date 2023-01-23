@@ -26,7 +26,7 @@ export default function Home() {
   return (
      
     
-     <div className='relative w-[100%] h-[105rem]'>
+     <div>
       
       <Head>
         <title>My Portfolio</title>
@@ -53,7 +53,7 @@ export default function Home() {
       
         <ScrollSwipeArrow/>
 
-     <div>
+     <div className=''>
             <ScrollBox
                hide={hide}
                setHide={setHide}

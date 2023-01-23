@@ -3,9 +3,11 @@
 
 const ShowHideButton = ({hide,setHide}) => {
     return (
-        <div className='right-[1rem] absolute z-50 
-        shadow-xl shadow-black
-         border-4 cursor-pointer lg:text-2xl'>
+        <div className='absolute right-[-14vw] z-50 
+        shadow-xl shadow-black 
+         border-4 cursor-pointer 
+          sm:right-[-8vw] 
+           lg:right-[-1rem] lg:text-2xl'>
         <button className={hide ? `w-[100%] px-[1rem]
          bg-red-500 hover:animate-bounce
         font-mono font-bold` : `

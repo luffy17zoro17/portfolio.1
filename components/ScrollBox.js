@@ -48,29 +48,24 @@ const MyWorksList = [
 const ScrollBox = ({hide, setHide}) => {
 
     return (
-      
-        <div className='border-4 relative
-       z-30 top-[52rem] rounded-tl-[11rem]
-       rounded-br-[11rem]
-           bg-gradient-to-r from-red-400 to-black
-          p-4 shadow-lg shadow-black md:bottom-[85rem] lg:bottom-[60rem]
-          
-            sm:mx-[5rem] md:mx-[7rem] lg:mx-[11rem]
-             xl:mx-[18rem]'>
-        <div className='flex flex-col border-2 shadow-inner 
-        shadow-black rounded-br-[11rem] rounded-tl-[11rem]'>
-      
-        <div className={styles.green}>
+     
+       <div className='absolute z-30 h-screen
+       w-[100%] flex flex-col items-center 
+        justify-center left-0'>
+        <div className='absolute top-[180%] bottom-0
+         w-[40vw] flex justify-center'>
+        <div className={`bg-red-400
+         rounded-[2rem] xl:rounded-[6.9rem]
+         h-[36rem]
+          ${hide===false ? `border-4 h-[50.01rem]`: ""}
+          lg:h-[43rem] xl:h-[55rem]`}>
 
          <ShowHideButton
              hide={hide}
              setHide={setHide}
           /> 
       
-         <div className=''>
-              
-         </div>  
-             
+           
          <div className='font-bold text-center shadow-black
              bg-gradient-to-r from-white to-black
 
@@ -121,6 +116,7 @@ const ScrollBox = ({hide, setHide}) => {
       </div>  
       </div>
       </div>
+    
       
     );
 }
