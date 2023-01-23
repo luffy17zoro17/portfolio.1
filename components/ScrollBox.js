@@ -54,7 +54,10 @@ const ScrollBox = ({hide, setHide}) => {
         justify-center left-0'>
         <div className='absolute top-[180%] bottom-0
          w-[40vw] flex justify-center'>
-        <div className={`bg-red-400
+        <div className={`
+        bg-gradient-to-r
+         from-gray-800 via-red-500 to-gray-600
+        shadow-lg shadow-black
          rounded-[2rem] xl:rounded-[6.9rem]
          h-[36rem]
           ${hide===false ? `border-4 h-[50.01rem]`: ""}
