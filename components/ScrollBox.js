@@ -10,29 +10,35 @@ import ScrollBoxBottomText from './ScrollBoxBottomText';
 const MyWorksList = [
   {
     id:1,
-    title:"#1. BLIPKART App (Flipkart inspired)",
+    title:"#1. BLIPKART App",
     url:`${process.env.PRIVATE_BLIPKAR_KEY}`,
   },
   {
     id:2,
-    title:"#2. MESLA App (Tesla inspired)",
+    title:"#2. MESLA App",
     url:`${process.env.PRIVATE_MESL_KEY}`,
   },
   {
     id:3,
-    title:"#3. SINKEDIN App (LinkedIn inspired)",
+    title:"#3. SINKEDIN App",
     url:`${process.env.PRIVATE_SINKED_KEY}`,
   },
   {
      id:4,
-     title:"#4. DOTUBE App [LATEST] (Youtube inspired)",
+     title:"#4. DOTUBE App",
      url:`${process.env.PRIVATE_DOTUB_KEY}`
   },
   {
     id:5,
-    title:"#5. CHATSAPP App [LATEST] (WhatsApp inspired)",
+    title:"#5. CHATSAPP App",
     url:`${process.env.PRIVATE_CHATSAP_KEY}`
- }
+  },
+  {
+    id:6,
+    title:"#6. BOOGLE App [LATEST]",
+    url:`${process.env.PRIVATE_BOOGL_KEY}`
+  }
+
 ]
 
 
@@ -44,10 +50,11 @@ const ScrollBox = ({hide, setHide}) => {
     return (
       
         <div className='border-4 relative
-       z-30 top-[62rem] rounded-tl-[11rem]
+       z-30 top-[52rem] rounded-tl-[11rem]
        rounded-br-[11rem]
            bg-gradient-to-r from-red-400 to-black
           p-4 shadow-lg shadow-black md:bottom-[85rem] lg:bottom-[60rem]
+          
             sm:mx-[5rem] md:mx-[7rem] lg:mx-[11rem]
              xl:mx-[18rem]'>
         <div className='flex flex-col border-2 shadow-inner 

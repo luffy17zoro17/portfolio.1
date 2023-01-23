@@ -38,6 +38,12 @@ const WorkList = [
         imgPath:"/chatsapp.png",
         link:`${process.env.PRIVATE_CHATSAP_KEY}`
     },
+    {
+        id:6,
+        name:"6. Boogle -> (Google inspired) [Latest]",
+        imgPath:"/Boogle.png",
+        link:`${process.env.PRIVATE_BOOGL_KEY}`
+    },
 ]
 
 
