@@ -44,13 +44,14 @@ export default function Home() {
           layout="fill"
           className="object-cover"  
           alt=""
-        />    
-      
-     </div>
-     <GrayBlackBlock/>
+        />   
+        <GrayBlackBlock/>
   
       
-        <ScrollSwipeArrow/>
+        <ScrollSwipeArrow/> 
+      
+     </div>
+     
 
      <div className=''>
             <ScrollBox
