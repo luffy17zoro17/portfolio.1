@@ -22,17 +22,20 @@ const TestProjectsList = [
 const TestProj = () => {
 
     return (
-        <div className="relative flex justify-center bg-yellow-400 xl:h-screen">
-        
-         <h2 className="fixed border-x-[1rem]  w-[40%] z-30 top-[2.1rem]
-          bg-gray-100 shadow-xl shadow-black border-green-400
+       <div className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500
+        flex justify-center w-[100%] fixed h-screen overflow-y-scroll"> 
+        <div className="">
+         <h2 className="border-x-[1rem] z-30 top-[2.1rem] flex justify-center
+          bg-gray-100 shadow-xl shadow-black border-yellow-400
           text-center text-white font-bold text-[1.5rem] md:top-0
           md:border-x-[0.7rem] 
           xl:text-[2rem]">
             <span className="text-green-800 font-serif
-            shadow-xl shadow-black px-2 py-1">
-                Test<br/>Projects:</span></h2>
-         <div className="flex flex-col flex-wrap mx-11
+            rounded-lg border-x-[2rem] z-20
+            shadow-xl shadow-black px-2 py-1 fixed">
+                Test<br/>Projects:</span>
+         </h2>
+         <div className="flex flex-col flex-wrap
          items-center pt-[6rem] pb-[5rem] justify-evenly
           md:pt-[3rem] xl:flex-row 
           xl:space-x-[5vw] xl:mt-[5rem]">
@@ -69,6 +72,7 @@ const TestProj = () => {
          </div>
 
       </div>  
+      </div>
     );
 
 }
