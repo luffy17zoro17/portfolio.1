@@ -45,10 +45,9 @@ export default function Home() {
           className="object-cover absolute"  
           alt=""
         />    
-      <div/>
-        <GrayBlackBlock/>
-          
+      
      </div>
+     <GrayBlackBlock/>
   
       
         <ScrollSwipeArrow/>

@@ -7,7 +7,7 @@ const ScrollSwipeArrow = () => {
 
     return (
       <div>
-        <div className='z-20 animate-bounce h-[6%] 
+        <div className='z-30 animate-bounce h-[6%] 
               font-bold fixed bottom-[3rem] w-[100%] left-0 
               flex justify-center items-center 
                text-lg lg:text-xl'>
