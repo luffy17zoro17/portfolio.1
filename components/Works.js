@@ -54,7 +54,7 @@ const Works = () => {
       <div className="relative flex justify-center bg-black">
         
          <h2 className="fixed border-x-[1rem]  w-[40%] z-30 top-[2.1rem]
-          bg-gray-400 shadow-xl shadow-black
+          bg-black shadow-lg shadow-green-400 rounded-b-full
           text-center text-white font-bold text-[1.5rem] md:top-0
           md:border-x-[0.7rem] 
           xl:text-[2rem]">
