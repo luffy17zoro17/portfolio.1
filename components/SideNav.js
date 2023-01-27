@@ -57,8 +57,9 @@ const SideNav = () => {
        
             {NavOptions.map((item)=>(
                <div key={item.id} className="bg-black pr-2 text-center rounded-r-full  
-                   
-               hover:text-orange-400 hover:font-sans hover:border-y-4 hover:border-cyan-400">
+                  shadow shadow-yellow-400
+               hover:text-orange-400 hover:font-sans hover:border-y-4 hover:border-cyan-400
+               ">
                 <Link href={item.url}>{item.title}</Link>
                </div>
             ))}
