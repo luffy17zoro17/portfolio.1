@@ -6,7 +6,7 @@ const GrayBlackBlock = () => {
     return (
     
             
-          <div className="w-[100%] bg-transparent font-serif 
+          <div className="w-[100%] bg-transparent font-sans
           z-30 
           h-screen absolute flex flex-col items-center justify-center">
            <div className="bg-gradient-to-t
@@ -30,7 +30,7 @@ const GrayBlackBlock = () => {
              </div>
              <div className="text-[4.8vw] shadow-inner shadow-black text-black
                bg-gradient-to-r from-white to-gray-500 rounded-b-full cursor-pointer
-              px-[3vw] hover:bg-yellow-400 border-4 hover:animate-bounce">
+              px-[3vw] hover:bg-yellow-400 border-y-[0.4rem] lg:border-y-[1rem] hover:animate-bounce">
                Enjoys designing Web UI&apos;s
              </div>
               

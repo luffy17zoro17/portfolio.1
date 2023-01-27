@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
+
 
 import RedBlock from './RedBlock';
 import ShowHideButton from './ShowHideButton';
@@ -55,13 +55,14 @@ const ScrollBox = ({hide, setHide}) => {
         <div className='absolute top-[180%] bottom-0
          w-[40vw] flex justify-center'>
         <div className={`
-        bg-gradient-to-t border-x-[2.5rem]
+        bg-gradient-to-t from-gray-800 via-red-500 to-transparent
+        border-x-[2.5rem]
           border-transparent z-30
-         from-gray-800 via-red-500 to-transparent
+         
         shadow-xl shadow-black
          rounded-[2rem] md:border-x-[1.6rem] xl:rounded-[6.9rem]
          h-[36rem]
-          ${hide===false ? `from-red-500 via-gray-800 to-transparent
+          ${hide===false ? `bg-gradient-to-t from-red-500 via-gray-800 to-transparent
           h-[680px] lg:h-[710px]`: ""}
           lg:h-[43rem] xl:h-[55rem]`}>
 

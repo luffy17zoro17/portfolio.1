@@ -22,6 +22,7 @@ const nextConfig = {
     PRIVATE_DOTUB_KEY:process.env.PRIVATE_DOTUBE_KEY,
     PRIVATE_CHATSAP_KEY:process.env.PRIVATE_CHATSAPP_KEY,
     PRIVATE_BOOGL_KEY:process.env.PRIVATE_BOOGLE_KEY,
+    PRIVATE_RESUM_KEY:process.env.PRIVATE_RESUME_KEY,
 
   }
 

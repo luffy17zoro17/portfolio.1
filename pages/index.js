@@ -9,6 +9,7 @@ import { useState } from 'react';
 import GrayBlackBlock from '../components/GrayBlackBlock';
 import ScrollSwipeArrow from '../components/ScrollSwipeArrow';
 import ScrollBox from '../components/ScrollBox';
+import ResumeComp from '../components/ResumeComp';
 
 
 
@@ -37,8 +38,8 @@ export default function Home() {
       </Head>
       
 
-      <div className='fixed h-screen w-[100%]
-        z-10'>
+      <div className='z-10 fixed h-screen w-[100%]
+        '>
       <Image 
           src="https://cdn.pixabay.com/photo/2018/08/13/03/00/lego-3602218_960_720.jpg"
           layout="fill"
@@ -49,6 +50,7 @@ export default function Home() {
   
       
         <ScrollSwipeArrow/> 
+        <ResumeComp/>
       
      </div>
      
