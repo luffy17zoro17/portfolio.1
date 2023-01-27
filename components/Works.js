@@ -64,7 +64,7 @@ const Works = () => {
          <div className="flex flex-col flex-wrap mx-11
          items-center pt-[6rem] pb-[5rem] justify-evenly
           md:pt-[3rem] xl:flex-row 
-          xl:space-x-[5vw] xl:mt-[5rem]">
+          xl:gap-[4vw] xl:mt-[5rem]">
            {WorkList.map((work)=>(
 
             <div key={work.id} className="text-white">
