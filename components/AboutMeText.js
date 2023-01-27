@@ -43,7 +43,7 @@ const AboutMeText = () => {
 
             People tell me I&apos;m oversmart, overconfident etc etc. I just tell them I&apos;m just less insecure.
 
-            So to sum it up. An eccentric by all means in the year 2022.</p>
+            So to sum it up. An eccentric by all means in the year 2023.</p>
             <div className="absolute z-[-10] opacity-70 shadow-inner shadow-black
              w-full h-full bg-black top-0 left-0"/>
            </div>
