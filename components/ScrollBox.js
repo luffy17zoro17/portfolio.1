@@ -68,7 +68,7 @@ const ScrollBox = ({hide, setHide}) => {
          rounded-[2rem] md:border-x-[1.6rem] xl:rounded-[6.9rem]
         
           ${hide===false ? `bg-gradient-to-t from-red-500 via-gray-800 to-transparent
-          h-[45rem] md:h-[48rem] xl:h-[62rem]`: 
+          h-[47rem] md:h-[48rem] xl:h-[62rem]`: 
           `h-[41rem] md:h-[43rem] xl:h-[55rem]`}
           `}>
 
