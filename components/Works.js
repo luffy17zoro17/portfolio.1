@@ -40,9 +40,15 @@ const WorkList = [
     },
     {
         id:6,
-        name:"6. Boogle -> (Google inspired) [Latest]",
+        name:"6. Boogle -> (Google inspired)",
         imgPath:"/Boogle.png",
         link:`${process.env.PRIVATE_BOOGL_KEY}`
+    },
+    {
+        id:7,
+        name:"7. Camazon -> (Amazon inspired) [Latest]",
+        imgPath:"/camazon1.png",
+        link:`${process.env.PRIVATE_CAMAZO_KEY}`
     },
 ]
 
@@ -60,7 +66,7 @@ const Works = () => {
             <span className="text-orange-400 font-serif
             shadow-xl shadow-black px-2 py-1">
                 My<br/>Works:</span></h2>
-         <div className="flex flex-col flex-wrap mx-11
+         <div className="flex flex-col flex-wrap mx-11 
          items-center pt-[6rem] pb-[5rem] justify-evenly
           md:pt-[3rem] xl:flex-row 
           xl:gap-[4vw] xl:mt-[5rem]">

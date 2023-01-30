@@ -35,8 +35,13 @@ const MyWorksList = [
   },
   {
     id:6,
-    title:"#6. BOOGLE App [LATEST]",
+    title:"#6. BOOGLE App",
     url:`${process.env.PRIVATE_BOOGL_KEY}`
+  },
+  {
+    id:7,
+    title:"#7. CAMAZON App [LATEST]",
+    url:`${process.env.PRIVATE_CAMAZO_KEY}`
   }
 
 ]
@@ -61,10 +66,11 @@ const ScrollBox = ({hide, setHide}) => {
          
         shadow-xl shadow-black
          rounded-[2rem] md:border-x-[1.6rem] xl:rounded-[6.9rem]
-         h-[36rem]
+        
           ${hide===false ? `bg-gradient-to-t from-red-500 via-gray-800 to-transparent
-          h-[680px] lg:h-[710px]`: ""}
-          lg:h-[43rem] xl:h-[55rem]`}>
+          h-[45rem] md:h-[48rem] xl:h-[62rem]`: 
+          `h-[41rem] md:h-[43rem] xl:h-[55rem]`}
+          `}>
 
          <ShowHideButton
              hide={hide}
