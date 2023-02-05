@@ -24,11 +24,10 @@ const nextConfig = {
     PRIVATE_BOOGL_KEY:process.env.PRIVATE_BOOGLE_KEY,
     PRIVATE_RESUM_KEY:process.env.PRIVATE_RESUME_KEY,
     PRIVATE_CAMAZO_KEY:process.env.PRIVATE_CAMAZON_KEY,
+    PRIVATE_PLACEBOO_KEY:process.env.PRIVATE_PLACEBOOK_KEY,
 
   }
 
-
- 
 }
 
 module.exports = nextConfig

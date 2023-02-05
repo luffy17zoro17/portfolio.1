@@ -46,9 +46,15 @@ const WorkList = [
     },
     {
         id:7,
-        name:"7. Camazon -> (Amazon inspired) [Latest]",
+        name:"7. Camazon -> (Amazon inspired)",
         imgPath:"/camazon1.png",
         link:`${process.env.PRIVATE_CAMAZO_KEY}`
+    },
+    {
+        id:8,
+        name:"8. Placebook -> (Facebook inspired) [Latest]",
+        imgPath:"/placebook.png",
+        link:`${process.env.PRIVATE_PLACEBOO_KEY}`
     },
 ]
 
