@@ -7,9 +7,10 @@ const VioletBottomText = ({hide}) => {
 
     return (
       <span className={hide===false ? `flex flex-wrap absolute bottom-[6rem]
-        text-[1rem] text-white px-3 py-2.5 lg:text-[1.5rem]` : `
+        text-[1rem] text-white px-3 py-2.5 lg:text-[1.5rem] xl:px-[4rem]` : `
         flex flex-wrap absolute bottom-[1.5rem]
-        text-[1rem] text-white px-3 py-2.5 lg:text-[1.5rem]`}>
+        text-[1rem] text-white px-3 py-2.5 lg:text-[1.5rem]
+        xl:px-[4rem]`}>
         <span>Prioritize potential over degrees?<br/>
         &nbsp;Time to join forces&nbsp;
         <span className="bg-gray-500 border shadow shadow-black

@@ -75,10 +75,10 @@ const ScrollBox = ({hide, setHide}) => {
          rounded-[2rem] md:border-x-[1.6rem] xl:rounded-[6.9rem]
         
           ${hide===false ? 
-            `bg-gradient-to-t from-red-500 via-gray-800 to-transparent
-             h-[50rem]
+            `bg-gradient-to-t from-red-500 via-gray-800 to-black
+             h-[45rem] lg:h-[48rem]
             w-[95%] sm:w-[35rem] md:w-[40rem] lg:w-[60rem]`: 
-            `bg-gradient-to-t from-gray-800 via-red-500 to-transparent w-full
+            `bg-gradient-to-t from-gray-800 via-red-500 to-black w-full
               h-[45rem] w-[95%] sm:w-[35rem] md:w-[40rem] lg:w-[60rem]`}
           `}>
 
@@ -112,15 +112,17 @@ const ScrollBox = ({hide, setHide}) => {
              </div>  
 
             <div className='relative flex justify-center'>
-            <div className='space-y-5
+            <div className='space-y-5 py-4 rounded-full shadow-inner
+              shadow-black bg-gradient-to-r 
+              from-black via-red-500 to-black
               absolute mt-[5rem] h-[20rem] overflow-y-hidden
               overflow-y-scroll'>
 
              {MyWorksList.map((work)=>(
              <div key={work.id} className="text-yellow-400 py-[0.2rem] px-[1rem]
-             rounded-full font-mono w-[64vw]
+             rounded-b-full font-mono w-[64vw]
              bg-gradient-to-b from-gray-400 to-gray-800
-             shadow-md shadow-black border-4
+             shadow-md shadow-black
             hover:text-black hover:shadow-md hover:shadow-yellow-800 hover:animate-bounce
              active:shadow-inner active:shadow-black mx-5 
              sm:w-[54vw] lg:w-[44vw] lg:text-[2rem]"> 

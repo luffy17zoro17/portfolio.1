@@ -54,7 +54,7 @@ const WorkList = [
         id:8,
         name:"8. Placebook -> (Facebook inspired) [Latest]",
         imgPath:"/placebook.png",
-        link:`${process.env.PRIVATE_PLACEBOO_KEY}`
+        link:`${process.env.PRIVATE_PLACEBOO_KEY}`,
     },
 ]
 
@@ -66,12 +66,11 @@ const Works = () => {
       <div className="relative flex justify-center bg-black">
         
          <h2 className="fixed w-[40%] z-30 top-[2.1rem]
-          bg-black shadow-lg shadow-green-400 rounded-b-full
           text-center text-white font-bold text-[1.5rem] md:top-0
           xl:text-[2rem]">
-            <span className="text-orange-400 font-serif
-            shadow-xl shadow-black px-2 py-1">
-                My<br/>Works:</span></h2>
+            <span className="text-orange-400 font-serif rounded-b-full
+            shadow-md shadow-green-400 p-9 py-1 bg-black">
+                My Works:</span></h2>
          <div className="flex flex-col flex-wrap mx-11 
          items-center pt-[6rem] pb-[5rem] justify-evenly
           md:pt-[3rem] xl:flex-row 

@@ -1,40 +1,49 @@
 import Link from "next/link";
+import { useState } from "react";
 
 const NavOptions = [
    {
       id:1,
       title:"Home",
       url:"/",
+      clickNo:1,
    },
    {  
       id:2,
       title:"About Me",
-      url:"/aboutme"
+      url:"/aboutme",
+      clickNo:2
    },
    {
       id:3,
       title:"My Works",
-      url:"/myworks"
+      url:"/myworks",
+      clickNo:3
    },
    {
       id:4,
       title:"Test Projects",
       url:"/testprojects",
+      clickNo:4
    },
    {
       id:5,
       title:"Skills",
       url:"/skills",
+      clickNo:5
    },
    {
       id:6,
       title:"Contact",
       url:"/contact",
+      clickNo:6
    }
 ]
 
 
 const SideNav = () => {
+
+    
 
     return (
        <div className="fixed z-40 top-0 flex">
@@ -47,22 +56,28 @@ const SideNav = () => {
          
              Thomas Mathew
           </div>
-        <div className="fixed bg-gradient-to-r from-black via-red-500 to-transparent
-         space-y-[0.4rem] py-2 pr-[0.5rem]
-        shadow-lg shadow-black border-black z-60
+        <div className="fixed
+         space-y-[0.4rem] pt-2 
+          z-60
         rounded-br-3xl font-serif
         flex flex-col text-[1rem] font-bold text-pink-300 
           sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem]">
 
        
             {NavOptions.map((item)=>(
-               <div key={item.id} className="bg-black pr-2 text-center rounded-r-full  
-                  shadow shadow-yellow-400
-               hover:text-orange-400 hover:font-sans hover:border-y-4 hover:border-cyan-400
-               ">
-                <Link href={item.url}>{item.title}</Link>
+               <div  key={item.id} className={`bg-black 
+               pr-4 text-center rounded-br-full  
+            shadow-md shadow-black
+         hover:text-orange-600 hover:rotate-3
+           outline`}>
+                <Link  className={``} href={item.url}>{item.title}</Link>
                </div>
+               
             ))}
+
+            
+
+         
            
         </div>
        </div> 
