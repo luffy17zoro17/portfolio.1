@@ -13,11 +13,12 @@ const ResumeComp = ()=>{
             title={`Resume`}
             lclassN={``}
             ldivclassN={`bg-gradient-to-r from-black via-red-900 to-black
-             hover:text-orange-600 px-3 font-mono pr-6
+             px-3 font-mono pr-6
              shadow-xl shadow-black z-50 rounded-br-full
              border-pink-300 hover:border-orange-600
-            text-xl -rotate-90 fixed right-[-1.3rem] border-4
-             text-pink-300 font-bold hover:text-orange-400
+            text-xl -rotate-90 fixed right-[-1.3rem] outline
+             text-pink-300 font-bold hover:text-orange-600
+             
            hover:border-orange-400 md:text-2xl lg:text-3xl`}
          />
        </div> 
