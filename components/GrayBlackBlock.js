@@ -12,7 +12,7 @@ const GrayBlackBlock = () => {
             
            <div className="bg-gradient-to-t relative
             from-red-500 via-black to-transparent w-full
-           border-x-[1rem] border-t-[0rem] border-red-600
+           border-x-[1rem] border-b-[0.5rem] border-pink-300
            rounded-full text-center px-[3rem]
             py-3 shadow-xl
             shadow-black md:w-[90%]
