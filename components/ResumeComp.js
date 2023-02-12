@@ -13,9 +13,10 @@ const ResumeComp = ()=>{
             title={`Resume`}
             lclassN={``}
             ldivclassN={`bg-gradient-to-r from-black via-red-900 to-black
-             hover:bg-red-400 px-3 font-mono
-             shadow-xl shadow-black z-50
-            text-xl -rotate-90 fixed right-[-1.3rem] border-x-4
+             hover:text-orange-600 px-3 font-mono pr-6
+             shadow-xl shadow-black z-50 rounded-br-full
+             border-pink-300 hover:border-orange-600
+            text-xl -rotate-90 fixed right-[-1.3rem] border-4
              text-pink-300 font-bold hover:text-orange-400
            hover:border-orange-400 md:text-2xl lg:text-3xl`}
          />

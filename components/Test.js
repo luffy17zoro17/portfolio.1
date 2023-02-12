@@ -32,7 +32,7 @@ const TestProj = () => {
           xl:text-[2rem]">
             <span className="text-green-800 font-serif
             rounded-lg border-x-[2rem] z-20
-            shadow-md shadow-black px-2 py-1 fixed top-[2rem] md:top-0">
+            shadow-xl shadow-black px-2 py-1 fixed top-[2rem] md:top-0">
                 Test<br/>Projects:</span>
          </h2>
          <div className="flex flex-col flex-wrap
