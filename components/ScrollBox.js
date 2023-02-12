@@ -11,42 +11,42 @@ const MyWorksList = [
   
   {
     id:1,
-    title:"#8. PLACEBOOK App [LATEST]",
+    title:"8. PLACEBOOK App[latest]",
     url:`${process.env.PRIVATE_PLACEBOO_KEY}`
   },
   {
     id:2,
-    title:"#7. CAMAZON App",
+    title:"7. CAMAZON App",
     url:`${process.env.PRIVATE_CAMAZO_KEY}`
   },
   {
     id:3,
-    title:"#6. BOOGLE App",
+    title:"6. BOOGLE App",
     url:`${process.env.PRIVATE_BOOGL_KEY}`
   },
   {
     id:4,
-    title:"#5. CHATSAPP App",
+    title:"5. CHATSAPP App",
     url:`${process.env.PRIVATE_CHATSAP_KEY}`
   },
   {
     id:5,
-    title:"#4. DOTUBE App",
+    title:"4. DOTUBE App",
     url:`${process.env.PRIVATE_DOTUB_KEY}`
   },
   {
     id:6,
-    title:"#3. SINKEDIN App",
+    title:"3. SINKEDIN App",
     url:`${process.env.PRIVATE_SINKED_KEY}`,
   },
   {
     id:7,
-    title:"#2. MESLA App",
+    title:"2. MESLA App",
     url:`${process.env.PRIVATE_MESL_KEY}`,
   },
   {
     id:8,
-    title:"#1. BLIPKART App",
+    title:"1. BLIPKART App",
     url:`${process.env.PRIVATE_BLIPKAR_KEY}`,
   },
  
