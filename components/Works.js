@@ -52,9 +52,15 @@ const WorkList = [
     },
     {
         id:8,
-        name:"8. Placebook -> (Facebook inspired) [Latest]",
+        name:"8. Placebook -> (Facebook inspired)",
         imgPath:"/placebook.png",
         link:`${process.env.PRIVATE_PLACEBOO_KEY}`,
+    },
+    {
+        id:9,
+        name:"9. Cteam -> (Steam inspired) [Latest] (desktop only)",
+        imgPath:"/Cteam_desktop_only.png",
+        link:`${process.env.PRIVATE_CTEA_KEY}`,
     },
 ]
 

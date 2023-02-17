@@ -25,6 +25,7 @@ const nextConfig = {
     PRIVATE_RESUM_KEY:process.env.PRIVATE_RESUME_KEY,
     PRIVATE_CAMAZO_KEY:process.env.PRIVATE_CAMAZON_KEY,
     PRIVATE_PLACEBOO_KEY:process.env.PRIVATE_PLACEBOOK_KEY,
+    PRIVATE_CTEA_KEY:process.env.PRIVATE_CTEAM_KEY,
 
   }
 

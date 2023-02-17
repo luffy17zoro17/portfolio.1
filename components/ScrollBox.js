@@ -8,44 +8,49 @@ import ScrollBoxBottomText from './ScrollBoxBottomText';
 
 
 const MyWorksList = [
-  
+
   {
     id:1,
-    title:"8. PLACEBOOK App[latest]",
-    url:`${process.env.PRIVATE_PLACEBOO_KEY}`
+    title:"9. CTEAM App[latest](desktop only)",
+    url:`${process.env.PRIVATE_CTEA_KEY}`
   },
   {
     id:2,
+    title:"8. PLACEBOOK App",
+    url:`${process.env.PRIVATE_PLACEBOO_KEY}`
+  },
+  {
+    id:3,
     title:"7. CAMAZON App",
     url:`${process.env.PRIVATE_CAMAZO_KEY}`
   },
   {
-    id:3,
+    id:4,
     title:"6. BOOGLE App",
     url:`${process.env.PRIVATE_BOOGL_KEY}`
   },
   {
-    id:4,
+    id:5,
     title:"5. CHATSAPP App",
     url:`${process.env.PRIVATE_CHATSAP_KEY}`
   },
   {
-    id:5,
+    id:6,
     title:"4. DOTUBE App",
     url:`${process.env.PRIVATE_DOTUB_KEY}`
   },
   {
-    id:6,
+    id:7,
     title:"3. SINKEDIN App",
     url:`${process.env.PRIVATE_SINKED_KEY}`,
   },
   {
-    id:7,
+    id:8,
     title:"2. MESLA App",
     url:`${process.env.PRIVATE_MESL_KEY}`,
   },
   {
-    id:8,
+    id:9,
     title:"1. BLIPKART App",
     url:`${process.env.PRIVATE_BLIPKAR_KEY}`,
   },
@@ -74,8 +79,8 @@ const ScrollBox = ({hide, setHide}) => {
               lg:overflow-y-hidden lg:hover:overflow-y-scroll'>
 
              {MyWorksList.map((work)=>(
-             <div key={work.id} className="text-yellow-400 py-[0.2rem] px-[1rem]
-             rounded-b-full font-mono w-[64vw] flex justify-center
+             <div key={work.id} className="text-yellow-400 py-[0.2rem] px-[0.2rem]
+             rounded-b-full font-sans w-[64vw] flex justify-center
              bg-gradient-to-b from-gray-400 to-gray-800
              shadow-md shadow-black
             hover:text-black hover:shadow-md hover:shadow-yellow-800
