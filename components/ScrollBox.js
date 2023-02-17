@@ -80,7 +80,7 @@ const ScrollBox = ({hide, setHide}) => {
 
              {MyWorksList.map((work)=>(
              <div key={work.id} className="text-yellow-400 py-[0.2rem] px-[0.2rem]
-             rounded-b-full font-sans w-[66vw] flex justify-center
+             rounded-b-full font-sans w-[70vw] flex justify-center
              bg-gradient-to-b from-gray-400 to-gray-800
              shadow-md shadow-black
             hover:text-black hover:shadow-md hover:shadow-yellow-800
