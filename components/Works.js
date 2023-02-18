@@ -59,7 +59,7 @@ const WorkList = [
     {
         id:9,
         name:"9. Cteam -> (Steam inspired) [Latest] (desktop only)",
-        imgPath:"/Cteam_desktop_only.png",
+        imgPath:"/Cteam.png",
         link:`${process.env.PRIVATE_CTEA_KEY}`,
     },
 ]
