@@ -59,7 +59,8 @@ const ResumeComp = ()=>{
              hover:border-orange-400 lg:rounded-bl-2xl
              ${item.id===2 ? `text-blue-700 bg-white` : 
              item.id===3 ? `bg-white text-black` : item.id===4 ? `bg-white text-blue-500` : 
-             `text-red-700 bg-white`}
+             `bg-gradient-to-r from-blue-400 via-red-600 to-yellow-300
+             text-green-900`}
              ${item.id>2 ? `
                 lg:h-[4rem] lg:w-[4rem] ` : `px-1 md:text-2xl lg:px-3 lg:text-3xl
                 `}
