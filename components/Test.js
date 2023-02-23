@@ -17,7 +17,7 @@ const TestProjectsList = [
     {
         id:2,
         name:"2. Network Academy -> (Network Academy Test Project)[Latest](desktop only)",
-        details:"A Test from the Company 'Network Academy' that I completed.",
+        details:"A Test from the Company 'Network Academy' that I completed. Its a 'Desktop only' website.",
         imgPath:"/NetworkAcademyTest.png",
         link:`${process.env.PRIVATE_NETWORK_ACADEM_TEST_KEY}`
     },
