@@ -32,7 +32,7 @@ const AboutMe = () => {
           rounded-full w-[50vmin] h-[50vmin] z-40 p-4
          shadow-xl shadow-black bg-red-400 left-[9vmin] text-[5vmin] font-bold 
          active:shadow-inner active:shadow-black md:left-[15rem] md:top-[3rem]` : 
-         `bg-red-500 border-4 fixed z-30 top-[5rem] right-[4rem] md:right-[6rem] rounded-full shadow-inner
+         `bg-red-500 border-4 fixed z-30 top-[5rem] right-[3rem] md:right-[6rem] rounded-full shadow-inner
          shadow-black font-bold h-[5rem] w-[5rem] sm:h-[5rem] sm:w-[5rem]
           md:text-3xl md:h-[8rem] md:w-[8rem] active:shadow-xl active:shadow-black`}>
             <h1 className={toggleOn ? "" : "animate-pulse hover:animate-pulse hover:scale-[110%] hover:text-purple-700"}>
