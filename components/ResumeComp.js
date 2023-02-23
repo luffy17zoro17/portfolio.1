@@ -60,7 +60,7 @@ const ResumeComp = ()=>{
              ${item.id>2 ? `
                 lg:h-[4rem] lg:w-[4rem] ` : `px-1 md:text-2xl lg:px-3 lg:text-3xl
                 `}
-                ${item.id===1 ? `text-xs font-light md:text-[0.9rem] lg:text-[1.1rem]
+                ${item.id===1 ? `text-xs font-light lg:text-[1.1rem]
                  ` : `hover:text-orange-800 cursor-pointer`}`}
          />
        </div> 

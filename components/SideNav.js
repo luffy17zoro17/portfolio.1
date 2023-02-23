@@ -48,12 +48,12 @@ const SideNav = () => {
 
     return (
        <div className="fixed z-40 top-0 flex items-start">
-          <TextProp title={`Thomas Mathew`} titleClassN={`text-xs ml-[7rem] 
+          <TextProp title={`Thomas Mathew`} titleClassN={`text-xs ml-[6.8rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-black shadow-inner shadow-black italic
            bg-pink-300
           font-serif sm:text-[1rem] sm:ml-[7.6rem] 
-          md:ml-[7.3rem] md:text-sm lg:ml-[8rem] lg:text-lg`}/>
+          md:ml-[8.5rem] md:text-sm lg:ml-[8rem] lg:text-lg`}/>
          
         <div className="fixed
          space-y-[0.4rem] pt-2 
