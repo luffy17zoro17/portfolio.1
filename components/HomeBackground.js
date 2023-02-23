@@ -18,7 +18,8 @@ const HomeBackground = ({hide,setHide,pic}) => {
        
        <div className='snap-mandatory snap-y relative'> 
        
-       
+       <div className='bg-gradient-to-b from-black via-transparent to-transparent
+        h-full z-10 fixed w-full'/> 
        <div key={pic.id} className={`
           snap-center ${pic.id===2 ? `h-screen` : ``}`}> 
 
@@ -28,8 +29,8 @@ const HomeBackground = ({hide,setHide,pic}) => {
              w-full'/> }  
         <ImageProp 
           isrc={pic.imgSrc}
-          iht={`9000`}
-          iwd={`9000`}
+          iht={`19000`}
+          iwd={`19000`}
 
           ilayout={`${pic.id===2 ? `fill` : `intrinsic`}`}
           imgclassN={`object-cover transition delay-120 duration-300

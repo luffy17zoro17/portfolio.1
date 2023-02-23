@@ -61,7 +61,9 @@ export default function Home() {
         <link rel="icon" href="https://iconarchive.com/download/i54293/crountch/one-piece-jolly-roger/Luffys-flag.ico" />
        
       </Head>
+      
       <div className='bg-black h-full fixed w-full'/> 
+      
       
       <main className={`relative
        transition delay-120 duration-300 w-full bottom-0
@@ -70,7 +72,7 @@ export default function Home() {
           sm:translate-y-[-195vw] md:translate-y-[-196vw]
            lg:translate-y-[-195vw]` : `translate-y-[0rem]`}`}>
            
-         
+          
         {HomeImages.map((pic)=>(   
          <div key={pic.id}>   
          
@@ -79,13 +81,13 @@ export default function Home() {
             setHide={setHide}
             pic={pic}
           />
-         
+          
          </div>
         ))}
       </main>
       <ScrollSwipeArrow/> 
       
-      
+       
       
       
      </>
