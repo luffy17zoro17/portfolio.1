@@ -29,13 +29,13 @@ const HomeBackground = ({hide,setHide,pic}) => {
              w-full'/> }  
         <ImageProp 
           isrc={pic.imgSrc}
-          iht={`19000`}
-          iwd={`19000`}
+          iht={`99000`}
+          iwd={`99000`}
 
           ilayout={`${pic.id===2 ? `fill` : `intrinsic`}`}
           imgclassN={`object-cover transition delay-120 duration-300
             ${hide===true ? `
-              blur-3xl` :`blur-none`}`}
+              blur-md lg:blur-2xl` :`blur-none`}`}
           idivclassN={`
           ${pic.id===2 ? `h-full` : ``} 
           `}
