@@ -38,7 +38,7 @@ const ScrollSwipeArrow = () => {
                    px-3 py-2 transition delay-120 duration-300
                     active:blur-md text-pink-300
                      shadow-xl shadow-black rounded-full hover:text-cyan-400
-                     ${autoScrollValue===0 ? `flex flex-col px-3 py-2` : 
+                     ${autoScrollValue===0 ? `flex flex-col px-[0.82rem]` : 
                      `flex flex-col-reverse`}`}/>   
 
 

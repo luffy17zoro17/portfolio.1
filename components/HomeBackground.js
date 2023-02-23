@@ -34,7 +34,7 @@ const HomeBackground = ({hide,setHide,pic}) => {
           ilayout={`${pic.id===2 ? `fill` : `intrinsic`}`}
           imgclassN={`object-cover transition delay-120 duration-300
             ${hide===true ? `
-              blur-xl` :`blur-none`}`}
+              blur-3xl` :`blur-none`}`}
           idivclassN={`
           ${pic.id===2 ? `h-full` : ``} 
           `}
