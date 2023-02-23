@@ -71,13 +71,11 @@ const Works = () => {
     
     return (
       <div className="relative flex justify-center bg-black">
-        
-         <h2 className="fixed w-[40%] z-30 top-[2.1rem]
-          text-center text-white font-bold text-[1.5rem] md:top-0
-          xl:text-[2rem]">
-            <span className="text-orange-400 font-serif rounded-b-full
+        <div className="text-orange-400 font-serif rounded-b-full absolute
+            text-xl top-[3rem] font-bold
             shadow-md shadow-green-400 px-7 py-1 bg-black">
-                My Works:</span></h2>
+                My Works:</div>
+        
          <div className="flex flex-col flex-wrap mx-11 
          items-center pt-[6rem] pb-[5rem] justify-evenly
           md:pt-[3rem] xl:flex-row 
