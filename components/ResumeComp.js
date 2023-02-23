@@ -48,15 +48,18 @@ const ResumeComp = ()=>{
             title={item.title}  
             icon={item.icon}
             lclassN={`flex items-center`}
-            ldivclassN={`bg-pink-300
-             border-pink-300 border-4
+            ldivclassN={`
+             border-4
              shadow-inner shadow-black
-             font-serif 
+             font-serif border-pink-300
              z-50 rounded-bl-xl
-             border-pink-300 hover:border-orange-600
+             hover:border-orange-600
              font-bold 
              flex justify-center 
              hover:border-orange-400 lg:rounded-bl-2xl
+             ${item.id===2 ? `text-blue-700 bg-white` : 
+             item.id===3 ? `bg-white text-black` : item.id===4 ? `bg-white text-blue-500` : 
+             `text-red-700 bg-white`}
              ${item.id>2 ? `
                 lg:h-[4rem] lg:w-[4rem] ` : `px-1 md:text-2xl lg:px-3 lg:text-3xl
                 `}
