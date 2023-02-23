@@ -2,11 +2,12 @@
 
 
 
-const TextProp = ({title,details}) => {
+const TextProp = ({title,details,
+    titleClassN,detailClassN,textDivClassN}) => {
     return (
-      <div>
-        <h1>{title}</h1>
-        <p>{details}</p>
+      <div className={textDivClassN}>
+        <h1 className={titleClassN}>{title}</h1>
+        <p className={detailClassN}>{details}</p>
       </div>  
     );
 }

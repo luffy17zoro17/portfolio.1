@@ -6,15 +6,15 @@ import Link from "next/link";
 const VioletBottomText = ({hide}) => {
 
     return (
-   
-    <div className={`z-30 mt-[30rem] border-x-[3rem] rounded-b-full
-       border-b-4
+   <div className="flex justify-center">
+    <div className={`z-30 border-x-[3rem] rounded-b-full
+       border-b-4 my-[1rem]
        bg-gradient-to-b from-black via-red-800 to-black
         text-white shadow-md shadow-black border-pink-300
-       text-md lg:text-xl
-       lg:mt-[44rem]
+       text-md
+       
         ${hide===false ? `opacity-0 px-3` : `px-3 opacity-100`}`}>  
-      <div className="">
+      <div className="flex text-sm lg:text-xl">
         <span>Prioritize potential over degrees?<br/>
         &nbsp;Time to join forces&nbsp;
         <span className="bg-gray-500 border shadow shadow-black
@@ -23,6 +23,7 @@ const VioletBottomText = ({hide}) => {
         </span></span>
      </div>
     </div>  
+   </div> 
     );
 }
 

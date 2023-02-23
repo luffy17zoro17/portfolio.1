@@ -8,10 +8,16 @@ import ScrollBoxBottomText from './ScrollBoxBottomText';
 
 
 const MyWorksList = [
+  
 
   {
     id:1,
-    title:"9. CTEAM App[latest](desktop only)",
+    title:"10.NETWORK ACADEMY TEST(PC only)",
+    url:`${process.env.PRIVATE_NETWORK_ACADEM_TEST_KEY}`
+  },
+  {
+    id:1,
+    title:"9. CTEAM App(PC only)",
     url:`${process.env.PRIVATE_CTEA_KEY}`
   },
   {
@@ -66,21 +72,35 @@ const ScrollBox = ({hide, setHide}) => {
 
     return (
          
-         <div className='z-30 flex justify-center'>
-          <div className='absolute z-30 top-[100rem]'>
-           <div className='relative flex justify-center flex-col items-center h-screen'>
+         <div className={`z-20 flex justify-center
+           items-center bottom-11 h-screen top-11
+           absolute w-full`}>
+          <div className='z-30'>
 
-            <div className='space-y-5 py-4 rounded-b-full shadow-lg
+          <div className='border-4 rounded-b-2xl
+           border-pink-300'>
+          <ShowHideButton
+             hide={hide}
+             setHide={setHide}
+          /></div>  
+
+            <div className={`transition border-dotted
+              delay-120 duration-300 h-[20rem] md:h-[15rem]
+              lg:h-[30rem]
+              ${hide ? `space-y-5 py-4 rounded-b-full shadow-lg
               shadow-black bg-gradient-to-r border-x-[1rem]
               from-black via-red-500 to-black border-pink-300
-              hover:border-orange-600
-              absolute mt-[5rem] h-[20rem] overflow-y-hidden
-              overflow-y-scroll lg:h-[30rem] lg:border-x-[3rem]
-              lg:overflow-y-hidden lg:hover:overflow-y-scroll'>
+              hover:border-orange-600 transition
+              delay-120 duration-300 
+              overflow-y-hidden
+              overflow-y-scroll lg:border-x-[3rem]
+              lg:overflow-y-hidden lg:hover:overflow-y-scroll` : `
+              hidden opacity-0 transition
+              delay-120 duration-300`}`}>
 
              {MyWorksList.map((work)=>(
              <div key={work.id} className="text-yellow-400 py-[0.2rem] px-[0.2rem]
-             rounded-b-full font-sans w-[70vw] flex justify-center
+             rounded-b-full font-sans w-[60vw] flex justify-center
              bg-gradient-to-b from-gray-400 to-gray-800
              shadow-md shadow-black
             hover:text-black hover:shadow-md hover:shadow-yellow-800
@@ -100,11 +120,8 @@ const ScrollBox = ({hide, setHide}) => {
                 hide={hide}
               />  
           
-            <ShowHideButton
-             hide={hide}
-             setHide={setHide}
-          /> 
-          </div>
+            
+        
        </div>    
        </div>
     

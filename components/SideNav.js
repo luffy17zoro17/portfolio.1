@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import TextProp from "./props/TextProp";
 
 const NavOptions = [
    {
@@ -46,16 +47,14 @@ const SideNav = () => {
     
 
     return (
-       <div className="fixed z-40 top-0 flex">
-          <div className="text-sm ml-[8.3rem] 
+       <div className="fixed z-40 top-0 flex items-start">
+          <TextProp title={`Thomas Mathew`} titleClassN={`text-sm ml-[5.5rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-black shadow-inner shadow-black italic
-           bg-gradient-to-r from-red-700 to-yellow-500 text-gray-900
-          font-serif sm:text-[1rem] sm:ml-[9rem] 
-          md:ml-[9.7rem] md:text-md lg:ml-[10.9rem] lg:text-lg">
+           bg-pink-300
+          font-serif sm:text-[1rem] sm:ml-[6.6rem] 
+          md:ml-[7.3rem] md:text-md lg:ml-[8rem] lg:text-lg`}/>
          
-             Thomas Mathew
-          </div>
         <div className="fixed
          space-y-[0.4rem] pt-2 
           z-60
@@ -67,7 +66,8 @@ const SideNav = () => {
             {NavOptions.map((item)=>(
                <div  key={item.id} className={`bg-black 
                pr-4 text-center rounded-br-full  
-            shadow-md shadow-black
+               transition delay-120 duration-300
+            shadow-xl shadow-black
          hover:text-orange-600 hover:rotate-3
            outline`}>
                 <Link  className={``} href={item.url}>{item.title}</Link>

@@ -14,6 +14,13 @@ const TestProjectsList = [
         link:`${process.env.PRIVATE_TEST_LENDSQ_KEY}`,
         
     },
+    {
+        id:2,
+        name:"2. Network Academy -> (Network Academy Test Project)[Latest](desktop only)",
+        details:"A Test from the Company 'Network Academy' that I completed.",
+        imgPath:"/NetworkAcademyTest.png",
+        link:`${process.env.PRIVATE_NETWORK_ACADEM_TEST_KEY}`
+    },
 
 ]
 
@@ -38,12 +45,13 @@ const TestProj = () => {
          <div className="flex flex-col flex-wrap
          items-center pt-[6rem] pb-[5rem] justify-evenly
           md:pt-[3rem] xl:flex-row 
-          xl:space-x-[5vw] xl:mt-[5rem]">
+          xl:space-x-[5vw] xl:mt-[5rem]
+          xl:gap-[10rem]">
            {TestProjectsList.map((work)=>(
 
             <div key={work.id} className="text-black">
             <div className="flex flex-col items-center justify-center">    
-            <h1 className="text-center text-lg md:text-xl xl:text-2xl pt-[8rem]">{work.name}</h1>  
+            <h1 className="text-center w-[24rem] text-lg md:text-xl xl:text-2xl pt-[8rem]">{work.name}</h1>  
             <p className="pt-5">{work.details}</p>    
             <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400 rounded-full
              hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]

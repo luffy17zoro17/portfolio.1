@@ -8,7 +8,8 @@ const nextConfig = {
     "res.cloudinary.com","www.datocms-assets.com","cdn.pixabay.com","img.freepik.com",
     "media.comicbook.com","images.pexels.com","w0.peakpx.com","miro.medium.com",
     "w0.peakpx.com","www.pngitem.com","images.squarespace-cdn.com","1000logos.net",
-     "imageio.forbes.com","knowledgecom.my","vercel.com","redux.js.org"],
+     "imageio.forbes.com","knowledgecom.my","vercel.com","redux.js.org",
+     "mcdn.wallpapersafari.com",`images6.alphacoders.com`,`i.pinimg.com`,],
   },
 
   env: {
@@ -26,6 +27,7 @@ const nextConfig = {
     PRIVATE_CAMAZO_KEY:process.env.PRIVATE_CAMAZON_KEY,
     PRIVATE_PLACEBOO_KEY:process.env.PRIVATE_PLACEBOOK_KEY,
     PRIVATE_CTEA_KEY:process.env.PRIVATE_CTEAM_KEY,
+    PRIVATE_NETWORK_ACADEM_TEST_KEY:process.env.PRIVATE_NETWORK_ACADEMY_TEST_KEY,
 
   }
 

@@ -62,6 +62,7 @@ const WorkList = [
         imgPath:"/Cteam.png",
         link:`${process.env.PRIVATE_CTEA_KEY}`,
     },
+    
 ]
 
 
@@ -75,7 +76,7 @@ const Works = () => {
           text-center text-white font-bold text-[1.5rem] md:top-0
           xl:text-[2rem]">
             <span className="text-orange-400 font-serif rounded-b-full
-            shadow-md shadow-green-400 p-9 py-1 bg-black">
+            shadow-md shadow-green-400 px-7 py-1 bg-black">
                 My Works:</span></h2>
          <div className="flex flex-col flex-wrap mx-11 
          items-center pt-[6rem] pb-[5rem] justify-evenly

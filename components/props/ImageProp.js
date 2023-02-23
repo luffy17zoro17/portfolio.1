@@ -3,7 +3,8 @@ import Image from "next/image";
 
 
 
-const ImageProp = ({isrc,iht,iwd,imgclassN,ialt, idivclassN}) => {
+const ImageProp = ({isrc,iht,iwd,imgclassN,ialt, idivclassN,
+                ilayout}) => {
     return (
      <div className={idivclassN}>
         <Image
@@ -11,6 +12,7 @@ const ImageProp = ({isrc,iht,iwd,imgclassN,ialt, idivclassN}) => {
           height={iht}
           width={iwd}
           className={imgclassN}
+          layout={ilayout ? ilayout : ``}
           alt={ialt}
         />
      </div>   

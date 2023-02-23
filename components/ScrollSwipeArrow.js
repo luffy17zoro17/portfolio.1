@@ -1,36 +1,51 @@
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import { useDispatch, useSelector } from 'react-redux';
+import { scrollChange, scrollDown, scrollUp, selectScroll } from '../reducers/autoScroll/autoScroll';
 
-
+import TextProp from "../components/props/TextProp";
 
 
 const ScrollSwipeArrow = () => {
+    
+    const autoScrollValue = useSelector(selectScroll);
+    const dispatch= useDispatch();
 
     return (
-      <div>
-        <div className='z-30 animate-bounce h-[6%] 
-              font-bold fixed bottom-[3rem] w-[100%] left-0 
-              flex justify-center items-center 
+      <div className=' transition delay-120 duration-300
+            fixed h-[4rem] z-30 bottom-[1rem]
+             w-screen md:ml-[8rem] lg:ml-0 lg:bottom-[3rem]'>
+
+        <div>      
+        
+        <div onClick={autoScrollValue===0 ? ()=>dispatch(scrollDown()) : 
+           ()=>dispatch(scrollUp())} className='
+              font-bold w-[100%] left-0 transition delay-120 duration-300
+              flex justify-center cursor-pointer
                text-lg lg:text-xl'>
-              <span className="bg-pink-300 rounded-bl-full
-               shadow-inner outline pl-5 outline-pink-300
-              shadow-black px-[0.5vw]">
-                Swipe</span>
+              
                 
-                <ArrowDownwardIcon className="text-cyan-400
-                 bg-gradient-to-t
-                 from-red-500 via-black to-transparent
-                 z-40 absolute border-y
-               scale-[180%] shadow-xl shadow-black rounded-full" 
-               fontSize="large"/>   
+                <TextProp title={autoScrollValue===0 ? `Down` : `Up`} 
+                  titleClassN={` `}
+                   details={`➤`} detailClassN={`text-xl
+                   ${autoScrollValue===0 ? `rotate-90` : `-rotate-90`}`}
+                   textDivClassN={`bg-gradient-to-t
+                   from-red-500 via-black to-transparent
+                   z-40 absolute border-4 text-center border-pink-300
+                  
+                    hover:border-black hover:border-dotted
+                   
+                   justify-center items-center animate-bounce
+                   px-3 py-2 transition delay-120 duration-300
+                    active:blur-md text-pink-300
+                     shadow-xl shadow-black rounded-full hover:text-cyan-400
+                     ${autoScrollValue===0 ? `flex flex-col px-3 py-2` : 
+                     `flex flex-col-reverse`}`}/>   
 
 
-              <span className='rounded-xl bg-pink-300 shadow-inner outline
-               rounded-br-full outline-pink-300
-               shadow-black px-[0.5vw] pr-5 ml-[6rem]'>
-                Scroll</span>  
+             
           
         </div>
-
+        </div>
       </div>  
     );
 }

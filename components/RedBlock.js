@@ -9,7 +9,7 @@ const RedBlock = ({hide}) => {
             border-pink-600 
              shadow-lg shadow-black rounded-3xl font-light bg-pink-600
             
-             w-[14rem] lg:w-[16rem] xl:w-[18rem] xl:mx-[4rem]`}>
+             w-[14rem] lg:w-[16rem] xl:w-[18rem]`}>
               <div className='shadow-inner shadow-black rounded-3xl bg-white
               text-[0.8rem] p-[3rem] py-[0.5rem]
                lg:text-lg'>

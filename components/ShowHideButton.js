@@ -1,32 +1,47 @@
+import { useDispatch, useSelector } from "react-redux";
+import { selectBlur } from "../reducers/blur/blurSlice";
+
 
 
 
 const ShowHideButton = ({hide,setHide}) => {
+
+   const BlurValue=useSelector(selectBlur);
+
+   const dispatch = useDispatch();
     return (
-    <div className="absolute flex justify-end shadow-md
-      rounded-b-xl shadow-black
-      mt-[-21rem] w-full bg-gradient-to-b from-gray-500 to-black
-       lg:mt-[-33rem]"> 
-       <h1 className="text-white p-1 text-2xl 
-       font-bold lg:text-3xl">
-        I built these fellas: 
-        <b className={`text-5xl px-1 ${hide ? `text-pink-300` : `text-red-500`}`}>
-          ↴</b></h1>
-      <div className="">
-        <div className='z-50
-        shadow-xl shadow-black
-          cursor-pointer 
-          lg:text-2xl'>
-        <button className={hide ? `px-[1rem]
-         bg-red-500 hover:animate-bounce
+    <div className="flex shadow-md justify-center
+      rounded-b-xl shadow-black relative items-center
+       w-full bg-gradient-to-b from-red-900 to-pink-400
+       h-[3rem] lg:h-[5rem]
+       "> 
+     <div className="flex items-center">
+       <div className={`pb-4 flex z-0
+       justify-center pt-6 lg:pt-4
+       transition delay-120 duration-300 text-white p-1 text-md 
+       font-bold lg:text-3xl`}>
+        {hide ? `I built these fellas:` : `What 'Coding' is like to me:`} 
+        <div className={`text-4xl px-1 ${hide ? `text-yellow-400` : `text-red-200`}`}>
+          ↴</div></div>
+
+      <div className="z-20">
+        
+            <button className={`
+         transition delay-120 duration-300
+         rounded-xl shadow-lg shadow-black
+         bg-red-500 z-40 border-4 lg:text-xl
+         ${hide ? `px-[0.5rem] lg:px-[1rem]
+        
         font-mono font-bold` : `
          px-[1rem]
-         bg-red-500 hover:animate-bounce
-        font-mono font-bold text-[1rem] focus:shadow-inner focus:shadow-black`} 
-        onClick={()=>setHide(!hide)}>
-         {hide ? `SHOW` : `HIDE`}</button>
-        </div> 
+        font-mono font-bold focus:shadow-inner focus:shadow-black`}`} 
+        onClick={(()=>setHide(!hide))}>
+         {hide ? `HIDE` : `SHOW`}</button>
+        
+        
+      
        </div> 
+      </div> 
      </div>  
       
     );

@@ -7,10 +7,11 @@ const GrayBlackBlock = () => {
     
             
           <div className="w-[100%] bg-transparent font-sans
-          z-30
-          h-screen absolute flex flex-col items-center justify-center">
+          z-30 top-0 h-screen absolute w-full
+          flex flex-col items-center justify-center
+          ">
             
-           <div className="bg-gradient-to-t relative
+           <div className="bg-gradient-to-t border-dashed
             from-red-500 via-black to-transparent w-full
            border-x-[1rem] border-b-[0.5rem] border-pink-300
            rounded-full text-center px-[3rem]
@@ -22,7 +23,9 @@ const GrayBlackBlock = () => {
         
              <div className="space-y-3 font-bold text-pink-200
                sm:text-3xl md:space-y-6 lg:space-y-7 xl:space-y-8">
-               <h1 className="text-3xl sm:text-5xl
+               <h1 className="text-3xl 
+               transition delay-120 duration-300
+               sm:text-5xl
                lg:text-6xl xl:text-7xl
                 shadow-black hover:bg-black
                 hover:shadow-md hover:shadow-black cursor-pointer
@@ -32,17 +35,20 @@ const GrayBlackBlock = () => {
                 ">   
                <div className="cursor-pointer rounded-bl-full italic
                font-medium shadow-black shadow-inner px-4
+               transition delay-120 duration-300
                hover:bg-blue-700">From</div>
 
                <div className="px-4
                   shadow-black shadow-inner rounded-br-full
-                 cursor-pointer
+                 cursor-pointer transition delay-120 duration-300
                   hover:bg-green-700"> Kerala, India.</div>
               </div>   
 
             
              <div className="shadow-inner shadow-black text-black text-xl
-               bg-gradient-to-r from-white to-gray-500 rounded-b-full cursor-pointer
+             transition delay-120 duration-300
+               bg-gradient-to-r from-white to-gray-500 rounded-b-full 
+               cursor-pointer
               hover:bg-yellow-400 border-y-[0.4rem] sm:text-4xl 
               lg:text-5xl lg:border-y-[1rem]
               xl:text-6xl 

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import ContactForm from "./ContactForm";
-import ContactFooter from './ContactFooter';
+
 
 
 
@@ -48,8 +48,7 @@ const ContactFormFunc=({state,handleSubmit})=>{
             handleSubmit={handleSubmit}
          />  
       </div>
-    
-      <ContactFooter/>
+
      </div> 
   
      
