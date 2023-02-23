@@ -32,7 +32,7 @@ const ScrollSwipeArrow = () => {
                    from-red-500 via-black to-transparent
                    z-40 absolute border-4 text-center border-pink-300
                   
-                    hover:border-black hover:border-dotted
+                    hover:border-cyan-400 hover:border-dotted
                    
                    justify-center items-center animate-bounce
                    px-3 py-2 transition delay-120 duration-300
