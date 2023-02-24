@@ -35,7 +35,8 @@ const TestProj = () => {
          <h2 className="border-x-[1rem] z-30 top-[2.1rem] flex justify-center
           bg-gray-100 shadow-xl shadow-black border-yellow-400
           text-center text-white font-bold text-[1.5rem] md:top-0
-          md:border-x-[0.7rem] 
+          md:border-x-[0.7rem] md:absolute md:justify-center md:flex md:border-4
+           md:w-full md:left-0
           xl:text-[2rem]">
             <span className="text-green-800 font-serif
             rounded-lg border-x-[2rem] z-20 bg-yellow-300
@@ -56,7 +57,7 @@ const TestProj = () => {
             md:text-xl xl:text-2xl pt-[8rem]">
                 {work.name}
             </h1>  
-            <p className="pt-5">{work.details}</p>    
+            <p className="pt-5 px-3">{work.details}</p>    
             <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400 rounded-full
              hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]
               "> 
