@@ -38,20 +38,24 @@ const TestProj = () => {
           md:border-x-[0.7rem] 
           xl:text-[2rem]">
             <span className="text-green-800 font-serif
-            rounded-lg border-x-[2rem] z-20
-            shadow-xl shadow-black px-2 py-1 fixed top-[2rem] md:top-0">
+            rounded-lg border-x-[2rem] z-20 bg-yellow-300
+            shadow shadow-black px-2 py-1 fixed top-[2rem] md:top-0">
                 Test<br/>Projects:</span>
          </h2>
          <div className="flex flex-col flex-wrap
-         items-center pt-[6rem] pb-[5rem] justify-evenly
+         items-start pt-[6rem] pb-[5rem] justify-evenly
           md:pt-[3rem] xl:flex-row 
           xl:space-x-[5vw] xl:mt-[5rem]
           xl:gap-[10rem]">
            {TestProjectsList.map((work)=>(
 
-            <div key={work.id} className="text-black">
+            <div key={work.id} 
+            className="text-black w-[25rem] text-center">
             <div className="flex flex-col items-center justify-center">    
-            <h1 className="text-center w-[24rem] text-lg md:text-xl xl:text-2xl pt-[8rem]">{work.name}</h1>  
+            <h1 className="text-center w-[24rem] text-lg font-medium
+            md:text-xl xl:text-2xl pt-[8rem]">
+                {work.name}
+            </h1>  
             <p className="pt-5">{work.details}</p>    
             <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400 rounded-full
              hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]
