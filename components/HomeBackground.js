@@ -1,6 +1,7 @@
 
 import { useDispatch, useSelector } from 'react-redux';
 import { selectScroll } from '../reducers/autoScroll/autoScroll';
+import { selectBlur } from '../reducers/blur/blurSlice';
 import GrayBlackBlock from './GrayBlackBlock';
 import ImageProp from './props/ImageProp';
 import ScrollBox from './ScrollBox';
@@ -10,6 +11,9 @@ import ScrollBox from './ScrollBox';
 
 
 const HomeBackground = ({hide,setHide,pic}) => {
+    
+    const blurValue = useSelector(selectBlur); 
+ 
 
     const autoScrollValue = useSelector(selectScroll);
     const dispatch= useDispatch();
@@ -34,6 +38,7 @@ const HomeBackground = ({hide,setHide,pic}) => {
 
           ilayout={`${pic.id===2 ? `fill` : `intrinsic`}`}
           imgclassN={`object-cover transition delay-120 duration-300
+            
             ${hide===true ? `
               blur-md lg:blur-2xl` :`blur-none`}`}
           idivclassN={`

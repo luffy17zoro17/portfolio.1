@@ -12,6 +12,7 @@ import ResumeComp from '../components/ResumeComp';
 
 import ScrollSwipeArrow from '../components/ScrollSwipeArrow';
 import { selectScroll } from '../reducers/autoScroll/autoScroll';
+import { selectBlur } from '../reducers/blur/blurSlice';
 
 
 
@@ -41,6 +42,9 @@ export default function Home() {
   const autoScrollValue = useSelector(selectScroll);
   const dispatch= useDispatch();
 
+  const blurValue = useSelector(selectBlur); 
+  
+
   const [hide,setHide] = useState(true);
   
 
@@ -61,6 +65,7 @@ export default function Home() {
         <link rel="icon" href="https://iconarchive.com/download/i54293/crountch/one-piece-jolly-roger/Luffys-flag.ico" />
        
       </Head>
+     
       
       <div className='bg-black h-full fixed w-full'/> 
       
@@ -74,7 +79,7 @@ export default function Home() {
            
           
         {HomeImages.map((pic)=>(   
-         <div key={pic.id}>   
+         <div key={pic.id} className="">   
          
           <HomeBackground
             hide={hide}
@@ -87,7 +92,7 @@ export default function Home() {
       </main>
       <ScrollSwipeArrow/> 
       
-       
+      
       
       
      </>

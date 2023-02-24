@@ -99,18 +99,18 @@ const ScrollBox = ({hide, setHide}) => {
               delay-120 duration-300`}`}>
 
              {MyWorksList.map((work)=>(
+             <Link href={work.url}> 
              <div key={work.id} className="text-yellow-400 py-[0.2rem] px-[0.2rem]
              rounded-b-full font-sans w-[75vw] flex justify-center
              bg-gradient-to-b from-gray-400 to-gray-800
-             shadow-md shadow-black
+             shadow-md shadow-black cursor-pointer
             hover:text-black hover:shadow-md hover:shadow-yellow-800
              active:shadow-inner active:shadow-black mx-5 
              sm:w-[54vw] lg:w-[44vw] lg:text-[1.5rem]
               xl:text-[1.9rem]"> 
-             <Link href={work.url}>
-                 {work.title}
-             </Link>
+                 {work.title}          
              </div>
+             </Link>
              ))}
              </div>
 
