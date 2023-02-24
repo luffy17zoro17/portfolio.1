@@ -56,7 +56,7 @@ const SideNav = () => {
            border-4 border-black shadow-inner shadow-black italic
            bg-pink-300
           font-serif sm:text-[1rem] sm:ml-[7.6rem] 
-          md:ml-[8.5rem] md:text-sm lg:ml-[8rem] lg:text-lg`}/>
+          md:ml-[8.5rem] md:text-sm lg:ml-[9rem] lg:text-lg`}/>
          
         <div className="fixed
          space-y-[0.4rem] pt-2 
@@ -67,14 +67,14 @@ const SideNav = () => {
 
        
             {NavOptions.map((item)=>(
-             <Link className={`cursor-pointer`} href={item.url}>  
-               <div key={item.id} className={`bg-black 
+             <Link key={item.id} className={`cursor-pointer`} href={item.url}>  
+               <div className={`bg-black 
                pr-4 text-center rounded-br-full  
                cursor-pointer active:outline-double
                transition delay-120 duration-300
             shadow-xl shadow-black
          hover:text-orange-600 hover:rotate-3
-           outline`}>
+           outline xl:pr-7`}>
                   
                    {item.title}
                
