@@ -19,7 +19,7 @@ const Contact=()=>{
    
     <h1 className='font-bold text-2xl top-[3.5rem] z-30
      opacity-80 
-    fixed shadow-md shadow-black bg-black w-[100%]
+    absolute shadow-md shadow-black bg-black w-[100%]
     flex justify-center text-yellow-300 tracking-tight
      underline underline-offset-4 md:top-[1rem] lg:top-[3rem] lg:text-4xl'>CONTACT</h1> 
 
