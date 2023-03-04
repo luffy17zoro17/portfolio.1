@@ -119,7 +119,9 @@ const ScrollBox = ({hide, setHide}) => {
              bg-gradient-to-b from-gray-400 to-gray-800
              transition delay-120 duration-300
              shadow-md shadow-black cursor-pointer
-            hover:text-purple-300 hover:shadow-lg hover:shadow-purple-800
+            hover:text-purple-300
+            hover:shadow-md hover:shadow-purple-800
+            md:hover:shadow-lg md:hover:shadow-purple-800
              active:shadow-inner active:shadow-black mx-5 
              sm:w-[54vw] lg:w-[44vw] lg:text-[1.5rem]
               xl:text-[1.9rem]"> 
