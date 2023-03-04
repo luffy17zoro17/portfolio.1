@@ -59,16 +59,16 @@ const ResumeComp = ()=>{
             lhref={item.url}
             title={item.title}  
             icon={item.icon}
-            lclassN={`flex items-center`}
+            lclassN={item.id > 2 ? `flex items-center hover:rotate-6` : ``}
             ldivclassN={`
              border-4
              shadow-inner shadow-black
              font-serif border-pink-300
              z-50 rounded-bl-xl
-             hover:border-orange-600
+             hover:border-orange-400 
              font-bold 
              flex justify-center 
-             hover:border-orange-400 lg:rounded-bl-2xl
+             lg:rounded-bl-2xl
              ${item.id===2 ? `text-blue-700` : 
              item.id===3 ? `text-black` : item.id===4 ? `text-blue-500` : 
              item.id===1 ? 
@@ -78,13 +78,13 @@ const ResumeComp = ()=>{
                 lg:h-[4rem] lg:w-[4rem]` : `px-1 md:text-2xl lg:px-3 lg:text-3xl
                 `}
                 ${item.id===1 ? `text-xs font-light md:text-[0.84rem] lg:text-[1.1rem]
-                 ` : `hover:text-orange-800 cursor-pointer`}
+                 ` : `cursor-pointer`}
                ${item.id > 1 ? `bg-white` : ``}
                `}  
              
              iht={30}
              iwd={30}    
-             imgclassN={item.id===5 ? `object-contain` : ``}
+             imgclassN={item.id===5 ? `object-contain hover:rotate-6` : ``}
             
              isrc={item.id===5 && item.isrc}     
          />
