@@ -15,7 +15,8 @@ const GrayBlackBlock = () => {
             from-red-500 via-black to-transparent w-full
            border-x-[1rem] border-b-[0.5rem] border-pink-300
            rounded-full text-center px-[3rem]
-            py-3 shadow-xl
+           transition delay-120 duration-300
+            py-3 shadow-lg hover:shadow-xl hover:shadow-pink-300
             shadow-black md:w-[90%]
             lg:border-x-[4rem]
             xl:w-[70rem]

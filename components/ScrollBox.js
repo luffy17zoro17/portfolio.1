@@ -97,6 +97,7 @@ const ScrollBox = ({hide, setHide}) => {
               shadow-black bg-gradient-to-r border-x-[1rem]
               from-black via-red-500 to-black border-pink-300
               hover:border-orange-600 transition
+              hover:shadow-xl hover:shadow-orange-400
               delay-120 duration-300 
               overflow-y-hidden
               overflow-y-scroll lg:border-x-[3rem]
@@ -106,11 +107,12 @@ const ScrollBox = ({hide, setHide}) => {
 
              {MyWorksList.map((work)=>(
              <Link key={work.id} href={work.url}> 
-             <div className="text-yellow-400 py-[0.2rem] px-[0.2rem]
+             <div className="text-pink-300 py-[0.2rem] px-[0.2rem]
              rounded-b-full font-sans w-[75vw] flex justify-center
              bg-gradient-to-b from-gray-400 to-gray-800
+             transition delay-120 duration-300
              shadow-md shadow-black cursor-pointer
-            hover:text-black hover:shadow-md hover:shadow-yellow-800
+            hover:text-orange-500 hover:shadow-md hover:shadow-yellow-800
              active:shadow-inner active:shadow-black mx-5 
              sm:w-[54vw] lg:w-[44vw] lg:text-[1.5rem]
               xl:text-[1.9rem]"> 
