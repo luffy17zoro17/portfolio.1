@@ -55,7 +55,7 @@ const SideNav = () => {
    return (
        <div className={`fixed z-40 top-0 flex items-start
          transition delay-120 duration-300 ease-in
-         ${loadValue=== 0 ? `translate-y-[-15rem]` : `translate-y-0`}`}>
+        `}>
           <TextProp title={`Thomas Mathew`} titleClassN={`text-xs ml-[6.8rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-black shadow-inner shadow-black italic

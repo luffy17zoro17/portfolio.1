@@ -56,7 +56,7 @@ const ResumeComp = ()=>{
     <div className={`fixed top-0 z-40 w-[2.7rem] lg:w-[4rem]
     right-0 text-center flex flex-col items-end
     transition delay-120 duration-300 ease-in
-    ${loadValue===0 ? `translate-x-[9rem]` : `translate-x-0`}`}> 
+    `}> 
     
       {HomeRightOptions.map((item)=>(
        <div key={item.id} className="
