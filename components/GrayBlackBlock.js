@@ -18,11 +18,15 @@ const GrayBlackBlock = () => {
   
 
     useEffect(()=>{
+     const listener = () => { 
       if(loadValue===0){
       
          dispatch(loadChange());
       } 
+      }
       
+      listener();
+      return listener();
 
     },[loadValue]);
 
