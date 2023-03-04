@@ -58,10 +58,19 @@ const WorkList = [
     },
     {
         id:9,
-        name:"9. Cteam -> (Steam inspired) [Latest] (desktop only)",
+        name:"9. Cteam -> (Steam inspired) (desktop only)",
         imgPath:"/Cteam.png",
         link:`${process.env.PRIVATE_CTEA_KEY}`,
     },
+    {
+        id:10,
+        name:"10. Bwitter -> (Twitter inspired) {FIGMA} [Latest]",
+        imgPath:"/Bwitter-Thomas Mathew.webp",
+        link:`https://dribbble.com/shots/20789355-Bwitter-twitter-inspired-by-Thomas-Mathew`,
+    },
+    
+
+
     
 ]
 
