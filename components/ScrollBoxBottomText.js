@@ -9,8 +9,9 @@ const VioletBottomText = ({hide}) => {
    <div className="flex justify-center">
     <div className={`z-30 border-x-[3rem] rounded-b-full
        border-b-4 my-[1rem]
-       bg-gradient-to-b from-black via-red-800 to-black
-        text-white shadow-md shadow-black border-pink-300
+        bg-transparent
+        text-white shadow-md shadow-black 
+        border-transparent
        text-md
        
         ${hide===false ? `opacity-0 px-3` : `px-3 opacity-100`}`}>  

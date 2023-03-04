@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { blurChange, selectBlur } from "../reducers/blur/blurSlice";
+
+import { useSelector } from "react-redux";
+import { selectLoading } from "../reducers/Loading/loadingSlice";
+
 
 import TextProp from "./props/TextProp";
 
@@ -46,17 +47,19 @@ const NavOptions = [
 
 
 const SideNav = () => {
-
-   const blurValue = useSelector(selectBlur); 
-   const dispatch= useDispatch();
+   
+   const loadValue = useSelector(selectLoading)
+   
 
 
    return (
-       <div className="fixed z-40 top-0 flex items-start">
+       <div className={`fixed z-40 top-0 flex items-start
+         transition delay-120 duration-300 ease-in
+         ${loadValue=== 0 ? `translate-y-[-15rem]` : `translate-y-0`}`}>
           <TextProp title={`Thomas Mathew`} titleClassN={`text-xs ml-[6.8rem] 
           rounded-br-3xl px-[1.3rem]
            border-4 border-black shadow-inner shadow-black italic
-           bg-pink-300
+           bg-yellow-300
           font-serif sm:text-[1rem] sm:ml-[7.6rem] 
           md:ml-[8.5rem] md:text-sm lg:ml-[9rem] lg:text-lg`}/>
          
@@ -64,7 +67,7 @@ const SideNav = () => {
          space-y-[0.4rem] pt-2 
           z-60
         rounded-br-3xl font-serif
-        flex flex-col text-[1rem] font-bold text-pink-300 
+        flex flex-col text-[1rem] font-bold text-yellow-300 
           sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.5rem]">
 
        
@@ -76,7 +79,7 @@ const SideNav = () => {
                cursor-pointer active:outline-double
                transition delay-120 duration-300
             shadow-xl shadow-black
-         hover:text-orange-600 hover:rotate-3
+         hover:text-purple-400 hover:rotate-3
            outline xl:pr-7`}>
                   
                    {item.title}

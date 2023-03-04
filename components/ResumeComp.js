@@ -4,6 +4,8 @@ import LinkProp from "./props/LinkProp";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { useSelector } from "react-redux";
+import { selectLoading } from "../reducers/Loading/loadingSlice";
 
 
 const HomeRightOptions = [
@@ -48,9 +50,13 @@ const HomeRightOptions = [
 
 
 const ResumeComp = ()=>{
+    
+    const loadValue = useSelector(selectLoading);
     return (
     <div className={`fixed top-0 z-40 w-[2.7rem] lg:w-[4rem]
-    right-0 text-center flex flex-col items-end`}> 
+    right-0 text-center flex flex-col items-end
+    transition delay-120 duration-300 ease-in
+    ${loadValue===0 ? `translate-x-[9rem]` : `translate-x-0`}`}> 
     
       {HomeRightOptions.map((item)=>(
        <div key={item.id} className="
@@ -63,9 +69,9 @@ const ResumeComp = ()=>{
             ldivclassN={`
              border-4
              shadow-inner shadow-black
-             font-serif border-pink-300
+             font-serif border-yellow-300
              z-50 rounded-bl-xl
-             hover:border-orange-400 
+             hover:border-purple-300 
              font-bold 
              flex justify-center 
              lg:rounded-bl-2xl

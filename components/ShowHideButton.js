@@ -10,11 +10,11 @@ const ShowHideButton = ({hide,setHide}) => {
 
    const dispatch = useDispatch();
     return (
-    <div className="flex shadow-md justify-center
+    <div className={`flex shadow-md justify-center
       rounded-b-xl shadow-black relative items-center
-       w-full bg-gradient-to-b from-red-900 to-pink-400
+       w-full
        h-[3rem] lg:h-[5rem]
-       "> 
+       ${hide ? `bg-transparent` : `bg-black`}`}> 
      <div className="flex items-center">
        <div className={`pb-4 flex z-0
        justify-center pt-6 lg:pt-4
@@ -29,7 +29,9 @@ const ShowHideButton = ({hide,setHide}) => {
             <button className={`
          transition delay-120 duration-300
          rounded-xl shadow-lg shadow-black
-         bg-red-500 z-40 border-4 lg:text-xl
+         bg-red-500 hover:bg-black
+         hover:text-white
+          z-40 border-4 lg:text-xl
          ${hide ? `px-[0.5rem] lg:px-[1rem]
         
         font-mono font-bold` : `
