@@ -44,7 +44,7 @@ const GrayBlackBlock = () => {
             md:hover:shadow-xl md:hover:shadow-yellow-300
             shadow-black md:w-[90%] lg:border-x-[4rem] xl:w-[70rem]    
             ${(loadValue===0) ? `rotate-[15deg]
-             ` : `rotate-[0deg] blur-none rotate-0`}`}> 
+             ` : `rotate-[0deg]`}`}> 
         
              <div className="space-y-3 font-bold text-yellow-300
                sm:text-3xl md:space-y-6 lg:space-y-7 xl:space-y-8">
