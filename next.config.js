@@ -9,7 +9,8 @@ const nextConfig = {
     "media.comicbook.com","images.pexels.com","w0.peakpx.com","miro.medium.com",
     "w0.peakpx.com","www.pngitem.com","images.squarespace-cdn.com","1000logos.net",
      "imageio.forbes.com","knowledgecom.my","vercel.com","redux.js.org",
-     "mcdn.wallpapersafari.com",`images6.alphacoders.com`,`i.pinimg.com`,],
+     "mcdn.wallpapersafari.com",`images6.alphacoders.com`,`i.pinimg.com`,
+    `cdn2.iconfinder.com`],
   },
 
   env: {

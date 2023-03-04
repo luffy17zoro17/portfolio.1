@@ -18,11 +18,8 @@ export const blurSlice = createSlice({
     reducers: {
       blurChange: (state) => {
        if(state.value===0){ 
-        state.value = 1;  
-       } else {
-        state.value =0;
-       }
-       
+        state.value = 1;   
+      }
       }  
     }
 });

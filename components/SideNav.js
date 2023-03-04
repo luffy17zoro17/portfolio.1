@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { blurChange, selectBlur } from "../reducers/blur/blurSlice";
 
@@ -49,7 +50,8 @@ const SideNav = () => {
    const blurValue = useSelector(selectBlur); 
    const dispatch= useDispatch();
 
-    return (
+
+   return (
        <div className="fixed z-40 top-0 flex items-start">
           <TextProp title={`Thomas Mathew`} titleClassN={`text-xs ml-[6.8rem] 
           rounded-br-3xl px-[1.3rem]
@@ -67,7 +69,8 @@ const SideNav = () => {
 
        
             {NavOptions.map((item)=>(
-             <Link key={item.id} className={`cursor-pointer`} href={item.url}>  
+             <Link key={item.id} className={`cursor-pointer`} 
+               href={item.url}>  
                <div className={`bg-black 
                pr-4 text-center rounded-br-full  
                cursor-pointer active:outline-double
