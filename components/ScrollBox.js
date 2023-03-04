@@ -5,6 +5,8 @@ import Link from 'next/link';
 import RedBlock from './RedBlock';
 import ShowHideButton from './ShowHideButton';
 import ScrollBoxBottomText from './ScrollBoxBottomText';
+import { useSelector } from 'react-redux';
+import { selectScroll } from '../reducers/autoScroll/autoScroll';
 
 
 const MyWorksList = [
@@ -75,13 +77,18 @@ const MyWorksList = [
 
 
 const ScrollBox = ({hide, setHide}) => {
+    
+    const autoScrollValue = useSelector(selectScroll); 
 
     return (
          
          <div className={`z-20 flex justify-center
            items-center bottom-11 h-screen top-11
            absolute w-full`}>
-          <div className='z-30'>
+          <div className={`z-30 ease-in
+           transition delay-900 duration-900
+           
+            `}>
 
           <div className='border-4 rounded-b-2xl
            border-pink-300'>

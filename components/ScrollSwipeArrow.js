@@ -1,6 +1,6 @@
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+
 import { useDispatch, useSelector } from 'react-redux';
-import { scrollChange, scrollDown, scrollUp, selectScroll } from '../reducers/autoScroll/autoScroll';
+import { scrollDown, scrollUp, selectScroll } from '../reducers/autoScroll/autoScroll';
 
 import TextProp from "../components/props/TextProp";
 

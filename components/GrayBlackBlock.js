@@ -1,7 +1,30 @@
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { selectScroll } from "../reducers/autoScroll/autoScroll";
+import { loadChange, selectLoading } from "../reducers/Loading/loadingSlice";
 
 
 
 const GrayBlackBlock = () => {
+
+
+    const loadValue = useSelector(selectLoading);
+
+    const autoScrollValue = useSelector(selectScroll);
+
+    const dispatch = useDispatch();
+
+   
+  
+
+    useEffect(()=>{
+      if(loadValue===0){
+      
+         dispatch(loadChange());
+      } 
+      
+
+    },[loadValue]);
 
     return (
     
@@ -11,16 +34,19 @@ const GrayBlackBlock = () => {
           flex flex-col items-center justify-center
           ">
             
-           <div className="bg-gradient-to-t border-dashed
+           <div className={`bg-gradient-to-t border-dashed
             from-red-500 via-black to-transparent w-full
            border-x-[1rem] border-b-[0.5rem] border-pink-300
            rounded-full text-center px-[3rem]
+           ease-in
            transition delay-120 duration-300
-            py-3 shadow-lg hover:shadow-xl hover:shadow-pink-300
+            py-3 shadow-lg hover:shadow-pink-300
+            md:hover:shadow-xl md:hover:shadow-pink-300
             shadow-black md:w-[90%]
             lg:border-x-[4rem]
             xl:w-[70rem]
-            "> 
+            
+            ${(loadValue===0) ? `rotate-180 blur-3xl` : `rotate-0`}`}> 
         
              <div className="space-y-3 font-bold text-pink-200
                sm:text-3xl md:space-y-6 lg:space-y-7 xl:space-y-8">
