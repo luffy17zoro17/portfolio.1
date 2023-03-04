@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import HomeBackground from '../components/HomeBackground';
-import ResumeComp from '../components/ResumeComp';
+
 
 
 
@@ -12,7 +12,8 @@ import ResumeComp from '../components/ResumeComp';
 
 import ScrollSwipeArrow from '../components/ScrollSwipeArrow';
 import { selectScroll } from '../reducers/autoScroll/autoScroll';
-import { selectBlur } from '../reducers/blur/blurSlice';
+
+import { loadChange, selectLoading } from '../reducers/Loading/loadingSlice';
 
 
 
@@ -42,7 +43,23 @@ export default function Home() {
   const autoScrollValue = useSelector(selectScroll);
   const dispatch= useDispatch();
 
-  const blurValue = useSelector(selectBlur); 
+  const loadValue = useSelector(selectLoading);
+
+
+ 
+
+  useEffect(()=>{
+    const listener = () => { 
+     if(loadValue===0){
+     
+        dispatch(loadChange());
+     } 
+     }
+     
+     listener();
+     return ()=>listener();
+
+   },[loadValue]);
   
 
   const [hide,setHide] = useState(true);

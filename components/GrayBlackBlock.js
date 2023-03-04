@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { selectScroll } from "../reducers/autoScroll/autoScroll";
-import { loadChange, selectLoading } from "../reducers/Loading/loadingSlice";
+
+import { useSelector } from "react-redux";
+
+import { selectLoading } from "../reducers/Loading/loadingSlice";
 
 
 
@@ -9,26 +9,6 @@ const GrayBlackBlock = () => {
 
 
     const loadValue = useSelector(selectLoading);
-
-    const autoScrollValue = useSelector(selectScroll);
-
-    const dispatch = useDispatch();
-
-   
-  
-
-    useEffect(()=>{
-     const listener = () => { 
-      if(loadValue===0){
-      
-         dispatch(loadChange());
-      } 
-      }
-      
-      listener();
-      return ()=>listener();
-
-    },[loadValue]);
 
     return (
     
