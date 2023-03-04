@@ -26,7 +26,7 @@ const GrayBlackBlock = () => {
       }
       
       listener();
-      return listener();
+      return ()=>listener();
 
     },[loadValue]);
 
