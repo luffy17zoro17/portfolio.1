@@ -73,7 +73,7 @@ export default function Home() {
   return (
      
     
-     <>
+     <div className='transition delay-120 duration-300 ease-in'>
       
       <Head>
         <title>Thomas Mathew Portfolio</title>
@@ -112,7 +112,7 @@ export default function Home() {
       
       
       
-     </>
+     </div>
         
   );
 }
