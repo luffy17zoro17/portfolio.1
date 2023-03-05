@@ -20,7 +20,7 @@ const GrayBlackBlock = () => {
             
            <div className={`bg-gradient-to-t
             from-black via-transparent to-transparent
-            border-dashed px-[1rem]
+            border-dashed px-[1.5rem]
            border-x-[2rem] border-b-[0.5rem] border-yellow-300
            rounded-full text-center ease-in
            transition delay-120 duration-300
@@ -74,11 +74,11 @@ const GrayBlackBlock = () => {
             
               
           
-              <div className="font-sans text-gray-300 text-xl">
-                <div className="font-mono font-light italic text-sm
+              <div className="font-sans text-gray-300">
+                <div className="font-mono font-light italic text-xs
                   xl:text-lg">
                    Let my projects do the talking</div>
-                <div>⇩</div>
+                <div className="text-xl">⇩</div>
               </div>
             </div>  
            </div> 
