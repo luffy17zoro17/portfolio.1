@@ -65,7 +65,7 @@ const GrayBlackBlock = () => {
               xl:text-6xl 
               hover:animate-bounce
                ">
-               Enjoys Design/Dev. UI UX&apos;s
+               Enjoys Design/Dev. UI UX
              </div>
             
               
