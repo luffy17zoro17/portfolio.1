@@ -60,7 +60,7 @@ const GrayBlackBlock = () => {
              <div className={`shadow-inner shadow-black text-black text-xl
              transition delay-120 duration-300 ease-in
                bg-gradient-to-r from-white to-gray-500 rounded-bl-full
-               rounded-tr-full px-[2rem]
+               rounded-tr-full px-[2rem] italic
                cursor-pointer
               hover:bg-yellow-400 border-y-[0.4rem] sm:text-4xl 
               lg:text-5xl lg:border-y-[1rem]
