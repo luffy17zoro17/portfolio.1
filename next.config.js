@@ -10,7 +10,7 @@ const nextConfig = {
     "w0.peakpx.com","www.pngitem.com","images.squarespace-cdn.com","1000logos.net",
      "imageio.forbes.com","knowledgecom.my","vercel.com","redux.js.org",
      "mcdn.wallpapersafari.com",`images6.alphacoders.com`,`i.pinimg.com`,
-    `cdn2.iconfinder.com`],
+    `cdn2.iconfinder.com`,`w7.pngwing.com`],
   },
 
   env: {
