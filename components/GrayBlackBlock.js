@@ -21,12 +21,13 @@ const GrayBlackBlock = () => {
            <div className={`bg-gradient-to-t
             from-black via-transparent to-transparent w-full
             border-dashed
-           border-x-[1rem] border-b-[0.5rem] border-yellow-300
+           border-x-[2rem] border-b-[0.5rem] border-yellow-300
            rounded-full text-center px-[3rem] ease-in
            transition delay-120 duration-300
             py-3 shadow-lg hover:shadow-yellow-300
             md:hover:shadow-xl md:hover:shadow-yellow-300
-            shadow-black md:w-[90%] lg:border-x-[4rem] xl:w-[70rem]    
+            shadow-black md:w-[90%] md:border-x-[3rem] 
+            lg:border-x-[4rem] xl:w-[70rem]    
             ${(loadValue===0) ? `translate-y-[4rem] text-purple-700
              border-purple-700 border-dotted
              ` : `translate-y-0 blur-none text-yellow-300`}`}> 
