@@ -14,15 +14,15 @@ const GrayBlackBlock = () => {
     
             
           <div className="w-[100%] bg-transparent font-sans
-          z-30 top-0 h-screen absolute w-full
+          z-30 top-0 h-screen absolute
           flex flex-col items-center justify-center
           ">
             
            <div className={`bg-gradient-to-t
-            from-black via-transparent to-transparent w-full
-            border-dashed
+            from-black via-transparent to-transparent
+            border-dashed px-[1rem]
            border-x-[2rem] border-b-[0.5rem] border-yellow-300
-           rounded-full text-center px-[3rem] ease-in
+           rounded-full text-center ease-in
            transition delay-120 duration-300
             py-3 shadow-lg hover:shadow-yellow-300
             md:hover:shadow-xl md:hover:shadow-yellow-300
@@ -60,7 +60,7 @@ const GrayBlackBlock = () => {
              <div className={`shadow-inner shadow-black text-black text-xl
              transition delay-120 duration-300 ease-in
                bg-gradient-to-r from-white to-gray-500 rounded-bl-full
-               rounded-tr-full 
+               rounded-tr-full px-[2rem]
                cursor-pointer
               hover:bg-yellow-400 border-y-[0.4rem] sm:text-4xl 
               lg:text-5xl lg:border-y-[1rem]
