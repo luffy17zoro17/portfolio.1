@@ -27,7 +27,7 @@ const GrayBlackBlock = () => {
             py-3 shadow-lg hover:shadow-yellow-300
             md:hover:shadow-xl md:hover:shadow-yellow-300
             shadow-black md:w-[90%] lg:border-x-[4rem] xl:w-[70rem]    
-            ${(loadValue===0) ? `translate-y-[20rem]
+            ${(loadValue===0) ? `translate-y-[8rem]
              ` : `translate-y-0`}`}> 
         
              <div className="space-y-3 font-bold text-yellow-300
