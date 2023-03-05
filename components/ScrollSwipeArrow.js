@@ -3,13 +3,15 @@ import { useDispatch, useSelector } from 'react-redux';
 import { scrollDown, scrollUp, selectScroll } from '../reducers/autoScroll/autoScroll';
 
 import TextProp from "../components/props/TextProp";
+import { selectLoading } from '../reducers/Loading/loadingSlice';
 
 
 
 const ScrollSwipeArrow = () => {
     
     const autoScrollValue = useSelector(selectScroll);
-
+    
+    const loadValue = useSelector(selectLoading);
     
     const dispatch= useDispatch();
 
@@ -18,7 +20,8 @@ const ScrollSwipeArrow = () => {
             fixed h-[4rem] z-30 bottom-[1rem]
              w-screen md:ml-[10rem] lg:ml-0 lg:bottom-[3rem]'>
 
-        <div>      
+        <div className={`transition delay-120 duration-300 ease-in
+        ${loadValue === 0 ? `rotate-180` : `rotate-0`}`}>      
         
         <div onClick={autoScrollValue===0 ? ()=>dispatch(scrollDown()) : 
            ()=>dispatch(scrollUp())} className='
