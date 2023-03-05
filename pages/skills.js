@@ -34,12 +34,13 @@ const Skills = () => {
           </div> 
            
           <div className="text-[1.1rem] font-mono     
-           flex justify-center flex-col bg-white
-           shadow-lg shadow-black md:pr-[0rem] md:items-center">
+           flex justify-center flex-col bg-white fixed bottom-0 right-0
+           shadow-lg shadow-black md:pr-[0rem] md:items-center
+           ">
 
-            <span className='absolute top-[7rem]
+            <span className='
             z-10 flex-none text-sm shadow-inner shadow-black
-              bg-white border-4 border-black md:top-0 md:right-0'>Im reliving my&nbsp;
+              bg-white border-4 border-black lg:p-4'>Im reliving my&nbsp;
              <span className="text-white font-semibold shadow-md 
              shadow-black bg-violet-500">childhood
             </span> with:</span>       
