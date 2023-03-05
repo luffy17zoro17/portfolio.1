@@ -97,7 +97,7 @@ const ScrollBox = ({hide, setHide}) => {
              setHide={setHide}
           /></div>  
 
-            <div className={`transition border-dotted
+            <div className={`transition border-dashed
               delay-120 duration-300 h-[20rem] md:h-[15rem]
               lg:h-[30rem]
               ${hide ? `space-y-5 py-4 rounded-b-full shadow-lg
