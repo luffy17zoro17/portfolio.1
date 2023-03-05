@@ -107,7 +107,8 @@ const ScrollBox = ({hide, setHide}) => {
               hover:shadow-purple-400
               delay-120 duration-300 
               overflow-y-hidden
-              overflow-y-scroll lg:border-x-[3rem]
+              overflow-y-scroll md:border-x-[3rem] 
+              
               lg:overflow-y-hidden lg:hover:overflow-y-scroll` : `
               hidden opacity-0 transition
               delay-120 duration-300`}`}>
