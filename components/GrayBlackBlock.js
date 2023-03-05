@@ -27,14 +27,15 @@ const GrayBlackBlock = () => {
             py-3 shadow-lg hover:shadow-yellow-300
             md:hover:shadow-xl md:hover:shadow-yellow-300
             shadow-black md:w-[90%] lg:border-x-[4rem] xl:w-[70rem]    
-            ${(loadValue===0) ? `translate-y-[8rem]
-             ` : `translate-y-0`}`}> 
+            ${(loadValue===0) ? `translate-y-[4rem] text-purple-700
+             border-purple-700 border-dotted
+             ` : `translate-y-0 blur-none text-yellow-300`}`}> 
         
-             <div className="space-y-3 font-bold text-yellow-300
+             <div className="space-y-3 font-bold
                sm:text-3xl md:space-y-6 lg:space-y-7 xl:space-y-8">
                <h1 className="text-3xl 
                transition delay-120 duration-300
-               sm:text-5xl text-yellow-300
+               sm:text-5xl
                lg:text-6xl xl:text-7xl
                 shadow-black hover:bg-black
                 hover:shadow-md hover:shadow-black cursor-pointer
@@ -55,8 +56,8 @@ const GrayBlackBlock = () => {
               </div>   
 
             
-             <div className="shadow-inner shadow-black text-black text-xl
-             transition delay-120 duration-300
+             <div className={`shadow-inner shadow-black text-black text-xl
+             transition delay-120 duration-300 ease-in
                bg-gradient-to-r from-white to-gray-500 rounded-bl-full
                rounded-tr-full 
                cursor-pointer
@@ -64,7 +65,9 @@ const GrayBlackBlock = () => {
               lg:text-5xl lg:border-y-[1rem]
               xl:text-6xl 
               hover:animate-bounce
-               ">
+              ${loadValue=== 0 ? `bg-gradient-to-r from-gray-800 to-black 
+              border-purple-700 text-purple-700
+                ` : ``}`}>
                Enjoys Design/Dev. UI UX
              </div>
             
