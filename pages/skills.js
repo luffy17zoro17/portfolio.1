@@ -13,7 +13,7 @@ const Skills = () => {
 
        
         <h1 className="font-mono fixed z-30 w-[50%] flex justify-center
-            text-[1.2rem] font-bold mt-[1rem] text-white shadow-lg shadow-black
+            text-[1.2rem] font-bold mt-[2rem] text-white shadow-lg shadow-black
             bg-gradient-to-r from-transparent via-black to-transparent
             py-1 md:py-0 md:text-[1.9rem] md:mt-[0rem]">
             MY SKILLS:
