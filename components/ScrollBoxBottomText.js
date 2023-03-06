@@ -20,7 +20,7 @@ const VioletBottomText = ({hide}) => {
         &nbsp;Time to join forces&nbsp;
         <span className="bg-gray-500 border shadow shadow-black
          animate-pulse hover:animate-none hover:shadow-lg hover:shadow-red-500">
-          <Link href='/contact'><a>🤝</a></Link>
+          <Link href='https://www.linkedin.com/in/thomas-mathew-b26b87253/'><a>🤝</a></Link>
         </span></span>
      </div>
     </div>  
