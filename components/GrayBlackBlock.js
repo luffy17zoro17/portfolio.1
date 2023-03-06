@@ -21,6 +21,7 @@ const GrayBlackBlock = () => {
            <div className={`bg-gradient-to-t
             from-black via-transparent to-transparent
             border-dashed px-[1.5rem]
+          
            border-x-[2rem] border-b-[0.5rem] border-yellow-300
            rounded-full text-center ease-in
            transition delay-120 duration-300
@@ -31,6 +32,10 @@ const GrayBlackBlock = () => {
             ${(loadValue===0) ? `translate-y-[4rem] text-purple-700
              border-purple-700 border-dotted
              ` : `translate-y-0 blur-none text-yellow-300`}`}> 
+
+             <div className="z-[-10] absolute rounded-full
+             bottom-0 top-0 right-0 drop-shadow-xl
+             left-0 w-full shadow-lg shadow-black"/>
         
              <div className="space-y-3 font-bold
                sm:text-3xl md:space-y-6 lg:space-y-7 xl:space-y-8">
@@ -42,7 +47,7 @@ const GrayBlackBlock = () => {
                 hover:shadow-md hover:shadow-black cursor-pointer
                  rounded-bl-full rounded-tr-full">Thomas Mathew</h1>
 
-              <div className="flex justify-center rounded-b-full
+              <div className="flex justify-center
                 ">   
                <div className="cursor-pointer rounded-bl-full italic
                font-medium shadow-black shadow-inner px-4
