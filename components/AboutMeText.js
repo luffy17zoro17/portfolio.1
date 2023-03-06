@@ -19,7 +19,7 @@ const AboutMeText = () => {
              px-[3vmin]
               bg-black">ABOUT&nbsp;ME</span></h1>   
             
-            <p className="p-2 pt-[11rem] md:pt-[5rem] lg:pt-[7rem]">Im Thomas Mathew, 30, have a diploma in VFX.
+            <p className="p-2 pt-[11rem] md:pt-[5rem] lg:pt-[7rem]">Im Thomas Mathew, have a diploma in VFX.
 
             Now I know I&apos;ve said I love coding. Im self-taught. But that dosen&apos;t mean I would 
             enjoy being glued to a 2D screen 24x7 - which I&apos;ve been doing 
