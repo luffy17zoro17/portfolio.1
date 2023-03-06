@@ -35,9 +35,9 @@ const ScrollSwipeArrow = () => {
                   titleClassN={autoScrollValue===0 ? `` : ``}
                    details={`➤`} detailClassN={`text-xl
                    ${autoScrollValue===0 ? `rotate-90 text-red-500
-                     scale-[1.5]` : 
+                     scale-[1.2]` : 
                    `-rotate-90 text-red-500
-                     scale-[1.5]`}`}
+                     scale-[1.2]`}`}
                    textDivClassN={`bg-gradient-to-t
                    from-yellow-300 via-black to-transparent
                    z-40 absolute border-4 text-center border-yellow-300 
@@ -51,7 +51,7 @@ const ScrollSwipeArrow = () => {
                      `flex flex-col-reverse`}`}
 
                 innerDiv={`fixed w-full h-full rounded-full
-                  border-dotted border-yellow-300
+                  border-dotted border-yellow-300 hover:border-double
                   border-2 ${autoScrollValue===0 ? 
                     `shadow-md shadow-black border-dotted` : 
                     `shadow-inner shadow-black`}`}
