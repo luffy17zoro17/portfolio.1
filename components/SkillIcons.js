@@ -20,7 +20,7 @@ import Link from "next/link";
                 /> 
                 </div>
                 <h2 className="z-10 text-black font-bold px-1 pt-1
-                 hover:text-green-400">
+                 hover:text-purple-700">
                     {title}
                 </h2>
                 </div>    

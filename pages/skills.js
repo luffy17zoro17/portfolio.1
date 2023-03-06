@@ -35,10 +35,10 @@ const Skills = () => {
            ">
 
             <span className='
-              text-sm shadow-inner shadow-black
-              bg-white border-4 border-black lg:p-4'>Im reliving my&nbsp;
-             <span className="text-white font-semibold shadow-md 
-             shadow-black bg-violet-500">childhood
+              text-sm shadow-inner shadow-black 
+              bg-yellow-300 border-4 border-black lg:p-4'>Im reliving my&nbsp;
+             <span className="font-semibold shadow-md text-yellow-300
+             shadow-black bg-purple-600 p-1">childhood
             </span> with:&nbsp;</span>       
                    
           </div>
@@ -46,7 +46,7 @@ const Skills = () => {
            "/> 
            <div className="h-screen absolute w-full bg-black opacity-60 z-0
            bg-gradient-to-b from-transparent via-yellow-300 to-transparent"/> 
-           
+
           <div className="flex flex-col justify-center items-center 
           h-screen z-10">
             
@@ -56,7 +56,7 @@ const Skills = () => {
           </main>
           <div className="font-mono fixed z-10 w-[50%] flex justify-center
             text-[1.2rem] mt-[2rem] text-black shadow-lg rounded-b-full 
-            shadow-black
+            shadow-black font-semibold
             bg-gradient-to-b from-transparent via-yellow-300 to-transparent
             py-1 md:py-0 md:text-[1.9rem] md:mt-[0rem]">
             MY SKILLS:

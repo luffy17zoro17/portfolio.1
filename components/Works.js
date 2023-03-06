@@ -82,10 +82,12 @@ const Works = () => {
       <div className="relative flex justify-center bg-black 
         ">
         <div className="text-yellow-300
-         font-serif rounded-b-full absolute
+         font-serif rounded-t-3xl absolute
+            shadow-inner
             text-2xl top-[3rem] font-bold
-            border-b-4 border-dotted border-yellow-300
-            shadow-lg shadow-yellow-300 px-7
+            border-x-4 border-b-4 
+            border-dotted border-yellow-300
+            shadow-yellow-300 pt-3 px-7
             pb-4 bg-black md:text-3xl">
                 My Works:</div>
         
