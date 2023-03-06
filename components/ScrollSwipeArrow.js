@@ -40,21 +40,21 @@ const ScrollSwipeArrow = () => {
                      scale-[1.5]`}`}
                    textDivClassN={`bg-gradient-to-t
                    from-yellow-300 via-black to-transparent
-                   hover:bg-gradient-to-t
-                   hover:from-purple-700 hover:via-black hover:to-transparent
                    z-40 absolute border-4 text-center border-yellow-300 
                          animate-bounce
-                     hover:border-dotted hover:border-black
+                    
                    flex justify-center items-center
                    px-3 py-2 transition delay-120 duration-300
                     active:blur-md text-yellow-300
-                     shadow-xl shadow-black rounded-full hover:text-cyan-400
+                     shadow-xl shadow-black rounded-full
                      ${autoScrollValue===0 ? `flex-col px-[0.82rem]` : 
                      `flex flex-col-reverse`}`}
 
-                innerDiv={`fixed w-full h-full rounded-full shadow-md
-                  shadow-black border-dotted border-yellow-300
-                  border-2 hover:border-0`}
+                innerDiv={`fixed w-full h-full rounded-full
+                  border-dotted border-yellow-300
+                  border-2 ${autoScrollValue===0 ? 
+                    `shadow-md shadow-black border-dotted` : 
+                    `shadow-inner shadow-black`}`}
                 />
              
           

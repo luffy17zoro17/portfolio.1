@@ -67,7 +67,7 @@ const ResumeComp = ()=>{
             icon={item.icon}
             lclassN={item.id > 2 ? `flex items-center hover:rotate-6` : ``}
             ldivclassN={`
-             border-4
+             border-4 drop-shadow-xl
              shadow-inner shadow-black
              font-serif border-yellow-300
              z-50 rounded-bl-xl
