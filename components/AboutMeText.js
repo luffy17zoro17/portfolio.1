@@ -8,7 +8,7 @@ const AboutMeText = () => {
         <div className="flex items-center flex-col top-0 h-[100%] w-full
         justify-start z-0 overflow-y-auto
           absolute">
-           <div className="absolute z-0 text-white text-center border-[2rem] 
+           <div className="absolute z-0 text-yellow-300 text-center border-[2rem] 
             rounded border-transparent
             p-4 text-xl shadow-lg shadow-black md:mx-[11rem]">
             <h1 className="font-bold fixed text-[6vmin] flex justify-center
