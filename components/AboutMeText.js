@@ -9,11 +9,13 @@ const AboutMeText = () => {
         justify-start z-0 overflow-y-auto
           absolute">
            <div className="absolute z-0 text-white text-center border-[2rem] 
-            border-purple-600 rounded
+            rounded border-transparent
             p-4 text-xl shadow-lg shadow-black md:mx-[11rem]">
             <h1 className="font-bold fixed text-[6vmin] flex justify-center
-            left-0 w-[100%] top-[9rem] md:top-[4rem]
-            "><span className="shadow-xl shadow-cyan-500 border-4 rounded-3xl py-[1vmin]
+            left-0 w-[100%] top-[9rem] md:top-[4rem] text-yellow-300
+             
+            "><span className="shadow-lg shadow-yellow-300 border-4 rounded-full
+             py-[1vmin] border-yellow-300 border-dotted
              px-[3vmin]
               bg-black">ABOUT&nbsp;ME</span></h1>   
             
@@ -25,7 +27,7 @@ const AboutMeText = () => {
 
                Let me ask you something. Would you be okay with having
             the most luscious, most mouth-watering dishes served to you
-            on a daily basis BUT on a 2D screen? <br/>
+            on a daily basis BUT on a 2D screen? <br/><br/>
 
             Exactly. Everything&apos;s better in 3D whether people are aware/accepting of it or not.
 
@@ -43,9 +45,10 @@ const AboutMeText = () => {
 
             People tell me I&apos;m oversmart, overconfident etc etc. I just tell them I&apos;m just less insecure.
 
-            So to sum it up. An eccentric by all means in the year 2023.</p>
-            <div className="absolute z-[-10] opacity-70 shadow-inner shadow-black
-             w-full h-full bg-black top-0 left-0"/>
+            So to sum it up. An eccentric by all means.</p>
+            <div className="absolute z-[-10] shadow-inner shadow-black
+             w-full h-full top-0 left-0 rounded-xl
+             bg-black/80 "/>
            </div>
 
         </div>

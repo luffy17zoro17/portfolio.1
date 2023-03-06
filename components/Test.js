@@ -38,9 +38,9 @@ const TestProj = () => {
           md:border-x-[0.7rem] md:absolute md:justify-center md:flex md:border-4
            md:w-full md:left-0
           xl:text-[2rem]">
-            <span className="text-green-800 font-serif
-            rounded-lg border-x-[2rem] z-20 bg-yellow-300
-            shadow shadow-black px-2 py-1 fixed top-[2rem] md:top-0">
+            <span className="text-black font-serif border-black
+            rounded-lg border-x-[2rem] z-20 bg-yellow-300 border-double
+            shadow shadow-black px-2 py-1 absolute top-[2rem] md:top-0">
                 Test<br/>Projects:</span>
          </h2>
          <div className="flex flex-col flex-wrap
@@ -58,8 +58,9 @@ const TestProj = () => {
                 {work.name}
             </h1>  
             <p className="pt-5 px-3">{work.details}</p>    
-            <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400 rounded-full
-             hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]
+            <div className="w-[85vw] shadow-xl shadow-black rounded-full
+             hover:shadow-purple-900 mt-[5rem]
+              sm:w-[50vw] md:w-[28rem]
               "> 
             <Link href={work.link}>
              <a>

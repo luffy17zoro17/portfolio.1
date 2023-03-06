@@ -29,8 +29,6 @@ const ScrollSwipeArrow = () => {
               flex justify-center cursor-pointer
                text-lg lg:text-xl'>
               
-                
-                
                 <TextProp title={autoScrollValue===0 ? `Down` : `Up`} 
                   titleClassN={autoScrollValue===0 ? `` : ``}
                    details={`➤`} detailClassN={`text-xl
@@ -41,9 +39,7 @@ const ScrollSwipeArrow = () => {
                    textDivClassN={`bg-gradient-to-t
                    from-yellow-300 via-black to-transparent hover:border-dotted
                    z-40 absolute border-4 text-center border-yellow-300 
-                         animate-bounce
-                    
-                   flex justify-center items-center
+                  animate-bounce flex justify-center items-center ease-in
                    px-3 py-2 transition delay-120 duration-300
                     active:blur-md text-yellow-300
                      shadow-xl shadow-black rounded-full
@@ -51,6 +47,7 @@ const ScrollSwipeArrow = () => {
                      `flex flex-col-reverse`}`}
 
                 innerDiv={`fixed w-full h-full rounded-full
+                  transition delay-120 duration-300 ease-in
                   border-dotted border-yellow-300 hover:border-double
                   border-2 ${autoScrollValue===0 ? 
                     `shadow-md shadow-black border-dotted` : 

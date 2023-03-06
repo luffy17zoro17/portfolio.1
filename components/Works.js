@@ -79,10 +79,14 @@ const WorkList = [
 const Works = () => {
     
     return (
-      <div className="relative flex justify-center bg-black">
-        <div className="text-orange-400 font-serif rounded-b-full absolute
-            text-xl top-[3rem] font-bold
-            shadow-md shadow-green-400 px-7 py-1 bg-black">
+      <div className="relative flex justify-center bg-black 
+        ">
+        <div className="text-yellow-300
+         font-serif rounded-b-full absolute
+            text-2xl top-[3rem] font-bold
+            border-b-4 border-dotted border-yellow-300
+            shadow-lg shadow-yellow-300 px-7
+            pb-4 bg-black md:text-3xl">
                 My Works:</div>
         
          <div className="flex flex-col flex-wrap mx-11 
@@ -91,11 +95,11 @@ const Works = () => {
           xl:gap-[4vw] xl:mt-[5rem]">
            {WorkList.map((work)=>(
 
-            <div key={work.id} className="text-white">
+            <div key={work.id} className="text-yellow-300">
             <div className="flex flex-col items-center justify-center">    
             <h1 className="text-center text-lg md:text-xl xl:text-2xl pt-[8rem]">{work.name}</h1>      
-            <div className="w-[85vw] h-[29rem] shadow-xl shadow-orange-400 rounded-full
-             hover:shadow-green-300 sm:w-[50vw] md:w-[28rem]
+            <div className="w-[85vw] h-[29rem] shadow-xl shadow-yellow-300 rounded-full
+             hover:shadow-purple-500 sm:w-[50vw] md:w-[28rem]
               "> 
             <Link href={work.link}>
              <a>   

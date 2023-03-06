@@ -12,16 +12,11 @@ const Skills = () => {
       h-screen bg-black flex justify-center'>
 
        
-        <h1 className="font-mono fixed z-30 w-[50%] flex justify-center
-            text-[1.2rem] font-bold mt-[2rem] text-white shadow-lg shadow-black
-            bg-gradient-to-r from-transparent via-black to-transparent
-            py-1 md:py-0 md:text-[1.9rem] md:mt-[0rem]">
-            MY SKILLS:
-          </h1> 
+        
         <main className="flex justify-center">
           
           
-          <div className="shadow 
+          <div className="shadow z-0
            
            shadow-black flex justify-center">
           
@@ -29,7 +24,7 @@ const Skills = () => {
           src="https://w0.peakpx.com/wallpaper/508/202/HD-wallpaper-lego-toys-bricks-portrait-display-colorful-lightbulb-light-bulb-white-background-3d-blocks-simple-background.jpg"
           layout="fill"
           className="object-contain shadow-inner shadow-black h-screen
-            blur-sm"
+            "
           alt=""/> 
           
           </div> 
@@ -47,15 +42,25 @@ const Skills = () => {
             </span> with:&nbsp;</span>       
                    
           </div>
-          <div className="h-screen absolute w-full bg-black opacity-40 z-0
+          <div className="h-screen absolute w-full bg-black opacity-60 z-0
            "/> 
+           <div className="h-screen absolute w-full bg-black opacity-60 z-0
+           bg-gradient-to-b from-transparent via-yellow-300 to-transparent"/> 
+           
           <div className="flex flex-col justify-center items-center 
           h-screen z-10">
+            
            
           <SkillSet/> 
           </div>
           </main>
-           
+          <div className="font-mono fixed z-10 w-[50%] flex justify-center
+            text-[1.2rem] mt-[2rem] text-black shadow-lg rounded-b-full 
+            shadow-black
+            bg-gradient-to-b from-transparent via-yellow-300 to-transparent
+            py-1 md:py-0 md:text-[1.9rem] md:mt-[0rem]">
+            MY SKILLS:
+          </div>  
       </div>  
     )
 }

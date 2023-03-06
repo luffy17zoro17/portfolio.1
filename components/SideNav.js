@@ -37,12 +37,7 @@ const NavOptions = [
       url:"/skills",
       clickNo:5
    },
-   {
-      id:6,
-      title:"Contact",
-      url:"/contact",
-      clickNo:6
-   }
+  
 ]
 
 
