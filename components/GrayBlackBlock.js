@@ -81,7 +81,7 @@ const GrayBlackBlock = () => {
           
               <div className="font-sans text-gray-300">
                 <div className="font-mono font-light italic text-xs
-                  xl:text-lg">
+                  md:text-sm xl:text-lg">
                    Let my projects do the talking</div>
                 <div className="text-xl">⇩</div>
               </div>
