@@ -30,6 +30,7 @@ const ScrollSwipeArrow = () => {
                text-lg lg:text-xl'>
               
                 
+                
                 <TextProp title={autoScrollValue===0 ? `Down` : `Up`} 
                   titleClassN={autoScrollValue===0 ? `` : ``}
                    details={`➤`} detailClassN={`text-xl
@@ -49,9 +50,12 @@ const ScrollSwipeArrow = () => {
                     active:blur-md text-yellow-300
                      shadow-xl shadow-black rounded-full hover:text-cyan-400
                      ${autoScrollValue===0 ? `flex-col px-[0.82rem]` : 
-                     `flex flex-col-reverse`}`}/>   
+                     `flex flex-col-reverse`}`}
 
-
+                innerDiv={`fixed w-full h-full rounded-full shadow-md
+                  shadow-black border-dotted border-yellow-300
+                  border-2 hover:border-0`}
+                />
              
           
         </div>
