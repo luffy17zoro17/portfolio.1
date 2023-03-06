@@ -18,7 +18,7 @@ const ScrollSwipeArrow = () => {
     return (
       <div className=' transition delay-120 duration-300
             fixed h-[4rem] z-30 bottom-[1rem]
-             w-screen md:ml-[10rem] lg:ml-0 lg:bottom-[3rem]'>
+             w-screen md:ml-[11rem] lg:ml-0 lg:bottom-[3rem]'>
 
         <div className={`transition delay-120 duration-300 ease-in
         ${loadValue === 0 ? `rotate-180` : `rotate-0`}`}>      
