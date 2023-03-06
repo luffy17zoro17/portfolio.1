@@ -39,7 +39,7 @@ const ScrollSwipeArrow = () => {
                    `-rotate-90 text-red-500
                      scale-[1.2]`}`}
                    textDivClassN={`bg-gradient-to-t
-                   from-yellow-300 via-black to-transparent
+                   from-yellow-300 via-black to-transparent hover:border-dotted
                    z-40 absolute border-4 text-center border-yellow-300 
                          animate-bounce
                     
