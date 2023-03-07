@@ -64,9 +64,15 @@ const WorkList = [
     },
     {
         id:10,
-        name:"10. Bwitter -> (Twitter inspired) {FIGMA} [Latest]",
+        name:"10. Bwitter -> (Twitter inspired)",
         imgPath:"/Bwitter-Thomas Mathew.webp",
         link:`https://dribbble.com/shots/20789355-Bwitter-twitter-inspired-by-Thomas-Mathew`,
+    },
+    {
+        id:11,
+        name:"11. Iamsung -> (Samsung M30s UI inspired) {FIGMA} [Latest]",
+        imgPath:"/iamsung.png",
+        link:`https://dribbble.com/shots/20842544-Iamsung-Samsung-M30s-android-inspired-UI-by-Thomas-Mathew`,
     },
     
 

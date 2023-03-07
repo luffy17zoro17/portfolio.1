@@ -11,60 +11,64 @@ import { selectScroll } from '../reducers/autoScroll/autoScroll';
 
 const MyWorksList = [
  
-  
 
   {
     id:1,
-    title:"11.Bwitter UI(FIGMA)",
-    url:`https://dribbble.com/shots/20789355-Bwitter-twitter-inspired-by-Thomas-Mathew`
+    title:"12.Iamsung (samsung UI)(FIGMA)",
+    url:`https://dribbble.com/shots/20842544-Iamsung-Samsung-M30s-android-inspired-UI-by-Thomas-Mathew`
   },
   {
     id:2,
+    title:"11.Bwitter UI",
+    url:`https://dribbble.com/shots/20789355-Bwitter-twitter-inspired-by-Thomas-Mathew`
+  },
+  {
+    id:3,
     title:"10.NETWORK ACADEMY TEST(PC only)",
     url:`${process.env.PRIVATE_NETWORK_ACADEM_TEST_KEY}`
   },
   {
-    id:3,
+    id:4,
     title:"9. CTEAM App(PC only)",
     url:`${process.env.PRIVATE_CTEA_KEY}`
   },
   {
-    id:4,
+    id:5,
     title:"8. PLACEBOOK App",
     url:`${process.env.PRIVATE_PLACEBOO_KEY}`
   },
   {
-    id:5,
+    id:6,
     title:"7. CAMAZON App",
     url:`${process.env.PRIVATE_CAMAZO_KEY}`
   },
   {
-    id:6,
+    id:7,
     title:"6. BOOGLE App",
     url:`${process.env.PRIVATE_BOOGL_KEY}`
   },
   {
-    id:7,
+    id:8,
     title:"5. CHATSAPP App",
     url:`${process.env.PRIVATE_CHATSAP_KEY}`
   },
   {
-    id:8,
+    id:9,
     title:"4. DOTUBE App",
     url:`${process.env.PRIVATE_DOTUB_KEY}`
   },
   {
-    id:9,
+    id:10,
     title:"3. SINKEDIN App",
     url:`${process.env.PRIVATE_SINKED_KEY}`,
   },
   {
-    id:10,
+    id:11,
     title:"2. MESLA App",
     url:`${process.env.PRIVATE_MESL_KEY}`,
   },
   {
-    id:11,
+    id:12,
     title:"1. BLIPKART App",
     url:`${process.env.PRIVATE_BLIPKAR_KEY}`,
   },
